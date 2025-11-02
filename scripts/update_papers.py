@@ -52,7 +52,8 @@ def compile_keyword_regex(keywords: List[str]) -> List[re.Pattern]:
         esc = re.escape(k)
         # allow minor variations for certain base terms
         if k.lower() in {"aging", "ageing"}:
-            patterns.append(re.compile(r"\bage(?:ing|ing)\b", re.I))
+            # Match both spellings: aging and ageing
+            patterns.append(re.compile(r"\b(?:aging|ageing)\b", re.I))
         elif k.lower() == "ddr":
             patterns.append(re.compile(r"\b(?:ddr|dna\s+damage\s+response)\b", re.I))
         elif k.lower().startswith("dna damage"):
