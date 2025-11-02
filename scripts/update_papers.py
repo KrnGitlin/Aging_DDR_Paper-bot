@@ -84,25 +84,52 @@ def main() -> None:
     keywords: List[str] = cfg.get("keywords", [])
     kw_regex = compile_keyword_regex(keywords)
 
-    papers = []
+    papers: List = []
 
     sources = cfg.get("sources", {})
 
+    def safe_call(name: str, func, *a, **kw):
+        try:
+            return func(*a, **kw)
+        except Exception as e:
+            print(f"[WARN] {name} failed: {e}")
+            return []
+
     if sources.get("arxiv", {}).get("enabled", True):
         categories = sources.get("arxiv", {}).get("categories", ["q-bio*", "cs.CB"])
-        papers.extend(fetch_arxiv(keywords, start_date, now, max_results=200, categories=categories))
+        papers.extend(
+            safe_call(
+                "arXiv",
+                fetch_arxiv,
+                keywords,
+                start_date,
+                now,
+                200,
+                categories,
+            )
+        )
 
     if sources.get("biorxiv", {}).get("enabled", True):
-        papers.extend(fetch_rxiv("biorxiv", start_date, now, max_results=1000))
+        papers.extend(safe_call("bioRxiv", fetch_rxiv, "biorxiv", start_date, now, 1000))
 
     if sources.get("medrxiv", {}).get("enabled", False):
-        papers.extend(fetch_rxiv("medrxiv", start_date, now, max_results=1000))
+        papers.extend(safe_call("medRxiv", fetch_rxiv, "medrxiv", start_date, now, 1000))
 
     if sources.get("pubmed", {}).get("enabled", True):
-        papers.extend(fetch_pubmed(keywords, start_date, now, max_results=200, email=sources.get("pubmed", {}).get("email")))
+        papers.extend(
+            safe_call(
+                "PubMed",
+                fetch_pubmed,
+                keywords,
+                start_date,
+                now,
+                200,
+                sources.get("pubmed", {}).get("email"),
+            )
+        )
 
     if sources.get("chemrxiv", {}).get("enabled", True):
-        chem = fetch_chemrxiv(keywords, start_date, now, max_results=200)
+        chem = safe_call("ChemRxiv", fetch_chemrxiv, keywords, start_date, now, 200)
         if sources.get("chemrxiv", {}).get("bio_only", True):
             chem = [p for p in chem if BIO_HEURISTIC.search((p.title + "\n" + p.summary))]
         papers.extend(chem)

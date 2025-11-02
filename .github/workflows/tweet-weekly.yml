@@ -25,18 +25,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Update papers
+      - name: Update papers (non-blocking)
+        continue-on-error: true
         run: python scripts/update_papers.py --config config.yaml
 
-      - name: Post a tweet
+      - name: Post a tweet (dry run)
+        continue-on-error: true
         env:
           TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
           TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-        run: python scripts/post_to_twitter.py --config config.yaml --max-age-days 7
+        run: python scripts/post_to_twitter.py --config config.yaml --max-age-days 7 --dry-run
 
       - name: Commit posted state and data
+        continue-on-error: true
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
