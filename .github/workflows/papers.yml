@@ -44,11 +44,6 @@ jobs:
       - name: Build papers.json
         run: python scripts/update_papers.py --config config.yaml
 
-      - name: Ensure site has data file
-        run: |
-          mkdir -p site/data
-          cp -f data/papers.json site/data/papers.json
-
       - name: Verify Twitter auth (non-blocking)
         continue-on-error: true
         env:
