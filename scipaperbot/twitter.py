@@ -70,11 +70,15 @@ class TwitterClient:
         try:
             resp = requests.post(token_url, data=data, headers=headers, timeout=20)
             if resp.status_code != 200:
+                print(f"Twitter OAuth2 token refresh failed: {resp.status_code} {resp.text[:200]}")
                 return
             token_json = resp.json()
             self._oauth2_access_token = token_json.get("access_token")
+            if not self._oauth2_access_token:
+                print("Twitter OAuth2 token refresh: no access_token in response")
             # Note: Some providers rotate refresh_token here; we do NOT persist it from CI for security.
-        except requests.RequestException:
+        except requests.RequestException as e:
+            print(f"Twitter OAuth2 token refresh exception: {e}")
             return
 
     def verify(self) -> Optional[str]:
@@ -87,11 +91,13 @@ class TwitterClient:
                     timeout=20,
                 )
                 if resp.status_code != 200:
+                    print(f"Twitter verify (oauth2) failed: {resp.status_code} {resp.text[:200]}")
                     return None
                 data = resp.json().get("data") or {}
                 self._username = data.get("username")
                 return self._username
-            except requests.RequestException:
+            except requests.RequestException as e:
+                print(f"Twitter verify (oauth2) exception: {e}")
                 return None
 
         # Fallback to Tweepy Client (OAuth1 in v2 client)
@@ -103,7 +109,8 @@ class TwitterClient:
                 self._username = me.data.username
                 return self._username
             return None
-        except tweepy.TweepyException:
+        except tweepy.TweepyException as e:
+            print(f"Twitter verify (oauth1) exception: {e}")
             return None
 
     def post(self, text: str, dry_run: bool = True) -> Optional[str]:
@@ -123,16 +130,19 @@ class TwitterClient:
                     timeout=20,
                 )
                 if resp.status_code not in (200, 201):
+                    print(f"Twitter post (oauth2) failed: {resp.status_code} {resp.text[:200]}")
                     return None
                 data = resp.json().get("data") or {}
                 tweet_id = data.get("id")
                 if not tweet_id:
+                    print("Twitter post (oauth2): response missing tweet id")
                     return None
                 if not self._username:
                     self.verify()
                 username = self._username or "i"
                 return f"https://twitter.com/{username}/status/{tweet_id}"
-            except requests.RequestException:
+            except requests.RequestException as e:
+                print(f"Twitter post (oauth2) exception: {e}")
                 return None
 
         # Fallback: Tweepy v2 client with OAuth1 creds
@@ -147,5 +157,20 @@ class TwitterClient:
                 self.verify()
             username = self._username or "i"
             return f"https://twitter.com/{username}/status/{tweet_id}"
-        except tweepy.TweepyException:
+        except tweepy.TweepyException as e:
+            try:
+                status = getattr(e, 'response', None)
+                if status is not None:
+                    print(f"Twitter post (oauth1) failed: {status}")
+                else:
+                    print(f"Twitter post (oauth1) exception: {e}")
+            except Exception:
+                print(f"Twitter post (oauth1) exception: {e}")
             return None
+
+    def get_mode(self) -> str:
+        if self._oauth2_access_token:
+            return "oauth2"
+        if self.client:
+            return "oauth1"
+        return "none"

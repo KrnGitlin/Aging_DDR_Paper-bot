@@ -119,6 +119,11 @@ def main():
     dry_run = args.dry_run or (not tw_enabled) or bool(cfg.get("twitter", {}).get("dry_run", True))
 
     client = TwitterClient()
+    try:
+        mode = client.get_mode()
+    except Exception:
+        mode = "unknown"
+    print(f"Auth mode: {mode}")
     handle = client.verify()
     if handle:
         print(f"Twitter auth OK as @{handle}")
