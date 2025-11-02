@@ -11,6 +11,10 @@ on:
         description: "Only consider papers newer than this many days"
         required: false
         default: "30"
+      skip_update:
+        description: "Skip updating papers.json (faster if already updated)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -27,12 +31,21 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Update papers (non-blocking)
+        if: ${{ inputs.skip_update != 'true' }}
         continue-on-error: true
         run: python scripts/update_papers.py --config config.yaml
 
