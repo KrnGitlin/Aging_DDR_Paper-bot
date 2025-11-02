@@ -27,6 +27,21 @@ def compose_hashtags(p: Paper, max_hashtags: int = 4) -> List[str]:
         "senescence": "#senescence",
         "telomere": "#telomere",
         "telomerase": "#telomerase",
+        "cell death": "#CellDeath",
+        "apoptosis": "#apoptosis",
+        "ferroptosis": "#ferroptosis",
+        "pyroptosis": "#pyroptosis",
+        "necroptosis": "#necroptosis",
+        "autophagy": "#autophagy",
+        "mtor": "#mTOR",
+        "ampk": "#AMPK",
+        "sirtuin": "#sirtuins",
+        "nad+": "#NAD",
+        "p53": "#p53",
+        "mitochondria": "#mitochondria",
+        "metabolism": "#metabolism",
+        "oxidative stress": "#oxidativestress",
+        "ros": "#ROS",
     }
     tags = []
     text = (p.title + "\n" + p.summary).lower()

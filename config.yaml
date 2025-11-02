@@ -1,6 +1,7 @@
 # Bot configuration
 
 keywords:
+  # Aging & DNA damage
   - Aging
   - Ageing
   - DNA damage
@@ -8,6 +9,46 @@ keywords:
   - Senescence
   - Telomere
   - Telomerase
+  
+  # Cell death mechanisms
+  - Cell death
+  - Apoptosis
+  - Ferroptosis
+  - Pyroptosis
+  - Necroptosis
+  - Inflammatory death
+  - Autophagic cell death
+  - Autophagy
+  
+  # Aging-related pathways & proteins
+  - mTOR
+  - AMPK
+  - Sirtuins
+  - NAD+
+  - p53
+  - p16
+  - p21
+  - NF-kB
+  - FOXO
+  - Klotho
+  - Insulin signaling
+  - IGF-1
+  - Rapamycin
+  - Caloric restriction
+  - Mitochondrial dysfunction
+  - Oxidative stress
+  - Reactive oxygen species
+  - ROS
+  
+  # Metabolism & aging
+  - Metabolic aging
+  - Mitochondrial metabolism
+  - Glycolysis
+  - Gluconeogenesis
+  - Lipid metabolism
+  - Amino acid metabolism
+  - Cellular metabolism
+  - Energy metabolism
 
 # Optional extra filters inspired by Scitify
 # Papers containing any of these will be excluded
@@ -15,7 +56,7 @@ exclude_keywords: []
 # If non-empty, require at least one of these to appear
 required_keywords: []
 
-lookback_days: 7
+lookback_days: 3
 
 sources:
   arxiv:
