@@ -77,6 +77,9 @@ def main():
         "TWITTER_CONSUMER_SECRET": bool(_os.getenv("TWITTER_CONSUMER_SECRET")),
         "TWITTER_ACCESS_TOKEN": bool(_os.getenv("TWITTER_ACCESS_TOKEN")),
         "TWITTER_ACCESS_TOKEN_SECRET": bool(_os.getenv("TWITTER_ACCESS_TOKEN_SECRET")),
+        "TWITTER_CLIENT_ID": bool(_os.getenv("TWITTER_CLIENT_ID")),
+        "TWITTER_CLIENT_SECRET": bool(_os.getenv("TWITTER_CLIENT_SECRET")),
+        "TWITTER_REFRESH_TOKEN": bool(_os.getenv("TWITTER_REFRESH_TOKEN")),
     }
     print("Auth presence:", {k: ("set" if v else "missing") for k, v in auth_presence.items()})
 
