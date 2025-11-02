@@ -9,6 +9,12 @@ keywords:
   - Telomere
   - Telomerase
 
+# Optional extra filters inspired by Scitify
+# Papers containing any of these will be excluded
+exclude_keywords: []
+# If non-empty, require at least one of these to appear
+required_keywords: []
+
 lookback_days: 7
 
 sources:

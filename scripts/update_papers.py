@@ -83,7 +83,12 @@ def main() -> None:
     start_date = now - timedelta(days=lookback_days)
 
     keywords: List[str] = cfg.get("keywords", [])
+    exclude_keywords: List[str] = cfg.get("exclude_keywords", [])
+    required_keywords: List[str] = cfg.get("required_keywords", [])
+
     kw_regex = compile_keyword_regex(keywords)
+    excl_regex = compile_keyword_regex(exclude_keywords) if exclude_keywords else []
+    req_regex = compile_keyword_regex(required_keywords) if required_keywords else []
 
     papers: List = []
 
@@ -135,10 +140,17 @@ def main() -> None:
             chem = [p for p in chem if BIO_HEURISTIC.search((p.title + "\n" + p.summary))]
         papers.extend(chem)
 
-    # Filter for biological relevance by keywords
+    # Filter for relevance by keywords with optional exclude/required logic (Scitify-like)
     filtered = []
     for p in papers:
         text = f"{p.title}\n{p.summary}"
+        # Exclude if any exclude keyword matches
+        if excl_regex and find_matches(text, excl_regex):
+            continue
+        # If required keywords present, require at least one match
+        if req_regex and not find_matches(text, req_regex):
+            continue
+        # Finally require at least one general keyword
         matches = find_matches(text, kw_regex)
         if matches:
             p.keywords_matched = matches
