@@ -42,6 +42,15 @@ jobs:
       - name: Update papers
         run: |
           python scripts/update_papers.py --config config.yaml
+          echo "--- After update_papers ---"
+          ls -l data || true
+          ls -l site/data || true
+          # Fallback: if some code wrote to data/papers.json, mirror it to site/data
+          if [ -f data/papers.json ] && [ ! -f site/data/papers.json ]; then
+            echo "Copying data/papers.json to site/data/papers.json (fallback)"
+            mkdir -p site/data
+            cp -f data/papers.json site/data/papers.json
+          fi
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
