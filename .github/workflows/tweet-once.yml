@@ -32,10 +32,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Update papers
+      - name: Update papers (non-blocking)
+        continue-on-error: true
         run: python scripts/update_papers.py --config config.yaml
 
       - name: Post (dry run)
+        continue-on-error: true
         if: ${{ inputs.live != 'true' }}
         env:
           TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
@@ -45,6 +47,7 @@ jobs:
         run: python scripts/post_to_twitter.py --config config.yaml --max-age-days ${{ inputs.max_age_days }} --dry-run
 
       - name: Post (live)
+        continue-on-error: true
         if: ${{ inputs.live == 'true' }}
         env:
           TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
