@@ -110,11 +110,16 @@ def main():
         print("[DRY-RUN] Would post:")
         print(tweet_text)
     else:
-        print(f"Posted: {url}")
+        if url:
+            print(f"Posted: {url}")
+        else:
+            print("Tweet not sent: missing/invalid Twitter credentials or API failure.")
 
-    posted_ids.add(candidate.id)
-    with open(posted_state_path, "w", encoding="utf-8") as f:
-        json.dump(sorted(list(posted_ids)), f, indent=2)
+    # Only record as posted when an actual post happened
+    if not dry_run and url:
+        posted_ids.add(candidate.id)
+        with open(posted_state_path, "w", encoding="utf-8") as f:
+            json.dump(sorted(list(posted_ids)), f, indent=2)
 
 
 if __name__ == "__main__":
