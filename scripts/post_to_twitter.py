@@ -70,6 +70,15 @@ def main():
 
     # Load env vars if present
     load_dotenv()
+    # Print non-sensitive auth readiness (booleans only)
+    import os as _os
+    auth_presence = {
+        "TWITTER_CONSUMER_KEY": bool(_os.getenv("TWITTER_CONSUMER_KEY")),
+        "TWITTER_CONSUMER_SECRET": bool(_os.getenv("TWITTER_CONSUMER_SECRET")),
+        "TWITTER_ACCESS_TOKEN": bool(_os.getenv("TWITTER_ACCESS_TOKEN")),
+        "TWITTER_ACCESS_TOKEN_SECRET": bool(_os.getenv("TWITTER_ACCESS_TOKEN_SECRET")),
+    }
+    print("Auth presence:", {k: ("set" if v else "missing") for k, v in auth_presence.items()})
 
     papers_path = cfg.get("site_data_path", os.path.join("site", "data", "papers.json"))
     papers = load_papers(papers_path)
@@ -100,11 +109,19 @@ def main():
         return
 
     tweet_text = compose_tweet(candidate)
+    print("Selected candidate:", candidate.title)
+    print("Candidate link:", candidate.link)
 
     tw_enabled = bool(cfg.get("twitter", {}).get("enabled", False))
     dry_run = args.dry_run or (not tw_enabled) or bool(cfg.get("twitter", {}).get("dry_run", True))
 
     client = TwitterClient()
+    handle = client.verify()
+    if handle:
+        print(f"Twitter auth OK as @{handle}")
+    else:
+        print("Twitter auth NOT verified (will still print tweet for dry-run)")
+
     url = client.post(tweet_text, dry_run=dry_run)
     if dry_run:
         print("[DRY-RUN] Would post:")
