@@ -85,6 +85,7 @@ def main():
 
     papers_path = cfg.get("site_data_path", os.path.join("site", "data", "papers.json"))
     papers = load_papers(papers_path)
+    print(f"Loaded {len(papers)} papers from {papers_path}")
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=args.max_age_days)
 
@@ -96,14 +97,17 @@ def main():
     except FileNotFoundError:
         posted_ids = set()
 
+    # Compute eligibility counts for debugging
+    newer = [p for p in papers if p.published >= cutoff]
+    if args.source:
+        newer = [p for p in newer if p.source == args.source]
+    unposted = [p for p in newer if p.id not in posted_ids]
+    print(
+        f"Eligible after filters -> newer_than={args.max_age_days}d: {len(newer)}, unposted: {len(unposted)}, source={'any' if not args.source else args.source}"
+    )
+
     candidate: Optional[Paper] = None
-    for p in papers:
-        if p.published < cutoff:
-            continue
-        if args.source and p.source != args.source:
-            continue
-        if p.id in posted_ids:
-            continue
+    for p in unposted:
         candidate = p
         break
 
