@@ -1,0 +1,45 @@
+name: Tweet Weekly
+
+on:
+  schedule:
+    - cron: '30 5 * * 0' # Sundays 05:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Update papers
+        run: python scripts/update_papers.py --config config.yaml
+
+      - name: Post a tweet
+        env:
+          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+        run: python scripts/post_to_twitter.py --config config.yaml --max-age-days 7
+
+      - name: Commit posted state and data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data/posted_ids.json site/data/papers.json
+          git commit -m "chore: update posted_ids and papers" || echo "No changes"
+          git push

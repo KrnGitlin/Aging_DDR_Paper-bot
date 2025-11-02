@@ -1,0 +1,121 @@
+import argparse
+import json
+import os
+from datetime import datetime, timedelta, timezone
+from typing import Dict, List, Optional
+
+from dotenv import load_dotenv
+
+from scipaperbot.models import Paper
+from scipaperbot.storage import load_papers
+from scipaperbot.twitter import TwitterClient
+
+
+def load_config(path: str) -> Dict:
+    import yaml
+
+    with open(path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)
+
+
+def compose_hashtags(p: Paper, max_hashtags: int = 4) -> List[str]:
+    mapping = {
+        "aging": "#aging",
+        "ageing": "#aging",
+        "dna damage": "#DNAdamage",
+        "ddr": "#DDR",
+        "senescence": "#senescence",
+        "telomere": "#telomere",
+        "telomerase": "#telomerase",
+    }
+    tags = []
+    text = (p.title + "\n" + p.summary).lower()
+    for key, tag in mapping.items():
+        if key in text and tag not in tags:
+            tags.append(tag)
+        if len(tags) >= max_hashtags:
+            break
+    if not tags:
+        tags = ["#biology"]
+    return tags[:max_hashtags]
+
+
+def truncate_to_limit(text: str, limit: int = 280) -> str:
+    if len(text) <= limit:
+        return text
+    return text[: limit - 1] + "…"
+
+
+def compose_tweet(p: Paper) -> str:
+    tags = compose_hashtags(p)
+    base = f"{p.title.strip()}\n{p.link}"
+    tag_str = " ".join(tags)
+    remaining = 280 - len(base) - 1
+    if remaining > 10 and tag_str:
+        text = f"{base} {tag_str}"
+    else:
+        text = base
+    return truncate_to_limit(text)
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Post a paper to Twitter")
+    ap.add_argument("--config", default="config.yaml")
+    ap.add_argument("--source", default=None, help="Only post from a specific source (e.g., bioRxiv)")
+    ap.add_argument("--max-age-days", type=int, default=30, help="Only consider papers newer than this many days")
+    ap.add_argument("--dry-run", action="store_true", help="Force dry-run regardless of config")
+    args = ap.parse_args()
+
+    cfg = load_config(args.config)
+
+    # Load env vars if present
+    load_dotenv()
+
+    papers_path = cfg.get("site_data_path", os.path.join("site", "data", "papers.json"))
+    papers = load_papers(papers_path)
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=args.max_age_days)
+
+    posted_state_path = os.path.join("data", "posted_ids.json")
+    os.makedirs(os.path.dirname(posted_state_path), exist_ok=True)
+    try:
+        with open(posted_state_path, "r", encoding="utf-8") as f:
+            posted_ids = set(json.load(f))
+    except FileNotFoundError:
+        posted_ids = set()
+
+    candidate: Optional[Paper] = None
+    for p in papers:
+        if p.published < cutoff:
+            continue
+        if args.source and p.source != args.source:
+            continue
+        if p.id in posted_ids:
+            continue
+        candidate = p
+        break
+
+    if not candidate:
+        print("No candidate paper found to post.")
+        return
+
+    tweet_text = compose_tweet(candidate)
+
+    tw_enabled = bool(cfg.get("twitter", {}).get("enabled", False))
+    dry_run = args.dry_run or (not tw_enabled) or bool(cfg.get("twitter", {}).get("dry_run", True))
+
+    client = TwitterClient()
+    url = client.post(tweet_text, dry_run=dry_run)
+    if dry_run:
+        print("[DRY-RUN] Would post:")
+        print(tweet_text)
+    else:
+        print(f"Posted: {url}")
+
+    posted_ids.add(candidate.id)
+    with open(posted_state_path, "w", encoding="utf-8") as f:
+        json.dump(sorted(list(posted_ids)), f, indent=2)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,35 @@
+# Bot configuration
+
+keywords:
+  - Aging
+  - Ageing
+  - DNA damage
+  - DDR
+  - Senescence
+  - Telomere
+  - Telomerase
+
+lookback_days: 7
+
+sources:
+  arxiv:
+    enabled: true
+    categories: ["q-bio*", "cs.CB"]
+  biorxiv:
+    enabled: true
+  medrxiv:
+    enabled: false
+  pubmed:
+    enabled: true
+    email: ""  # optional (helps NCBI rate limits)
+  chemrxiv:
+    enabled: true
+    bio_only: true
+
+# Where to write the site JSON
+site_data_path: "site/data/papers.json"
+
+# Twitter settings (safe by default)
+twitter:
+  enabled: false
+  dry_run: true
