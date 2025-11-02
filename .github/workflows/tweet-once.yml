@@ -11,6 +11,10 @@ on:
         description: "Only consider papers newer than this many days"
         required: false
         default: "30"
+      max_tweets:
+        description: "Maximum tweets to send in this run"
+        required: false
+        default: "10"
       skip_update:
         description: "Skip updating papers.json (faster if already updated)"
         required: false
@@ -73,7 +77,7 @@ jobs:
           TWITTER_CLIENT_ID: ${{ secrets.TWITTER_CLIENT_ID }}
           TWITTER_CLIENT_SECRET: ${{ secrets.TWITTER_CLIENT_SECRET }}
           TWITTER_REFRESH_TOKEN: ${{ secrets.TWITTER_REFRESH_TOKEN }}
-        run: python scripts/post_to_twitter.py --config config.yaml --max-age-days ${{ inputs.max_age_days }} --dry-run
+        run: python scripts/post_to_twitter.py --config config.yaml --max-age-days ${{ inputs.max_age_days }} --max-tweets ${{ inputs.max_tweets }} --dry-run
 
       - name: Post (live)
         continue-on-error: true
@@ -86,13 +90,14 @@ jobs:
           TWITTER_CLIENT_ID: ${{ secrets.TWITTER_CLIENT_ID }}
           TWITTER_CLIENT_SECRET: ${{ secrets.TWITTER_CLIENT_SECRET }}
           TWITTER_REFRESH_TOKEN: ${{ secrets.TWITTER_REFRESH_TOKEN }}
-        run: python scripts/post_to_twitter.py --config config.yaml --max-age-days ${{ inputs.max_age_days }}
+        run: python scripts/post_to_twitter.py --config config.yaml --max-age-days ${{ inputs.max_age_days }} --max-tweets ${{ inputs.max_tweets }}
 
       - name: Commit posted state and data
         continue-on-error: true
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add data/posted_ids.json site/data/papers.json
+          git add data/posted_ids.json || true
+          git add -f site/data/papers.json || true
           git commit -m "chore: update posted_ids and papers" || echo "No changes"
           git push

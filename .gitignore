@@ -144,7 +144,9 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-/site
+# If you use mkdocs, you might ignore the generated site directory.
+# For this repo, we want to track the static site in ./site, so do NOT ignore it.
+# /site
 
 # mypy
 .mypy_cache/

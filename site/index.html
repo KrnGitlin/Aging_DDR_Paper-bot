@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aging & DDR Papers</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Aging & DNA Damage Response Papers</h1>
+    <p>Newest to oldest across arXiv, bioRxiv, medRxiv, PubMed, and ChemRxiv.</p>
+  </header>
+
+  <section class="controls">
+    <input id="search" type="text" placeholder="Filter by keyword..." />
+    <select id="source">
+      <option value="">All Sources</option>
+      <option>arXiv</option>
+      <option>bioRxiv</option>
+      <option>medRxiv</option>
+      <option>PubMed</option>
+      <option>ChemRxiv</option>
+    </select>
+  </section>
+
+  <main>
+    <ul id="list"></ul>
+  </main>
+
+  <footer>
+    <small>Data auto-updated daily. Built with ❤️.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

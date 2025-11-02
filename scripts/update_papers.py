@@ -91,6 +91,7 @@ def main() -> None:
     req_regex = compile_keyword_regex(required_keywords) if required_keywords else []
 
     papers: List = []
+    counts = {"arxiv": 0, "biorxiv": 0, "medrxiv": 0, "pubmed": 0, "chemrxiv": 0}
 
     sources = cfg.get("sources", {})
 
@@ -103,41 +104,30 @@ def main() -> None:
 
     if sources.get("arxiv", {}).get("enabled", True):
         categories = sources.get("arxiv", {}).get("categories", ["q-bio*", "cs.CB"])
-        papers.extend(
-            safe_call(
-                "arXiv",
-                fetch_arxiv,
-                keywords,
-                start_date,
-                now,
-                200,
-                categories,
-            )
-        )
+        ar = safe_call("arXiv", fetch_arxiv, keywords, start_date, now, 200, categories)
+        counts["arxiv"] = len(ar)
+        papers.extend(ar)
 
     if sources.get("biorxiv", {}).get("enabled", True):
-        papers.extend(safe_call("bioRxiv", fetch_rxiv, "biorxiv", start_date, now, 1000))
+        br = safe_call("bioRxiv", fetch_rxiv, "biorxiv", start_date, now, 1000)
+        counts["biorxiv"] = len(br)
+        papers.extend(br)
 
     if sources.get("medrxiv", {}).get("enabled", False):
-        papers.extend(safe_call("medRxiv", fetch_rxiv, "medrxiv", start_date, now, 1000))
+        mr = safe_call("medRxiv", fetch_rxiv, "medrxiv", start_date, now, 1000)
+        counts["medrxiv"] = len(mr)
+        papers.extend(mr)
 
     if sources.get("pubmed", {}).get("enabled", True):
-        papers.extend(
-            safe_call(
-                "PubMed",
-                fetch_pubmed,
-                keywords,
-                start_date,
-                now,
-                200,
-                sources.get("pubmed", {}).get("email"),
-            )
-        )
+        pm = safe_call("PubMed", fetch_pubmed, keywords, start_date, now, 200, sources.get("pubmed", {}).get("email"))
+        counts["pubmed"] = len(pm)
+        papers.extend(pm)
 
     if sources.get("chemrxiv", {}).get("enabled", True):
         chem = safe_call("ChemRxiv", fetch_chemrxiv, keywords, start_date, now, 200)
         if sources.get("chemrxiv", {}).get("bio_only", True):
             chem = [p for p in chem if BIO_HEURISTIC.search((p.title + "\n" + p.summary))]
+        counts["chemrxiv"] = len(chem)
         papers.extend(chem)
 
     # Filter for relevance by keywords with optional exclude/required logic (Scitify-like)
@@ -157,6 +147,19 @@ def main() -> None:
             filtered.append(p)
 
     final = dedupe_and_sort(filtered)
+
+    # Diagnostics
+    total_raw = sum(counts.values())
+    print(
+        "Sources fetched counts:",
+        f"arXiv={counts['arxiv']}",
+        f"bioRxiv={counts['biorxiv']}",
+        f"medRxiv={counts['medrxiv']}",
+        f"PubMed={counts['pubmed']}",
+        f"ChemRxiv={counts['chemrxiv']}",
+        f"total_raw={total_raw}",
+    )
+    print(f"After filtering: kept={len(final)} of {total_raw}")
 
     # Write to site/data/papers.json
     site_path = cfg.get("site_data_path", os.path.join("site", "data", "papers.json"))

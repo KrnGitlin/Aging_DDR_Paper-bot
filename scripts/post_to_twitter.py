@@ -64,6 +64,8 @@ def main():
     ap.add_argument("--source", default=None, help="Only post from a specific source (e.g., bioRxiv)")
     ap.add_argument("--max-age-days", type=int, default=30, help="Only consider papers newer than this many days")
     ap.add_argument("--dry-run", action="store_true", help="Force dry-run regardless of config")
+    ap.add_argument("--max-tweets", type=int, default=1, help="Maximum number of tweets to send this run")
+    ap.add_argument("--min-interval-sec", type=float, default=2.0, help="Pause between tweets to avoid rate issues")
     args = ap.parse_args()
 
     cfg = load_config(args.config)
@@ -105,19 +107,9 @@ def main():
     print(
         f"Eligible after filters -> newer_than={args.max_age_days}d: {len(newer)}, unposted: {len(unposted)}, source={'any' if not args.source else args.source}"
     )
-
-    candidate: Optional[Paper] = None
-    for p in unposted:
-        candidate = p
-        break
-
-    if not candidate:
+    if not unposted:
         print("No candidate paper found to post.")
         return
-
-    tweet_text = compose_tweet(candidate)
-    print("Selected candidate:", candidate.title)
-    print("Candidate link:", candidate.link)
 
     tw_enabled = bool(cfg.get("twitter", {}).get("enabled", False))
     dry_run = args.dry_run or (not tw_enabled) or bool(cfg.get("twitter", {}).get("dry_run", True))
@@ -134,21 +126,32 @@ def main():
     else:
         print("Twitter auth NOT verified (will still print tweet for dry-run)")
 
-    url = client.post(tweet_text, dry_run=dry_run)
-    if dry_run:
-        print("[DRY-RUN] Would post:")
-        print(tweet_text)
-    else:
-        if url:
-            print(f"Posted: {url}")
-        else:
-            print("Tweet not sent: missing/invalid Twitter credentials or API failure.")
+    from time import sleep
+    posted_count = 0
+    for idx, candidate in enumerate(unposted[: max(1, args.max_tweets)]):
+        tweet_text = compose_tweet(candidate)
+        print(f"\n[{idx+1}] Selected candidate:", candidate.title)
+        print("Link:", candidate.link)
 
-    # Only record as posted when an actual post happened
-    if not dry_run and url:
-        posted_ids.add(candidate.id)
-        with open(posted_state_path, "w", encoding="utf-8") as f:
-            json.dump(sorted(list(posted_ids)), f, indent=2)
+        url = client.post(tweet_text, dry_run=dry_run)
+        if dry_run:
+            print("[DRY-RUN] Would post:")
+            print(tweet_text)
+        else:
+            if url:
+                print(f"Posted: {url}")
+                posted_ids.add(candidate.id)
+                with open(posted_state_path, "w", encoding="utf-8") as f:
+                    json.dump(sorted(list(posted_ids)), f, indent=2)
+                posted_count += 1
+            else:
+                print("Tweet not sent: missing/invalid Twitter credentials or API failure.")
+
+        # polite spacing between tweets
+        if idx + 1 < min(len(unposted), args.max_tweets):
+            sleep(max(0.0, args.min_interval_sec))
+
+    print(f"\nCompleted tweeting: attempted={min(len(unposted), args.max_tweets)}; succeeded={posted_count}; dry_run={dry_run}")
 
 
 if __name__ == "__main__":
