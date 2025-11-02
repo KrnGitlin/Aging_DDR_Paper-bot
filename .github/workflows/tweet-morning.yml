@@ -1,10 +1,9 @@
-name: Tweet Morning IST
+name: Tweet Daily
 
 on:
   schedule:
-    # 06:00 and 10:00 IST roughly ~ 00:30 and 04:30 UTC (approx)
+    # 06:00 IST ~ 00:30 UTC daily
     - cron: '30 0 * * *'
-    - cron: '30 4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -13,6 +12,9 @@ permissions:
 jobs:
   tweet:
     runs-on: ubuntu-latest
+    concurrency:
+      group: tweet-daily
+      cancel-in-progress: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
