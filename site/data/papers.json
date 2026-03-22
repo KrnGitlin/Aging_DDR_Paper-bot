@@ -1,24 +1,69 @@
 [
   {
-    "id": "pmid:41858030",
-    "title": "\"There's no place like home, but…\": dependent older adults' narratives on the health and well-being limits of ageing in place.",
+    "id": "10.64898/2026.03.20.713152",
+    "title": "ApeA cleaves genomic RNA to defend against RNA phage infection",
     "authors": [
-      "Escapa S",
-      "Julià A",
-      "Marí-Klose M",
-      "Cursach M",
-      "Gallo P"
+      "Drobysheva, A.",
+      "Velasco Gomariz, M.",
+      "Ahmad, S.",
+      "Reichardt, S.",
+      "Hör, J."
     ],
-    "summary": "",
-    "published": "2026-12-03T00:00:00+00:00",
+    "summary": "To protect themselves against bacteriophage infection, bacteria encode a vast diversity of antiphage defense systems. However, the mechanisms of action of most of these systems have exclusively been studied using phages with DNA genomes as the models, while phages with RNA genomes remain understudied. Here, we investigate how the defense system ApeA confers resistance against RNA phage infection. We show that two ApeA homologs, Ec1ApeA and Ps2ApeA, protect against a variety of single-stranded RNA phages. Focusing on Ec1ApeA, we find that it senses infection through a conserved pocket that likely binds an RNA structure in the phage genome. This activates the HEPN (higher eukaryotes and prokaryotes nucleotide-binding) RNase domain of Ec1ApeA which consequently cleaves the phage genomic RNA to restrict replication. In contrast to many other described defense systems, Ec1ApeA activity directly stops viral replication without inducing cell death, establishing ApeA as a non-abortive defense system that protects against RNA phages. Our results add to the increasingly diverse targets of antiviral HEPN RNases and provide insights into the understudied field of RNA phage defense.",
+    "published": "2026-03-21T00:00:00+00:00",
     "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41858030/",
-    "doi": "doi: 10.1080/17482631.2026.2647084",
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.03.20.713152",
+    "doi": "10.64898/2026.03.20.713152",
     "categories": [],
     "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
+      "\\bCell\\ death\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.03.19.712851",
+    "title": "Single-Platform Nanopore Sequencing Enables Diploid Telomere-to-Telomere Genome Assembly and Haplotype-Resolved 3D Chromatin Maps",
+    "authors": [
+      "Gross, C.",
+      "Potabattula, R.",
+      "Cheng, F.",
+      "Leuchtenberg, S.",
+      "Hartung, H. S.",
+      "Kristmann, B.",
+      "Buena Atienza, E.",
+      "Casadei, N.",
+      "Ossowski, S.",
+      "Riess, O. H."
+    ],
+    "summary": "Telomere-to-telomere (T2T) genome assembly has transformed human genomics by resolving centromeres, segmental duplications, and other previously inaccessible regions. However, most diploid T2T assemblies rely on the combination of multi-platform sequencing strategies including short read genome sequencing, PacBio HiFi, Oxford Nanopore ultra-long reads, and chromatin conformation capture data (Hi-C), limiting both scalability and accessibility. Here, we present a streamlined Nanopore-only workflow for diploid human T2T assembly using three ultra-long and one Pore-C PromethION flow cell per individual. Across 23 genetically diverse individuals, we generated 360 gapless chromosomes and 446 near-complete T2T scaffolds, achieving median consensus accuracy of QV50 without Duplex sequencing or hybrid polishing. Assembly continuity, gene completeness, and structural variant detection were comparable to multi-platform Human Pangenome Reference Consortium assemblies. Pore-C data enabled chromosome-scale haplotype phasing without parental information and supported generation of haplotype-resolved chromatin contact maps. Integrated methylation and 3D genome analyses revealed allele-specific chromatin organization at imprinted loci and clear signatures of X-chromosome inactivation. Our openly accessible dataset expands public T2T resources and demonstrates that reference-grade diploid assemblies, phased methylomes, and 3D genome maps can be derived from a single sequencing platform. This approach reduces technical barriers and supports scalable population and functional genomics in the T2T era.",
+    "published": "2026-03-21T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.03.19.712851",
+    "doi": "10.64898/2026.03.19.712851",
+    "categories": [],
+    "keywords_matched": [
+      "\\bTelomere\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.03.20.713105",
+    "title": "ATM safeguards DNA replication at endogenous base lesions",
+    "authors": [
+      "Sommerova, L.",
+      "King, A.",
+      "Chapman, J. R."
+    ],
+    "summary": "Poly(ADP-ribose) polymerase inhibitors (PARPi) exploit homologous recombination deficiency (HRD) in BRCA1/2-mutated cancers to induce synthetic lethality. PARPi also kill cancer cells lacking the DNA damage-responsive kinase ATM, however, inconsistent evidence of HRD and variable clinical responses have obscured the underlying mechanism. Here we define how PARPi induce cytotoxicity in ATM-deficient cells and reveal a critical role for ATM in regulating DNA replication. In the absence of ATM, unrestrained PRIMPOL-dependent repriming at spontaneous oxidative base adducts generates discontinuous daughter strands containing DNA gaps that activate PARP. This defect is sustained by aberrant suppression of replication fork slowing - presumably via fork reversal - by the BRCA1-A complex, whose recruitment to stalled forks is normally counteracted by ATM. The resulting gaps require homologous recombination (HR) for post-replicative repair and underlie the synthetic lethal interaction with PARPi. Suppressing repriming, reducing oxidative stress, or blocking base excision repair alleviates these defects. Collectively, our findings reveal how spontaneous base damage cooperates with replication dysfunction to drive PARPi sensitivity and establish a paradigm of post-replicative repair addiction in ATM-deficient cells. Together, our findings define a mechanistic link between oxidative DNA damage and ATM-dependent replication control, illuminating how oxidative stress may exacerbate genome instability in Ataxia Telangiectasia.",
+    "published": "2026-03-21T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.03.20.713105",
+    "doi": "10.64898/2026.03.20.713105",
+    "categories": [],
+    "keywords_matched": [
+      "\\bdna\\s+damage(?:\\s+response)?\\b",
+      "\\bOxidative\\ stress\\b"
     ]
   },
   {
@@ -669,6 +714,143 @@
     ]
   },
   {
+    "id": "10.64898/2026.03.18.712261",
+    "title": "Selective activation of IRE-1 safeguards restoration of translation and organismal rejuvenation from adult reproductive diapause",
+    "authors": [
+      "Fan, Q.",
+      "Guo, A.",
+      "Wang, S.",
+      "Yang, W.",
+      "Yan, Y.-H.",
+      "Dong, M.-Q."
+    ],
+    "summary": "In C. elegans, prolonged food deprivation during early larval development results in aging-like phenotypes that can be fully reversed upon refeeding, but it remains unknown whether and how this ability persists into later life stages. Here we subjected C. elegans of the last larval stage to starvation, driving them into adult reproductive diapause (ARD). During starvation, ARD worms exhibited a wide spectrum of aging-like phenotypes, including transcriptomic reprogramming accompanying cellular and functional declines. These phenotypes are largely restored within one day of refeeding, suggesting a rejuvenation effect. Time-series transcriptomics, proteomics, and follow-up analyses of the refeeding/rejuvenation process uncovered an intricate coordination between: (1) activation of the IRE-1 branch of UPRER (unfolded protein response of endoplasmic reticulum) to induce chaperone expression; (2) quiescence of the PEK-1 branch of UPRER to avoid translation suppression; (3) up-regulation of the translation machinery to boost protein synthesis. IRE-1, together with its downstream effector, XBP-1, play an essential role in boosting protein synthesis, which is required for complete rejuvenation from the ARD state. These findings indicate that coordination between a high protein synthesis activity and a high protein folding capacity is key to refeeding-associated rejuvenation.",
+    "published": "2026-03-20T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.03.18.712261",
+    "doi": "10.64898/2026.03.18.712261",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.03.19.712937",
+    "title": "A CRISPR-Cas9 screen Reveals STEEP1 as a Key Host Dependency Factor for Epstein-Barr Virus Latent Membrane Protein 1 Trafficking and Signaling",
+    "authors": [
+      "Li, S. F.",
+      "Sun, Y.",
+      "Liao, Y.",
+      "Zhong, L.",
+      "Burton, E. M.",
+      "Mitra, B.",
+      "Gewurz, B. E."
+    ],
+    "summary": "The Epstein-Barr virus (EBV) oncogene Latent membrane protein 1 (LMP1) is essential for B-cell transformation into continuously growing lymphoblastoid cell lines. LMP1 traffics to plasma membrane and intracellular signaling sites to mimic aspects of signaling by the B cell coreceptor CD40. LMP1 is expressed in many EBV-associated cancers, including post-transplant lymphoma, Hodgkin lymphoma, T/NK lymphoma and nasopharyngeal carcinoma, where it activates key growth and survival pathways. LMP1 signaling is also implicated in multiple sclerosis pathogenesis. To identify host dependency factors that support LMP1 trafficking and signaling, we performed a human genome-wide CRISPR-Cas9 screen in B cells. The screen identified both known and previously uncharacterized mediators of LMP1 signaling. The ER resident protein STEEP1, implicated in DNA sensor STING trafficking and signaling, was a top screen hit. Importantly, STEEP1 did not score in our prior B cell CRISPR screen for factors that support CD40 signaling, suggesting specificity. STEEP1 depletion strongly impaired LMP1 signaling, including activation of NF-kB and MAP kinase pathways. Mechanistically, STEEP1 associated with LMP1 in a manner dependent on the N-terminal cytoplasmic tail and supported LMP1 egress from the ER to signaling sites in both B and epithelial cells. Collectively, these findings reveal STEEP1 as a key host factor that supports trafficking of newly synthesized LMP1 molecules to intracellular signaling sites and highlights LMP1/STEEP1 interaction as a novel therapeutic target.",
+    "published": "2026-03-20T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.03.19.712937",
+    "doi": "10.64898/2026.03.19.712937",
+    "categories": [],
+    "keywords_matched": [
+      "\\bNF\\-kB\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.03.18.712768",
+    "title": "Chronic therapy with α1A-adrenergic agonist reverses RV failure and mitochondrial dysfunction",
+    "authors": [
+      "Li, O. Y.",
+      "Swigart, P. M.",
+      "Reddy, N.",
+      "Myagmar, B.-E.",
+      "Bat-Erdene, E.",
+      "Simpson, P. C.",
+      "Baker, A. J."
+    ],
+    "summary": "Right ventricular failure (RVF) is a serious disease with a high mortality but no effective pharmacologic treatments. We reported RVF was reversed by chronic treatment with an 1A-adrenergic receptor (1A-AR) agonist. Recent studies suggest mitochondrial dysfunction contributes to RVF. Therefore, we investigated if reversal of RVF by chronic 1A-AR agonist treatment involved improved mitochondrial function. A mouse model of RVF caused by pulmonary artery constriction (PAC) for 2 wk was chronically treated for a further 2 wk. with a low dose of the 1A-AR agonist A61603 (10 ng/kg/day) or vehicle (no drug control). RV dysfunction was assessed from the fractional shortening of the RV outflow tract (RVOT FS). RVOT FS for sham controls (46.5 {+/-} 1.3 %, n = 9) was reduced 4 wk after PAC (27.6 {+/-} 1.5 %, n = 13, P < 0.0001), but was higher after PAC plus 2 wk A61603 treatment (34.5 {+/-} 0.6 %, n = 14, P < 0.001). RV myocardial respiration rate (O2 consumption) for sham controls (776 {+/-} 51 pM/s/mg, n = 9) was reduced 4 wk after PAC (493 {+/-} 28 pM/s/mg, n = 15, P <0.0001), but was higher after PAC plus 2 wk A61603 treatment (634 {+/-} 30 pM/s/mg, n = 11, P <0.05). RV myocardial ATP level for sham controls (3.3 {+/-} 0.1 mM, n = 10) was reduced 4 wk after PAC (1.9 {+/-} 0.1 mM, n = 6, P < 0.0001), but was higher after PAC plus 2 wk A61603 treatment (2.6 {+/-} 0.13 mM, n = 7, P < 0.01). In conclusion, reversal of RVF after chronic A61603 treatment involved reversal of mitochondrial dysfunction. Consistent with our previous studies, this study suggests that the 1A-AR is a therapeutic target to treat RVF.",
+    "published": "2026-03-20T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.03.18.712768",
+    "doi": "10.64898/2026.03.18.712768",
+    "categories": [],
+    "keywords_matched": [
+      "\\bMitochondrial\\ dysfunction\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.03.19.712402",
+    "title": "Developmental Synchrony of Retinal Waves, Apoptosis, and Angiogenesis in Postnatal Retina",
+    "authors": [
+      "Savage, M. A.",
+      "Bertram, C.",
+      "de Montigny, J.",
+      "Thorne, C. A.",
+      "Queen, R.",
+      "Lako, M.",
+      "Hilgen, G.",
+      "Sernagor, E."
+    ],
+    "summary": "Postnatal mouse retinal development is a multi-faceted process involving the coordinated interaction of spontaneous neural activity as retinal waves, vascular plexus growth, and programmed cell death. While these processes are known to interact at a coarse scale, the specific mechanisms integrating them have remained elusive. Using large-scale, widefield calcium imaging, high-density multielectrode array recordings, single cell RNA-seq, and immunohistochemistry, we characterise a tightly aligned centrifugal expansion pattern during retinal development. This pattern is common to stage II retinal wave onsets, vascular development, Heme oxygenase-1 (Hmox1) expressing microglia, apoptotic cell markers, and a novel set of auto-fluorescent cluster complexes (ACCs) identified in this study. Apoptotic cells are known to upregulate functional Pannexin1 (PANX1) hemichannels. These voltage-gated channels release purinergic molecules which act as \"eat me\" signals to neighbouring microglia. PANX1 hemichannel blockade with the drug probenecid results in a profound decrease in spontaneous wave frequency and strength, suggesting that retinal waves are indeed triggered by these apoptotic cells. Taken together, our observations suggest that spontaneous waves are initially triggered in hotspots by hyperactive apoptotic RGCs in unvascularised retinal areas. These apoptotic cells release purinergic molecules via PANX1 hemichannels, leading to wave generation. This hyperactivity leads to local hypoxic conditions, which, coupled with high extracellular ATP concentrations, promotes angiogenesis. Once blood vessels reach a particular hotspot, ATP release activates Hmox1 positive microglia, which engulf the dying RGCs, creating the auto-fluorescent clusters. We suggest that these early occurring events may be universal in the developing CNS, causally linking early neural activity, programmed cell death and angiogenesis.",
+    "published": "2026-03-20T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.03.19.712402",
+    "doi": "10.64898/2026.03.19.712402",
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b",
+      "\\bApoptosis\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.03.18.712673",
+    "title": "Macrophage Migration Inhibitory Factor (MIF)-CD74 Signaling Pathway Mediates Trabecular Meshwork Dysfunction in Glaucoma.",
+    "authors": [
+      "Monu, M.",
+      "Kumar, L. K.",
+      "Kumar, P.",
+      "Zode, G.",
+      "Singh, P. K."
+    ],
+    "summary": "Purpose: Macrophage migration inhibitory factor (MIF) is a pleiotropic cytokine implicated in many inflammatory and fibrotic diseases; however, its role in primary open-angle glaucoma (POAG) and trabecular meshwork (TM) dysfunction remains unknown. In this study, we investigated whether MIF-CD74 signaling regulates TM pathobiology through modulation of the transcription factor, Blimp-1, and downstream cytoskeletal reorganization and extracellular matrix (ECM) remodeling. Method: Primary human TM cells (HTMC) were exposed to glaucomatous stressors, including TGF-{beta}2, rMIF, or a pro-inflammatory milieu. Expression of MIF, its receptor CD74, and Blimp-1 was measured by qPCR and immunoblotting. ECM proteins and phosphorylated myosin-light chain (pMLC) were evaluated by immunofluorescence staining. In vivo, MIF-CD74 and Blimp-1 expression were examined in the TM/anterior segment (AS) tissue of Tg.CreMYOCY437H and lentiviral (LV)-TGF-{beta}2-induced ocular hypertension (OHT) mouse models. Functional involvement of MIF signaling in TM pathobiology was examined using the irreversible MIF inhibitor 4-IPP and the immunomodulatory metabolites agmatine and thiamine. Results: Glaucomatous stressors significantly upregulated MIF and CD74 expression with concomitant suppression of Blimp-1 in HTMC. Similarly, TM/AS tissue from both OHT models (Tg.CreMYOCY437H and LV-TGF-{beta}2) demonstrated increased MIF-CD74 expression accompanied by reduced Blimp-1 levels. Activation of MIF-CD74 signaling triggered pro-inflammatory and cell death pathways and promoted ECM remodeling, characterized by increased fibrotic protein expression and enhanced RhoA/ROCK-mediated MLC phosphorylation, indicating modulation of TM contractility. Pharmacological inhibition of MIF attenuated inflammatory signaling, reduced ECM deposition and cytoskeletal remodeling, and suppressed RhoA/ROCK/MLC activation, restoring a protective TM phenotype. Conclusion:Our findings identify MIF-CD74 signaling as a previously unrecognized regulator of TM dysfunction in POAG. MIF-mediated suppression of Blimp-1 mechanistically links inflammatory signaling to cytoskeletal contractility and fibrotic ECM remodeling, key determinants of aqueous humor outflow resistance. Targeting the MIF-CD74/Blimp-1 axis may represent a novel therapeutic strategy to restore TM homeostasis and reduce intraocular pressure in glaucoma.",
+    "published": "2026-03-20T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.03.18.712673",
+    "doi": "10.64898/2026.03.18.712673",
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.03.19.712867",
+    "title": "Lineage-specific macrophage programs dictate metabolic suppression and stress responses associated with VBNC-like states in Listeria monocytogenes",
+    "authors": [
+      "Polidori, M.",
+      "Van Geest, G.",
+      "Mestre Neher, A.",
+      "Monney, C.",
+      "Bruggmann, R.",
+      "Oevermann, A."
+    ],
+    "summary": "Listeria monocytogenes (Lm) is a significant cause of central nervous system (CNS) infection in humans and animals, yet the mechanisms governing its intracellular lifestyle in brain-resident and infiltrating macrophages remain unclear. Using dual RNA sequencing combined with host proteomics, we map host-pathogen interactions in bovine microglia and monocyte-derived macrophages (MDMs), the two principal macrophage populations encountered by Lm in the CNS. Although microglia and MDMs share core antimicrobial programs, they differ in their metabolic and immunological states, which dictate whether Lm adopts a replicative cytosolic lifestyle or a stress-tolerant intravacuolar state. In MDMs, nutrient restriction and phagolysosomal pressure drive metabolic suppression, robust stress and SOS responses, and induction of non-coding regulatory RNAs, shifting toward a dormant, viable but non-culturable phenotype. In microglia, the nutrient-rich cytosol supports bacterial growth, marked by upregulation of nucleotide salvage and carbohydrate and lipid metabolism. Functional analyses identify the stress-related genes recA and rtcB as contributors to intracellular persistence. Together, our findings show that the fate of Lm is shaped not solely by canonical virulence genes but also by the interplay between bacterial stress adaptation and lineage-specific macrophage environments, highlighting macrophage ontogeny as a critical determinant of infection outcome.",
+    "published": "2026-03-20T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.03.19.712867",
+    "doi": "10.64898/2026.03.19.712867",
+    "categories": [],
+    "keywords_matched": [
+      "\\bLipid\\ metabolism\\b"
+    ]
+  },
+  {
     "id": "10.1101/2024.08.19.608601",
     "title": "Decreased Mitochondrial Bioenergetics and Function Define a Distinct Metabolic Phenotype in Healthy Sedentary Individuals Detectable Through Non-Invasive CPET",
     "authors": [
@@ -680,7 +862,7 @@
       "Nemkov, T.",
       "Hill, J."
     ],
-    "summary": "Background: Physical inactivity is a major contributor to cardiometabolic disease and mortality. Although mitochondrial dysfunction characterizes overt pathology, whether a distinct mitochondrial phenotype is present in apparently healthy sedentary adults remains unclear. Methods: Nine sedentary (SED) and ten physically active (AC) healthy males (42+/- 14 yr) were studied. Skeletal muscle bioenergetics were assessed using high-resolution respirometry, fluxomics, metabolomics and protein expression analyses. Whole-body physiology was evaluated using cardiopulmonary exercise testing (CPET) including fat oxidation and blood lactate measurements. Results: At rest, SED exhibited marked reductions in mitochondrial capacity, including Complex I (36%), Complex II (28%), electron transport system capacity (34%), and ATP synthase coupled respiration (30%, all p < 0.01). The most pronounced alteration was a 49% reduction in mitochondrial pyruvate carrier (MPC1) expression, which closely correlated with reduced pyruvate oxidation (37%, p = 0.006) and lower TCA intermediates. SED also showed reduced MCT1 abundance, impaired fatty acid oxidation capacity (32% to 35%), decreased CPT1 activity (51%), altered cardiolipin composition and elevated ROS/O2; flux ratios. During exercise, SED demonstrated lower VO2max (38%), reduced fat oxidation (35%) and higher blood lactate accumulation (>60%, p < 0.001). Mitochondrial function was strongly associated with exercise performance (r = 0.57/0.78, p < 0.01). Conclusions: Healthy sedentary adults are characterized by reduced mitochondrial function characterized by decreased substrate entry and oxidation, reduced oxidative capacity and diminished metabolic flexibility. CPET-derived fat oxidation and blood lactate responses closely reflect skeletal muscle mitochondrial function, providing non-invasive physiological markers of metabolic health. Keywords: Mitochondrial function, MPC1, pyruvate oxidation, sedentary lifestyle, cardiolipin, ROS, metabolic flexibility, CPET",
+    "summary": "BackgroundPhysical inactivity is a major contributor to cardiometabolic disease and mortality. Although mitochondrial dysfunction characterizes overt pathology, whether a distinct mitochondrial phenotype is present in apparently healthy sedentary adults remains unclear.\n\nMethodsNine sedentary (SED) and ten physically active (AC) healthy males (42 {+/-} 14 yr) were studied. Skeletal muscle bioenergetics were assessed using high-resolution respirometry, fluxomics, metabolomics and protein expression analyses. Whole-body physiology was evaluated using cardiopulmonary exercise testing (CPET) including fat oxidation and blood lactate measurements.\n\nResultsAt rest, SED exhibited marked reductions in mitochondrial capacity, including Complex I (-36%), Complex II (-28%), electron transport system capacity (-34%), and ATP-synthase-coupled respiration (-30%, all p < 0.01). The most pronounced alteration was a 49% reduction in mitochondrial pyruvate carrier (MPC1) expression, which closely correlated with reduced pyruvate oxidation (-37%, p = 0.006) and lower TCA intermediates. SED also showed reduced MCT1 abundance, impaired fatty acid oxidation capacity (-32% to -35%), decreased CPT1 activity (-51%), altered cardiolipin composition and elevated ROS/O flux ratios. During exercise, SED demonstrated lower VO max (-38%), reduced fat oxidation (-35%) and higher blood lactate accumulation (>60%, p < 0.001). Mitochondrial function was strongly associated with exercise performance (r = 0.57-0.78, p < 0.01).\n\nConclusionsHealthy sedentary adults are characterized by reduced mitochondrial function characterized by decreased substrate entry and oxidation, reduced oxidative capacity and diminished metabolic flexibility. CPET-derived fat oxidation and blood lactate responses closely reflect skeletal muscle mitochondrial function, providing non-invasive physiological markers of metabolic health.\n\nGraphical Abstract\n\nO_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=178 SRC=\"FIGDIR/small/608601v2_fig1.gif\" ALT=\"Figure 1\">\nView larger version (51K):\norg.highwire.dtl.DTLVardef@18b2256org.highwire.dtl.DTLVardef@17b63dforg.highwire.dtl.DTLVardef@1d9fb93org.highwire.dtl.DTLVardef@138248_HPS_FORMAT_FIGEXP  M_FIG O_FLOATNOFigure 1.C_FLOATNO Schematic of skeletal muscle mitochondrion: SED side shows reduced MPC, CPT1, L4CL, and TCA flux with elevated ROS; AC side shows robust OXPHOS, fat oxidation, and lactate clearance. Arrows link to CPET as a non-invasive diagnostic tool for mitochondrial health.\n\nC_FIG",
     "published": "2026-03-19T00:00:00+00:00",
     "updated": null,
     "source": "bioRxiv",
@@ -898,7 +1080,7 @@
       "Coquoz, R.",
       "Terrier, P."
     ],
-    "summary": "Background: Divergence exponents (DE), or maximum Lyapunov exponents, computed from stride-to-stride fluctuations have traditionally been interpreted as measures of gait stability. However, evidence suggests this measure may also reflect gait complexity and automaticity. This systematic review evaluated empirical support for reinterpreting long-term DE as a complexity measure. Methods: We systematically searched Web of Science databases through January 2026 for studies applying Rosenstein's algorithm to human gait. We systematically extracted experimental conditions, and participant characteristics from each study. Study quality was assessed using a framework evaluating analytical rigor, outcome reporting, and sample size adequacy. We conducted a meta-analysis examining correlations between long-term DEs and detrended fluctuation analysis (DFA) scaling exponents, and synthesized evidence from perturbation (environmental disturbances), cueing (external rhythmic stimuli), and between-subject (clinical vs control) studies. Results: Sixty-two studies published between 2000 and 2026 met inclusion criteria, with 44% achieving high overall quality scores. Meta-analysis from six datasets (209 participants) revealed a positive correlation between long-term DE and DFA scaling exponents (r=0.64, 95% CI 0.34 to 0.82; I^2=82%). Perturbation studies consistently showed increased short-term DE (lower local stability) while simultaneously decreasing long-term DE by up to 51%. External auditory and visual cueing interventions induced long-term DE decreases (up to -86%) while minimally affecting short-term DEs. Between-subject comparisons revealed heterogeneous patterns, with clinical populations exhibiting both increases and decreases in long-term DE depending on pathology. Conclusions: Converging meta-analytic and experimental evidence supports reinterpreting long-term DE as the Attractor Complexity Index--a measure of gait complexity and automaticity rather than stability. Reduced long-term DE during controlled gait conditions reflects suppression of low-frequency variations in gait variability, which constrains phase space exploration and accelerates divergence curve saturation. The measure's sensitivity to prefrontal cortex engagement and attentional demands reveals that long-term DE captures the degree of gait automaticity, with lower values indicating a shift from automatic subcortical control to executive function-mediated regulation. This attention-dependent control reorganization explains patterns observed in aging, clinical populations, and experimental perturbations. This paradigm shift establishes long-term DE as a complementary biomarker for motor-cognitive aspects of gait control, with implications for fall risk assessment, disease monitoring, and rehabilitation evaluation.",
+    "summary": "BackgroundDivergence exponents (DE), or maximum Lyapunov exponents, computed from stride-to-stride fluctuations have traditionally been interpreted as measures of gait stability. However, evidence suggests this measure may also reflect gait complexity and automaticity. This systematic review evaluated empirical support for reinterpreting long-term DE as a complexity measure.\n\nMethodsWe systematically searched Web of Science databases through January 2026 for studies applying Rosensteins algorithm to human gait. We systematically extracted experimental conditions, and participant characteristics from each study. Study quality was assessed using a framework evaluating analytical rigor, outcome reporting, and sample size adequacy. We conducted a meta-analysis examining correlations between long-term DEs and detrended fluctuation analysis (DFA) scaling exponents, and synthesized evidence from perturbation (environmental disturbances), cueing (external rhythmic stimuli), and between-subject (clinical vs control) studies.\n\nResultsSixty-two studies published between 2000 and 2026 met inclusion criteria, with 44% achieving high overall quality scores. Meta-analysis from six datasets (209 participants) revealed a positive correlation between long-term DE and DFA scaling exponents (r=0.64, 95% CI 0.34 to 0.82; I{superscript 2}=82%). Perturbation studies consistently showed increased short-term DE (lower local stability) while simultaneously decreasing long-term DE by up to 51%. External auditory and visual cueing interventions induced long-term DE decreases (up to -86%) while minimally affecting short-term DEs. Between-subject comparisons revealed heterogeneous patterns, with clinical populations exhibiting both increases and decreases in long-term DE depending on pathology.\n\nConclusionsConverging meta-analytic and experimental evidence supports reinterpreting long-term DE as the Attractor Complexity Index--a measure of gait complexity and automaticity rather than stability. Reduced long-term DE during controlled gait conditions reflects suppression of low-frequency variations in gait variability, which constrains phase space exploration and accelerates divergence curve saturation. The measures sensitivity to prefrontal cortex engagement and attentional demands reveals that long-term DE captures the degree of gait automaticity, with lower values indicating a shift from automatic subcortical control to executive function-mediated regulation. This attention-dependent control reorganization explains patterns observed in aging, clinical populations, and experimental perturbations. This paradigm shift establishes long-term DE as a complementary biomarker for motor-cognitive aspects of gait control, with implications for fall risk assessment, disease monitoring, and rehabilitation evaluation.",
     "published": "2026-03-19T00:00:00+00:00",
     "updated": null,
     "source": "bioRxiv",
@@ -1031,7 +1213,7 @@
       "Miyata, K.",
       "Ejima, H."
     ],
-    "summary": "Single-cell encapsulation is widely used in biotechnology to protect highly sensitive living cells from environmental stress. However, the impact of encapsulation on biological function and metabolism remain rarely explored despite its importance for understanding stress response and modulating the production of valuable metabolites. Herein, we show that coating individual cells with protective metal-phenolic networks not only improves survival against stress, but also modifies cellular metabolism. Importantly, this encapsulation technique induces a reversible state of quiescence by selective nutrient diffusion and the resulting carbon flux redistribution, which enables accumulation of high-energy-density compounds through selective nutrient diffusion and the resulting carbon flux redistribution. Specifically, light exposure favors the accumulation of nearly eightfold higher starches, while incubation in darkness leads to twofold higher lipid accumulation compared to native cells. This metabolic engineering approach via individual cell encapsulation expands the cell editing toolbox and will facilitate applications in synthetic biology, bioengineering, and cell-based therapeutics.\n\nGraphical Abstract\n\nO_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=184 SRC=\"FIGDIR/small/711231v1_ufig1.gif\" ALT=\"Figure 1\">\nView larger version (60K):\norg.highwire.dtl.DTLVardef@1404a3corg.highwire.dtl.DTLVardef@1c9e12dorg.highwire.dtl.DTLVardef@de5d8eorg.highwire.dtl.DTLVardef@d039fb_HPS_FORMAT_FIGEXP  M_FIG C_FIG",
+    "summary": "Single-cell encapsulation is widely used in biotechnology to protect highly sensitive living cells from environmental stress. However, the impact of encapsulation on biological function and metabolism remain rarely explored despite its importance for understanding stress response and modulating the production of valuable metabolites. Herein, we show that coating individual cells with protective metal-phenolic networks not only improves survival against stress, but also modifies cellular metabolism. Importantly, this encapsulation technique induces a reversible state of quiescence by selective nutrient diffusion and the resulting carbon flux redistribution, which enables accumulation of high-energy-density compounds through selective nutrient diffusion and the resulting carbon flux redistribution. Specifically, light exposure favors the accumulation of nearly eightfold higher starches, while incubation in darkness leads to twofold higher lipid accumulation compared to native cells. This metabolic engineering approach via individual cell encapsulation expands the cell editing toolbox and will facilitate applications in synthetic biology, bioengineering, and cell-based therapeutics.\n\nGraphical Abstract\n\nO_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=184 SRC=\"FIGDIR/small/711231v1_ufig1.gif\" ALT=\"Figure 1\">\nView larger version (60K):\norg.highwire.dtl.DTLVardef@c173c7org.highwire.dtl.DTLVardef@984285org.highwire.dtl.DTLVardef@373d8eorg.highwire.dtl.DTLVardef@aa61da_HPS_FORMAT_FIGEXP  M_FIG C_FIG",
     "published": "2026-03-19T00:00:00+00:00",
     "updated": null,
     "source": "bioRxiv",
@@ -1132,7 +1314,7 @@
       "Xiao, Q.",
       "Li, N."
     ],
-    "summary": "Recurrent hypoglycemia increases cognitive impairment in diabetes mellitus patients. Following cerebral neuron injury, endothelial cells provide morphological, metabolic and immune support to damaged neurons. We investigated the inflammatory mechanism involved in hippocampal neuron degeneration. Behavioral experiments, including the open field test (OFT) and the Morris water maze test, were performed to measure cognitive changes. Using a vascular ring experiment, we evaluated vasodilation of the carotid artery. ZBP1 expression was knocked down after transfection with small interfering RNA in a brain endothelial cell line (bEnd3). In this study, PANoptosis, a recently defined form of programmed cell death (PCD), was found to be increased by hypoglycemia in the hippocampus of type 2 diabetic mice in vivo and by low glucose in bEnd3 cells in vitro. ZBP1 knockdown decreased PANoptosis induced by low-glucose stimulation in high-glucose-cultivated bEnd3 cells. RNA transcriptomics sequencing revealed that AGE-RAGE signaling significantly changed after ZBP1 was knocked down in bEnd3 cells. Corresponding biochemical data confirmed that ZBP1 knockdown regulated the advanced glycation end products (AGEs)-Receptor for Advanced Glycation End Products (RAGE) axis in bEnd3 cells. We present the first evidence that hypoglycemia impaired cognition in mice with type 2 diabetes by activating brain endothelial ZBP1-mediated PANoptosis via the AGE-RAGE axis.",
+    "summary": "Recurrent hypoglycemia increases cognitive impairment in diabetes mellitus patients. Following cerebral neuron injury, endothelial cells provide morphological, metabolic and immune support to damaged neurons. We investigated the inflammatory mechanism involved in hippocampal neuron degeneration. Behavioral experiments, including the open field test (OFT) and the Morris water maze test, were performed to measure cognitive changes. Using a vascular ring experiment, we evaluated vasodilation of the carotid artery. ZBP1 expression was knocked down after transfection with small interfering RNA in a brain endothelial cell line (bEnd3). In this study, PANoptosis, a recently defined form of programmed cell death (PCD), was found to be increased by hypoglycemia in the hippocampus of type 2 diabetic mice in vivo and by low glucose in bEnd3 cells in vitro. ZBP1 knockdown decreased PANoptosis induced by low-glucose stimulation in high-glucose-cultivated bEnd3 cells. RNA transcriptomics sequencing revealed that AGE-RAGE signaling significantly changed after ZBP1 was knocked down in bEnd3 cells. Corresponding biochemical data confirmed that ZBP1 knockdown regulated the advanced glycation end products (AGEs)-Receptor for Advanced Glycation End Products (RAGE) axis in bEnd3 cells. We present the first evidence that hypoglycemia impaired cognition in mice with type 2 diabetes by activating brain endothelial ZBP1-mediated PANoptosis via the AGE-RAGE axis.\n\nARTICLE HIGHLIGHTSO_LIPANoptosis, a newly defined form of programmed cell death, is induced in the hippocampus after recurrent hypoglycemia in male db/db mice.\nC_LIO_LIZBP1, a sensor of the PANoptosome, was activated in low glucose cultured brain endothelial cells.\nC_LIO_LIHypoglycemia impairs vasodilation and cognitive function in type 2 diabetic mice.\nC_LIO_LIOur study indicates that inhibiting ZBP1-PANoptosis and the AGE-RAGE axis may be a potential approach to prevent hypoglycemia-induced cognitive degeneration in individuals with type 2 diabetes.\nC_LI",
     "published": "2026-03-19T00:00:00+00:00",
     "updated": null,
     "source": "bioRxiv",
@@ -1169,7 +1351,7 @@
     "authors": [
       "Shabana, B."
     ],
-    "summary": "Atopic dermatitis (AD) transcriptomic studies have produced notoriously inconsistent differential gene expression (DEG) lists across cohorts, and the biological heterogeneity of non-lesional AD skin remains unresolved at the individual level -- limitations that group-averaged DEG analysis is structurally incapable of addressing. We applied a geometric transcriptomic framework to 537 skin RNA-sequencing samples from four independent international cohorts, positioning each sample within a 20-dimensional disease-informative PCA space relative to a unified healthy reference cloud validated by multi-cohort batch integration (ComBat; silhouette width 0.076 across three countries). Applying a bootstrap Jaccard framework to lesional-versus-healthy comparisons, AD lesional DEG signatures were significantly more reference-sensitive than psoriasis (PSO; Jaccard 0.637 vs 0.737; non-overlapping 95% CIs), with per-gene Spearman correlation between absolute effect size and cross-reference reproducibility (rho=0.658, p<2.2x10-16) establishing that AD's instability arises from its structural dependence on smaller-effect-size transcriptomic signals -- a geometric property of AD biology, not a methodological failure of prior studies. In non-lesional skin, spectrum scores -- projections of each sample's displacement from the healthy centroid onto the disease axis -- revealed that AD non-lesional (AD_NL) samples had traversed 22.6% (95% CI 15.2-29.6%) of the healthy-to-lesional axis versus 12.9% (95% CI 8.4-18.2%) for PSO non-lesional (PSO_NL; Wilcoxon p=0.012), with non-lesional skin in each disease displaced toward its own lesional pole at near-identical angles (within-disease delta-angle 1.4 degrees) but AD displaced further. Against a homeostatic boundary defined as the 95th-percentile Euclidean distance of healthy controls from their centroid, 17.2% of AD_NL samples (16/93) individually exceeded this threshold versus 2.0% of PSO_NL (1/49; OR=9.87, p=0.007), replicating across all three cohorts providing AD_NL data. Among boundary-crossing AD_NL samples, two directional patterns emerged: high-positive displacement (n=6) characterised by inflammatory pre-activation (IL-6/JAK-STAT3, IFN-alpha, TNF-alpha/NF-kB) and low/negative displacement (n=10) characterised by broad metabolic suppression and a third transcriptomic axis orthogonal to both canonical disease trajectories -- not attributable to cellular infiltration differences and undetectable by group-level analysis. These findings reframe AD's notorious transcriptomic inconsistency as a predictable consequence of effect-size architecture, establish that a reproducible subset of AD patients harbours individually measurable transcriptomic boundary escape before clinical lesion onset, and identify a biologically uncharacterised non-lesional subgroup that warrants cell-type-resolved investigation as a potential early intervention target.",
+    "summary": "Atopic dermatitis (AD) transcriptomic studies have produced notoriously inconsistent differential gene expression (DEG) lists across cohorts, and the biological heterogeneity of non-lesional AD skin remains unresolved at the individual level --limitations that group-averaged DEG analysis is structurally incapable of addressing. We applied a geometric transcriptomic framework to 537 skin RNA-sequencing samples from four independent international cohorts, positioning each sample within a 20-dimensional disease-informative PCA space relative to a unified healthy reference cloud validated by multi-cohort batch integration (ComBat; silhouette width 0.076 across three countries).\n\nApplying a bootstrap Jaccard framework to lesional-versus-healthy comparisons, AD lesional DEG signatures were significantly more reference-sensitive than psoriasis (PSO; Jaccard 0.637 vs 0.737; non-overlapping 95% CIs), with per-gene Spearman correlation between absolute effect size and cross-reference reproducibility (rho=0.658, p<2.2x10-16) establishing that ADs instability arises from its structural dependence on smaller-effect-size transcriptomic signals -- a geometric property of AD biology, not a methodological failure of prior studies.\n\nIn non-lesional skin, spectrum scores -- projections of each samples displacement from the healthy centroid onto the disease axis -- revealed that AD non-lesional (AD_NL) samples had traversed 22.6% (95% CI 15.2-29.6%) of the healthy-to-lesional axis versus 12.9% (95% CI 8.4-18.2%) for PSO non-lesional (PSO_NL; Wilcoxon p=0.012), with non-lesional skin in each disease displaced toward its own lesional pole at near-identical angles (within-disease delta-angle 1.4 degrees) but AD displaced further. Against a homeostatic boundary defined as the 95th-percentile Euclidean distance of healthy controls from their centroid, 17.2% of AD_NL samples (16/93) individually exceeded this threshold versus 2.0% of PSO_NL (1/49; OR=9.87, p=0.007), replicating across all three cohorts providing AD_NL data. Among boundary-crossing AD_NL samples, two directional patterns emerged: high-positive displacement (n=6) characterised by inflammatory pre-activation (IL-6/JAK-STAT3, IFN-alpha, TNF-alpha/NF-kB) and low/negative displacement (n=10) characterised by broad metabolic suppression and a third transcriptomic axis orthogonal to both canonical disease trajectories -- not attributable to cellular infiltration differences and undetectable by group-level analysis.\n\nThese findings reframe ADs notorious transcriptomic inconsistency as a predictable consequence of effect-size architecture, establish that a reproducible subset of AD patients harbours individually measurable transcriptomic boundary escape before clinical lesion onset, and identify a biologically uncharacterised non-lesional subgroup that warrants cell-type-resolved investigation as a potential early intervention target.",
     "published": "2026-03-19T00:00:00+00:00",
     "updated": null,
     "source": "bioRxiv",
@@ -1242,7 +1424,7 @@
       "Gouin, J.-P.",
       "Dang Vu, T. T."
     ],
-    "summary": "Objectives: Chronic insomnia (INS) is particularly prevalent in older adults and females. Sex- and age-related differences in neurophysiological markers of sleep quality (sleep spindles and slow-wave activity [SWA]) may underlie differential vulnerability to INS. This study investigated the effects of sex and insomnia on spindle and SWA beyond aging, to better understand the mechanistic differences contributing to the higher prevalence of INS in females. Methods: After a habituation night, one night of sleep assessed with polysomnography was analyzed in 222 adults (aged 18-82) including 119 INS (71% female) and 103 healthy sleepers (HS; 61% female). Spindle density, slow oscillation (SO) density, relative sigma power and SWA were derived during NREM sleep. Age, group, sex, and group-by-sex interactions were examined, with age as a covariate. Results: Age, insomnia, and sex each contributed uniquely to NREM oscillatory activity. INS primarily reduced spindle and SO density, while sex accounted for differences in SWA. While SWA was higher in females overall, sex differences were not significant within the INS or HS groups. Female INS reported highest rates of insomnia severity as well as lower sigma power than males in the INS group. Spindle and SO density deficits were also present in female INS relative to female HS, as well as male INS relative to male HS. Conclusions: The combination of reduced sigma power in females with insomnia relative to their male counterparts, as well as less spindle and SO density compared to female healthy sleepers may contribute to greater insomnia severity in females. Keywords: Sex, gender, insomnia disorder, sleep, spindle, sigma, slow wave activity, delta, slow oscillation, EEG",
+    "summary": "ObjectivesChronic insomnia (INS) is particularly prevalent in older adults and females. Sex-and age-related differences in neurophysiological markers of sleep quality (sleep spindles and slow-wave activity [SWA]) may underlie differential vulnerability to INS. This study investigated the effects of sex and insomnia on spindle and SWA beyond aging, to better understand the mechanistic differences contributing to the higher prevalence of INS in females.\n\nMethodsAfter a habituation night, one night of sleep assessed with polysomnography was analyzed in 222 adults (aged 18-82) including 119 INS (71% female) and 103 healthy sleepers (HS; 61% female). Spindle density, slow oscillation (SO) density, relative sigma power and SWA were derived during NREM sleep. Age, group, sex, and group-by-sex interactions were examined, with age as a covariate.\n\nResultsAge, insomnia, and sex each contributed uniquely to NREM oscillatory activity. INS primarily reduced spindle and SO density, while sex accounted for differences in SWA. While SWA was higher in females overall, sex differences were not significant within the INS or HS groups. Female INS reported highest rates of insomnia severity as well as lower sigma power than males in the INS group. Spindle and SO density deficits were also present in female INS relative to female HS, as well as male INS relative to male HS.\n\nConclusionsThe combination of reduced sigma power in females with insomnia relative to their male counterparts, as well as less spindle and SO density compared to female healthy sleepers may contribute to greater insomnia severity in females.\n\nStatement of SignificanceInsomnia is a growing public health concern that is more commonly reported in females, yet the neural mechanisms underlying this sex difference remain poorly understood. Our findings suggest that specific markers of sleep quality are disproportionately disrupted in females with insomnia, potentially contributing to greater vulnerability and symptom severity. These results provide new insight into how sex influences the neurophysiology of insomnia disorder and identify oscillatory markers that could serve as targets for personalized interventions. Future research should investigate whether these alterations represent persistent dysfunction or reversible changes, which could advance understanding of the biological basis of insomnia and inform strategies to improve sleep health in at-risk populations.",
     "published": "2026-03-19T00:00:00+00:00",
     "updated": null,
     "source": "bioRxiv",
@@ -1322,139 +1504,22 @@
     ]
   },
   {
-    "id": "10.1101/2025.07.16.664682",
-    "title": "A Developmental Atlas of the Drosophila Nerve Cord Uncovers a Global Temporal Code for Neuronal Identity",
+    "id": "pmid:41863084",
+    "title": "Role of KLF4 in Neutrophil Aging in Periodontitis with Metabolic Syndrome.",
     "authors": [
-      "Cachero, S.",
-      "Mitletton, M.",
-      "Beckett, I. R.",
-      "Marin, E. C.",
-      "Serratosa Capdevila, L.",
-      "Gkantia, M.",
-      "Soffers, J. H. M.",
-      "Lacin, H.",
-      "Jefferis, G. S. X. E.",
-      "Dona, E."
+      "Li C",
+      "Zhou Y",
+      "Gou H",
+      "Xiao Q",
+      "Chen Y",
+      "Xu Y"
     ],
-    "summary": "The assembly of functional neural circuits relies on the generation of diverse neural types with precise molecular identity and connectivity. Unlocking general principles of neuronal specification and wiring across the nervous system requires a systematic and high-resolution characterisation of its diversity, recently enabled by advances in single-cell transcriptomics and connectomics. However, linking the molecular identity of neurons to circuit architecture remains a key challenge. Here, we present a high-resolution developmental transcriptional atlas for the Drosophila melanogaster nerve cord, the central hub for sensory-motor circuits. With an unprecedented 38x aggregate coverage relative to its reference connectome1,2, our atlas captures extensive molecular diversity and enables robust alignment to the adult connectome. We identified three developmental principles underlying neuronal diversity in the nerve cord. First, timing of neurogenesis shapes diversification of molecular identity: embryonic-born neurons diverge faster than larval-born neurons, as also observed in the adult connectome. Second, 17 transcription factors common to neurons from all lineages provide a global molecular identity code for birth order. Lastly, by mapping sex-specific transcriptional profiles to the connectome, we uncovered female-specific apoptosis and transcriptional divergence as key global drivers of sex-specification. By revealing key organisational axes of molecular identity, this atlas opens new avenues to dissect the molecular mechanisms underpinning the development and evolution of neural circuits.",
-    "published": "2026-03-18T00:00:00+00:00",
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
     "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.1101/2025.07.16.664682",
-    "doi": "10.1101/2025.07.16.664682",
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b"
-    ]
-  },
-  {
-    "id": "10.1101/2025.08.06.668975",
-    "title": "Synergistic latency reversal by the IAP antagonist AZD5582 and BET inhibitor JQ1, combined with Nef ablation, facilitates immune-mediated elimination of latently HIV-1-infected T-cells",
-    "authors": [
-      "Postmus, D.",
-      "Hui, S. T.",
-      "Akbil, B.",
-      "Jansen, J.",
-      "Wooding, D.",
-      "Cingoez, O.",
-      "Goffinet, C."
-    ],
-    "summary": "The  shock-and-kill strategy can reactivate latent HIV-1 in vivo but has failed to meaningfully reduce the reactivatable reservoir, suggesting insufficient immunological visibility of infected cells. To investigate latency reversal agent (LRA)-specific shortcomings, we developed a novel HIV-1 latency model - Jurkat E6.1 subclonal T-cell lines, each harbouring a single, full-length, NL4.3-based provirus with a GFPOPT reporter in the Env V5 loop - and quantified HIV-1 reactivation, Env surface presentation across LRAs and synergistically acting combinations. Bryostatin-1 induced GBP5-mediated restriction of surface Env and resistance to apoptosis. Bryostatin-1/JQ1 synergised for HIV-1 reactivation and boosted levels of cell-surface Env, but failed to reduce resistance to apoptosis. AZD5582/JQ1 boosted cell-surface Env levels, without co-induction of GBP5, T-cell activation or apoptotic resistance. HIV-1 Nef antagonised cytotoxic killing of HIV-1-reactivating T-cells - its knockout, combined with AZD5582/JQ1, achieved the highest immune-mediated elimination of latently infected T-cells, representing a promising HIV cure approach.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.1101/2025.08.06.668975",
-    "doi": "10.1101/2025.08.06.668975",
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b"
-    ]
-  },
-  {
-    "id": "10.1101/2025.10.27.684895",
-    "title": "Combined suppression of HNF4α/γ drives a reversible epithelial-intrinsic barrier defect in Crohn's disease.",
-    "authors": [
-      "Halder, D.",
-      "Esmaeilniakooshkghazi, A.",
-      "Wang, Y.",
-      "Hou, J. K.",
-      "Qiu, X.",
-      "Chen, L.",
-      "Verzi, M.",
-      "Khurana, S."
-    ],
-    "summary": "Background and AimsEpithelial permeability barrier dysfunction is a central pathogenic driver of Crohns disease (CD), fueling microbial translocation, chronic inflammation, and progressive tissue injury. While current therapies suppress inflammation, none directly restore epithelial barrier function. Importantly, in CD patients, permeability barrier healing (BH) rather than mucosal healing is associated with long-term remission and a reduced risk of disease complications. Yet BH remains an unaddressed therapeutic target in CD. Here, we investigated whether pharmacologic inhibition of the integrated stress response (ISR) and RIPK3-mediated necroptosis, two convergent pathways of epithelial injury, can promote epithelial viability, regeneration, and barrier integrity in CD.\n\nMethodsWe employed villin-1/gelsolin double knockout (DKO) mice with epithelial-intrinsic ISR activation, Tnf{Delta}ARE/+ mice with chronic inflammation, and CD patient-derived enteroids (PDEs). Animals and PDE were treated with ISR inhibitor ISRIB, RIPK3 inhibitor Necrostatin-1 (Nec-1), or FDA-approved cancer drugs pazopanib and ponatinib, repurposed as potent RIPK3 inhibitors. Epithelial survival, regenerative growth (enteroid formation, budding), and barrier function (transepithelial electrical resistance, TEER) were assessed.\n\nResultsChronic ISR activation and necroptosis were prominent in both murine models and CD PDEs, causing epithelial death, Paneth cell expansion, impaired enteroid survival, and regenerative failure. Pharmacologic inhibition with ISRIB, Nec-1, pazopanib, or ponatinib restored villus architecture, reduced inflammation, enhanced epithelial survival and regeneration, and significantly improved TEER.\n\nConclusionsISR activation and RIPK3-mediated necroptosis converge to drive epithelial injury and barrier dysfunction in CD. Repurposing pazopanib and ponatinib offers a potentially translatable approach, to restore barrier integrity in CD.\n\nSynopsisISR activation and RIPK3-mediated necroptosis drive epithelial injury in Crohns disease. Repurposed RIPK3 inhibitors, pazopanib and ponatinib, restore epithelial homeostasis and permeability barrier function, providing a translational strategy to achieve sustained remission in CD.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.1101/2025.10.27.684895",
-    "doi": "10.1101/2025.10.27.684895",
-    "categories": [],
-    "keywords_matched": [
-      "\\bNecroptosis\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2025.12.09.693044",
-    "title": "Optical photothermal infrared imaging of fatty acid esterification in the ER of living cells",
-    "authors": [
-      "Castillo, H. B.",
-      "Davis, C. M."
-    ],
-    "summary": "Lipotoxicity is an accumulation of lipids that leads to cell death and metabolic disease. Saturated fatty acids are more likely to cause lipotoxicity, however, the mechanism remains unclear due to challenges visualizing reactions in live cells. Here, we use optical photothermal infrared (OPTIR) microspectroscopy to investigate palmitic acid (PA) metabolism in hepatocytes with sub-micron spatial resolution. Upon PA feeding, we discover a time-dependent ester carbonyl stretch localized to the ER near lipid droplets with abnormal morphology. This stretch is assigned to diacylglycerol intermediates in the glycerol-3-phosphate pathway. C-D stretches of deuterated PA provide complementary molecular details, supporting a model whereby PA acyl chain packing in the ER reduces enzyme diffusion slowing PA metabolism. Our results provide a deeper understanding of how phase changes induced by high melting temperature fatty acids and their metabolites change ER chemistry as well as provides a tool for detecting chemical and environmental changes associated with lipotoxicity in live cells.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2025.12.09.693044",
-    "doi": "10.64898/2025.12.09.693044",
-    "categories": [],
-    "keywords_matched": [
-      "\\bCell\\ death\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.01.10.698817",
-    "title": "Type I and III interferons synergize with TNF to promote virally-triggered damage to the intestinal epithelium",
-    "authors": [
-      "Bernard-Raichon, L.",
-      "Neil, J. A.",
-      "Kim, K.",
-      "Heaney, T.",
-      "Miller, B. M.",
-      "Moon, D.",
-      "Lubkin, A.",
-      "Dumont, A. L.",
-      "Torres, V. J.",
-      "Axelrad, J.",
-      "Matsuzawa-Ishimoto, Y.",
-      "Cadwell, K."
-    ],
-    "summary": "Excessive cell death in the epithelium due to prolonged immune activation is associated with intestinal diseases such as Crohns disease. Mice with mutations in the Crohns disease susceptibility gene Atg16l1 are susceptible to inflammation associated with intestinal epithelial cell (IEC) death, including loss of antimicrobial Paneth cells triggered by infection with murine norovirus (MNV). Here, we show that intestinal disease downstream of MNV depends on IFN-/{beta} and IFN-{lambda} signaling in IECs. In mouse organoids, IFNs synergize with TNF to induce RIPK1-dependent cell death, amplified by ATG16L1 deficiency. We further show that human intestinal organoids harboring the ATG16L1 risk allele exhibit heightened sensitivity to TNF and IFN co-stimulation and to serum from severe COVID-19 patients. Our findings reveal that virally triggered cytokines including IFNs exacerbate epithelial vulnerability in genetically predisposed hosts.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.01.10.698817",
-    "doi": "10.64898/2026.01.10.698817",
-    "categories": [],
-    "keywords_matched": [
-      "\\bCell\\ death\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.02.12.703707",
-    "title": "A stem cell aging clock links biological age deviation to clinical outcome in acute myeloid leukemia",
-    "authors": [
-      "Chen, H.",
-      "Dong, P.",
-      "Xu, J.",
-      "Wang, G."
-    ],
-    "summary": "Aging of hematopoietic stem and progenitor cells (HSPCs) impairs regenerative capacity and predisposes to hematological diseases. Here, we constructed a comprehensive single-cell transcriptomic atlas comprising 186,123 CD34+ 16 HSPCs spanning early prenatal development (6 post-conception weeks) to late adulthood (74 years). We identified two conserved core molecular programs (MPs) of inflammaging and RNA splicing / protein homeostasis. Leveraging these programs, we developed a machine learning-based stem cell aging clock from 84 donors. Applying this clock to acute myeloid leukemia (AML), we define Transcriptional Age Deviation (TAD), a novel metric of biological age divergence. We found that a biologically \"younger\" state (low TAD), reflecting oncofetal reprogramming, is a powerful independent predictor of poor survival in two large AML cohorts. Low TAD was associated with high-risk genetics and therapy resistance, and critically, it re-stratified patient outcomes within each ELN 2022 risk category. Our work establishes a quantitative link between stem cell aging biology and AML prognosis, offering a robust tool to refine clinical risk assessment.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.02.12.703707",
-    "doi": "10.64898/2026.02.12.703707",
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41863084/",
+    "doi": "doi: 10.1177/00220345261429954",
     "categories": [],
     "keywords_matched": [
       "\\b(?:aging|ageing)\\b",
@@ -1462,1045 +1527,469 @@
     ]
   },
   {
-    "id": "10.64898/2026.03.09.710568",
-    "title": "ARHGEF6-dependent cytoskeletal regulation underlies a conserved program of forebrain interneuron development",
+    "id": "pmid:41863055",
+    "title": "Hesperidin-Loaded Chitosan Nanoparticles Restore Hepatic Homeostasis by Targeting Nrf2/HO-1 and NF-κB/p53 Signaling in Malathion-Exposed Rats.",
     "authors": [
-      "Liaci, C.",
-      "Savarese, B.",
-      "Ferretti, E.",
-      "Urenda, J.-P.",
-      "Lu, J. J.",
-      "Catapano, G.",
-      "Prandi, L.",
-      "Camera, M.",
-      "Manohar, R.",
-      "Rando, S.",
-      "Umbach, A.",
-      "Hidisoglu, E.",
-      "Chiantia, G.",
-      "Marcantoni, A.",
-      "Giustetto, M.",
-      "Oleari, R.",
-      "Paganoni, A.",
-      "Cariboni, A.",
-      "Truong, V.",
-      "Conti, L.",
-      "Quadrato, G.",
-      "Merlo, G. R."
+      "Elmorsy EM",
+      "Al-Ghafari AB",
+      "Al Doghaither HA",
+      "Nofal W",
+      "Mohamed AM",
+      "Baiuomy AR",
+      "Ali SHE",
+      "Embaby EM"
     ],
-    "summary": "Intellectual disability (ID)-associated genes converge on key developmental pathways, including Rho GTPase-dependent cytoskeletal regulation. ARHGEF6/-PIX encodes a guanine nucleotide exchange factor for RAC1 and CDC42 and has been linked to non-syndromic X-linked ID (XLID46), yet its role in forebrain development remains unclear.\n\nHere, we show that ARHGEF6 expression is selectively enriched in the inhibitory lineage in mouse and human telencephalon during gestational stages of interneuron (IN) generation and migration. Arhgef6-deficient adult mice exhibit reduced cortical and hippocampal IN numbers, accompanied by embryonic deficits in tangential migration and directionality, increased developmental cell death, and altered IN morphological and electrophysiological maturation. To understand if these alterations are conserved in humans, we generated ventral forebrain organoids and dorsal-ventral forebrain assembloids from ARHGEF6 knockout (KO) human induced pluripotent stem cells. We confirmed ARHGEF6-deficient ventral organoids displayed increased apoptosis and reduced neuronal output. ARHGEF6-deficient INs also exhibited impaired growth-cone cytoskeletal organization, decreased neurite branching, reduced migratory efficiency and disrupted saltatory dynamics.\n\nTogether, these cross-species findings identify ARHGEF6 as a conserved regulator of forebrain IN migration, maturation, and survival. Our results provide insight into how ARHGEF6 dysfunction may disrupt inhibitory circuit development, leading to excitatory-inhibitory imbalances known to contribute to ID pathogenesis.",
-    "published": "2026-03-18T00:00:00+00:00",
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
     "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.09.710568",
-    "doi": "10.64898/2026.03.09.710568",
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41863055/",
+    "doi": "doi: 10.1002/tox.70082",
     "categories": [],
     "keywords_matched": [
-      "\\bCell\\ death\\b",
-      "\\bApoptosis\\b"
+      "\\bp53\\b"
     ]
   },
   {
-    "id": "10.64898/2026.03.09.709927",
-    "title": "Neuronal overexpression of mouse potassium channel subunit Kcnn1 in A53T α-synuclein mice more than doubles median survival time, associated with suppression of phospho-S129 α-synuclein formation",
+    "id": "pmid:41863024",
+    "title": "Presenilin-dependent regulation of neuronal tau pathology via the autophagy and proteasome pathways.",
     "authors": [
-      "Nagy, M.",
-      "Fenton, W. A.",
-      "Horwich, A. L."
+      "Del Ser-Badia A",
+      "Soto-Faguás CM",
+      "Vecino R",
+      "Vendrell C",
+      "Molina-Porcel L",
+      "Sánchez-Valle R",
+      "Rodríguez-Alvarez J",
+      "Vicario C",
+      "Saura CA"
     ],
-    "summary": "Synucleinopathies, including idiopathic Parkinson's Disease, are driven by misfolding and aggregation of the 140 residue -synuclein protein that plays a role in presynaptic vesicle regulation. We describe effects of a modifier, neuronal overexpression of the mouse calcium-activated potassium channel subunit Kcnn1, on a mouse model in which transgenic Thy1.2-driven A53T -synuclein directs fully penetrant lethal motor disease. Kcnn1 overexpression increased median survival of these mice from 8.5 months to 18 months, associated with an altered clinical presentation from a rapidly progressive dystonic-like behavior of the limbs to a later-onset (12-16 mo) and slowly progressive lower limb clasping when lifted by the tail. At the tissue level, accretion of disease-associated phospho-serine 129 -synuclein was prevented by overexpression of Thy1.2-driven Kcnn1, which was observed in many brain regions, including the ones where phospho-serine 129 -synuclein was copiously accreted in A53T mice at endstage. The action of blocking production of phospho-serine 129 -synuclein was also observed in adult presymptomatic A53T mice injected with an AAV9 scCMV-Kcnn1 virus into the right superior colliculus. At endstage ~2 months later, the right superior colliculus exhibited overexpression of Kcnn1 and showed essentially no phospho-serine 129 -synuclein, whereas the uninjected left superior colliculus exhibited copious phospho-serine 129 -synuclein. The neuroprotective action of Kcnn1 overexpression remains to be fully resolved, but the channel protein subunit, targeted to the ER membrane, has been shown to induce an ER stress response. This response, which may activate autophagy, along with potential channel formation, may diminish the rate of formation or lifetime of neurotoxic forms of A53T -synuclein.",
-    "published": "2026-03-18T00:00:00+00:00",
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
     "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.09.709927",
-    "doi": "10.64898/2026.03.09.709927",
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41863024/",
+    "doi": "doi: 10.1186/s40478-026-02270-6",
     "categories": [],
     "keywords_matched": [
       "\\bAutophagy\\b"
     ]
   },
   {
-    "id": "10.64898/2026.03.11.711022",
-    "title": "Decoupling nucleolar stress from DNA-damage in HCT116 colon cancer cells by targeting the interaction between ribosomal assembly factors Bop1/WDR12",
+    "id": "pmid:41862971",
+    "title": "DNA methylation regulation of CYP450-lipid metabolism by high-altitude hypoxia: linking neuroinflammation to cognitive impairment.",
     "authors": [
-      "Masia, S.",
-      "Bravo, J."
+      "Wang Q",
+      "Han J",
+      "Liu G",
+      "Duan Y",
+      "Duo D",
+      "Zhu J",
+      "Lin Y",
+      "Xin Y",
+      "Li X",
+      "Li T"
     ],
-    "summary": "Ribosome biogenesis is a hallmark of cancer and has emerged as an effective target for treatment. This study investigates novel strategies in cancer therapy by disrupting specific protein-protein interactions essential for the ribosome biogenesis process. Using peptide mimetics derived from human Bop1, conjugated with cell-penetrating sequences, we assessed their binding affinity, cellular internalization, and biological effects in HCT116 colon cancer cells. The peptides disrupted Bop1-WDR12 interaction, leading to nucleolar stress, reduced ribosome biogenesis and decreased protein synthesis. Importantly, these interventions triggered apoptosis via caspase activation without eliciting DNA double-strand breaks. These findings demonstrate that targeted disruption of ribosome assembly pathways can induce cancer cell death independently of genotoxicity, offering a promising non-genotoxic therapeutic approach that would minimize side effects. Targeting protein-protein interactions of assembly factors during ribosome maturation can be a new strategy with significant potential to improve cancer treatments by selectively impairing tumor growth while not contributing to genomic instability.",
-    "published": "2026-03-18T00:00:00+00:00",
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
     "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.11.711022",
-    "doi": "10.64898/2026.03.11.711022",
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862971/",
+    "doi": "doi: 10.1186/s12974-026-03775-6",
     "categories": [],
     "keywords_matched": [
-      "\\bCell\\ death\\b",
-      "\\bApoptosis\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.15.711864",
-    "title": "Aging-associated endo-lysosomal dysfunction drives inflammaging and neurodegeneration through the STING-IFN-I axis",
-    "authors": [
-      "Oberg, M.",
-      "Maric, I. P.",
-      "Stromberg, A.",
-      "Myers, C.",
-      "Saffarzadeh, N.",
-      "Fabrikova, D.",
-      "Fabrik, I.",
-      "Rivas Gavalez, L.",
-      "Skibicka, K.",
-      "Kurzawa-Akanbi, M.",
-      "Paul, G.",
-      "Gekara, N. O.",
-      "Hartlova, A."
-    ],
-    "summary": "All animals age. However, aging is a heterogeneous process and individual organisms age differently. Moreover, within the same organism, cells or organs do not age at the same time or speed. For instance, although neurodegeneration is a key trait of aging, neurological symptoms normally manifest long after multiple indicators of aging in peripheral tissues. The genetic determinants of aging remain poorly understood. Mutations in leucine-rich repeat kinase 2 (LRRK2) are major genetic risk factors for Parkinsons disease (PD). By analyzing PD patients and mice with LRRK2 gain of function mutation (LRRK2GoF), we demonstrate that PD is an accelerated aging disease characterized by systemic low-grade STING-dependent inflammation (inflammaging) that first manifests in the periphery then disrupts the blood brain barrier and progresses to the brain resulting in neurodegeneration. Mechanistically, we demonstrate that a primary consequence of aging or Lrrk2GoF is endolysosomal decline. This results in the cytosolic build-up of extraneous self-DNA and subsequent shedding of DNA-containing extracellular vesicles thereby triggering the cGAS- STING pathway cell-intrinsically and intercellularly in distant host cells. This study unveils the cGAS-STING pathway and LRRK2GoF as key determinants and potential targets for preventive or therapeutic strategies against accelerated aging, inflammaging and neurodegeneration.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.15.711864",
-    "doi": "10.64898/2026.03.15.711864",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.14.711071",
-    "title": "ULK1 drives NDP52-mediated selective autophagic degradation of MHC-I to promote immune evasion in HPV-positive head and neck cancer",
-    "authors": [
-      "Vu, L.",
-      "Giacobbi, N. S.",
-      "Khalil, M. I.",
-      "Yang, C.",
-      "Eckerman, W. J.",
-      "Gomez Recinos, E.",
-      "Garber, J. D.",
-      "Son, H.",
-      "Chahal, P.",
-      "Villa, D. M.",
-      "Srivastava, T.",
-      "Bennett, A. Z.",
-      "Martin, K. R.",
-      "Welbon, C.",
-      "Williamson, C.",
-      "Spanos, W. C.",
-      "MacKeigan, J. P.",
-      "Olive, A. J.",
-      "Pyeon, D."
-    ],
-    "summary": "Antigen presentation by major histocompatibility complex class I (MHC-I) is critical for tumor cell killing by CD8+ T cells. Accordingly, tumor cells downregulate MHC-I expression through multiple mechanisms, thereby evading the immune response. Importantly, lower levels of MHC-I are associated with poor responses to immune checkpoint inhibitor therapy. Our recent study has shown that the human papillomavirus (HPV) oncoproteins induce MHC-I protein ubiquitination by membrane-associated Ring-CH-type finger 8 (MARCHF8) in HPV-positive head and neck cancer (HPV+ HNC). However, the mechanism by which ubiquitinated MHC-I is degraded remains elusive. By performing genome-wide CRISPR screens, we identified components of the ULK1 and PIK3C3 complexes for autophagy initiation complexes among the top negative regulators of cell-surface MHC-I expression in HPV+ HNC cells. We show that MHC-I is recruited from the ER to autophagosomes by the cargo receptor NDP52, decreasing MHC-I levels. Further, inhibiting the initiation or nucleation steps of autophagy before autophagosome formation is critical for restoring MHC-I levels on the cell surface. Finally, genetic inhibition of autophagy initiation suppresses HPV+ HNC tumor growth in vivo and enhances the CD8+ T cell-mediated antitumor response. Our findings suggest that autophagic degradation of MARCHF8-ubiquitinated MHC-I is a key immune evasion mechanism in HPV+ HNC.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.14.711071",
-    "doi": "10.64898/2026.03.14.711071",
-    "categories": [],
-    "keywords_matched": [
-      "\\bAutophagy\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712182",
-    "title": "The pyruvate branch point controls lymphoid cancer cell dissemination",
-    "authors": [
-      "Khan, H.",
-      "John, S.",
-      "Roy, S.",
-      "Farhan, M.",
-      "Hoang, N. M.",
-      "Buethe, P.",
-      "Prasad, A.",
-      "Nihal, A.",
-      "Yang, D. T.",
-      "Rui, L.",
-      "Fan, J.",
-      "Schieke, S. M."
-    ],
-    "summary": "Cancer cell dissemination critically determines clinical prognosis, yet metabolic dependencies and corresponding therapeutic targets during spread of lymphoid malignancies remain poorly understood. Here we show that the pyruvate branch point operates as a metabolic checkpoint for lymphoid cancer cell migration and disease dissemination through mitochondrial ROS (mROS)/HIF-1a signaling. Isolation of highly migratory mROShi cells led us to identify selective metabolic requirements of malignant lymphocyte migration and disease dissemination. Highly migratory cells show a reprogrammed metabolic profile characterized by increased glucose uptake and reduced glucose-carbon entry into the TCA cycle. Reprogramming of the TCA cycle with downregulation of citrate synthase provide the mechanistic basis for decreased pyruvate oxidation leading to increased migration and disease dissemination through mROS/HIF-1a signaling. Our findings connect central carbon metabolism and migratory capacity of lymphoid cancer cells and identify the pyruvate branch point as a metabolic switch and potential therapeutic target in lymphoid cancer cell dissemination.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712182",
-    "doi": "10.64898/2026.03.16.712182",
-    "categories": [],
-    "keywords_matched": [
-      "\\bROS\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.17.712297",
-    "title": "FYCO1 improves postischemic cardiac remodeling via enhanced autophagic flux and attenuation of proinflammatory signaling",
-    "authors": [
-      "Senger, F.",
-      "Hille, S. S.",
-      "Kliesow Remes, A.",
-      "Baral, T. K.",
-      "Martin-Garrido, A.",
-      "Schmiedel, N.",
-      "Kuhn, C.",
-      "Mueller, O. J.",
-      "Rangrez, A. Y.",
-      "Backs, J. Y.",
-      "Beisaw, A.",
-      "Heineke, J.",
-      "Frey, N."
-    ],
-    "summary": "Acute myocardial infarction (MI) is associated with severe metabolic and oxidative stress that triggers cardiomyocyte death, pro-inflammatory signaling and progressive structural remodeling frequently culminating in heart failure. Although significant advances in reperfusion therapy improved acute survival in patients, therapeutic strategies that directly target intracellular processes in response to injury remain limited. One key response mechanism, autophagy, is rapidly activated to ameliorate ischemic stress. Yet, defective autophagic flux may exacerbate cardiomyocyte injury and maladaptive tissue remodeling. Here we identify FYCO1 as a cardiomyocyte- enriched key regulator of autophagy that enhances autophagic flux and promotes myocardial resilience following ischemic injury. Using cardiomyocyte-specific FYCO1 transgenic mice subjected to permanent coronary ligation, we demonstrate that FYCO1 overexpression limits infarct expansion, reduces cardiomyocyte injury, and preserves cardiac function during remodeling. In vivo RFP-EGFP-LC3 autophagy reporter analyses reveal that FYCO1 promotes a sustained increase of autophagic flux by coordinating autophagosome formation and efficient autolysosomal clearance. Transcriptomic profiling identifies a cardioprotective gene program in FYCO1-Tg animals subjected to MI, with suppression of proinflammatory, proapoptotic and stress-response pathways. Systemic serum cytokine and chemokine profiling as well as transcriptomic analyses of myocardium confirm reduced inflammatory signaling and subsequent reduction in macrophage recruitment into the infarct border zone. Together these findings position FYCO1 as a key regulator of cardiomyocyte autophagy and reveal a previously unrecognized link between autophagy and inflammation in shaping cardiac remodeling following myocardial infarction. FYCO1-mediated autophagy promotes myocardial preservation and functional recovery, highlighting autophagic flux as a promising target for cardioprotective interventions.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.17.712297",
-    "doi": "10.64898/2026.03.17.712297",
-    "categories": [],
-    "keywords_matched": [
-      "\\bAutophagy\\b",
-      "\\bOxidative\\ stress\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.17.712327",
-    "title": "A GABARAP-PtdIns3K-C1 positive feedback loop at the heart of the phagophore nucleation",
-    "authors": [
-      "Dessus, A. N.",
-      "Ohashi, Y.",
-      "Bourguet, M.",
-      "Morgan, T. E.",
-      "Nunez, A.",
-      "Manifava, M.",
-      "Ktistakis, N. T.",
-      "Williams, R. L."
-    ],
-    "summary": "Macroautophagy/autophagy is a cellular process enabling degradation of intracellular components during starvation. In mammalian cells, autophagosomes can reach diameters of over 1000 nm within 30 min after triggering starvation, but how such substantial amounts of membranes can be synthesized within a brief time remains elusive. A protein complex central to the phagophore initiation is the lipid kinase PIK3C3-Complex 1 (PtdIns3K-C1), which produces phosphatidylinositol-3-phosphate (PtdIns3P). PtdIns3P recruits a variety of downstream proteins, among which is PtdIns3P-binding WIPI2 that facilitates lipidation of mammalian ATG8 (mATG8) family proteins on phagophores. Here we show that upon inhibition of mATG8 lipidation in cells, there is a decreased accumulation of WIPI2, suggesting a feedback loop between mATG8s and PtdIns3P production. The role of PtdIns3K-C1 in this feedback was demonstrated by in vitro experiments where recombinant membrane-coupled mATG8s bind to and potently activate PtdIns3K-C1, with GABARAP being the most potent activator among all mATG8s. By a combination of cryo-electron microscopy, structural mass spectrometry, activity assays and mutagenesis, we show that GABARAP binds two sites in PtdIns3K-C1, with one site showing an atypical bipartite interaction with the mATG8. We also confirm both sites are essential for GABARAP to activate PtdIns3K-C1. We propose that once GABARAP is indirectly recruited by PtdIns3P generated by basal activity of PtdIns3K-C1, a positive feedback loop is formed where PtdIns3K-C1 interacts with GABARAP and becomes activated to produce more PtdIns3P, thereby further stimulating GABARAP lipidation. This mechanism would be central for autophagosome biogenesis, where enlarged membranes need to be synthesized within a brief period.\n\nGraphical abstract\n\nO_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=120 SRC=\"FIGDIR/small/712327v1_ufig1.gif\" ALT=\"Figure 1\">\nView larger version (25K):\norg.highwire.dtl.DTLVardef@1468b4corg.highwire.dtl.DTLVardef@632b3borg.highwire.dtl.DTLVardef@ab4e7corg.highwire.dtl.DTLVardef@ade079_HPS_FORMAT_FIGEXP  M_FIG The GABARAP-PtdIns3K-C1 positive feedback loop.\n\nModel for the GABARAP-PtdIns3K-C1 positive feedback loop. GABARAP is indirectly recruited to the growing phagophore by PtdIns3P and activates PtdIns3K-C1, leading to an increased PtdIns3P production. The E1 (ATG7), E2 (ATG3) and E3 (ATG5-ATG12-ATG16L1) enzymes and WIPI2 are involved in the lipidation (covalent coupling) of GABARAP to membranes.\n\nC_FIG",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.17.712327",
-    "doi": "10.64898/2026.03.17.712327",
-    "categories": [],
-    "keywords_matched": [
-      "\\bAutophagy\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712219",
-    "title": "Combination of alpha-synuclein aggregation inhibitor anle138b and ER stress inhibitor AMG PERK 44 increases neuroprotection in Parkinson's disease organoid model",
-    "authors": [
-      "Siwecka, N.",
-      "Golberg, M.",
-      "Galita, G.",
-      "Majsterek, I."
-    ],
-    "summary": "Parkinson's disease (PD) is the second most common neurodegenerative disease, resulting from accumulation of -synuclein (-syn) in midbrain dopaminergic neurons and progressive neuronal loss. The most relevant species of -syn, oligomers, may exert neurotoxicity in a variety of mechanisms. Accumulation of misfolded -syn in the endoplasmic reticulum (ER) lumen induces ER stress conditions that leads to activation of the Unfolded Protein Response (UPR) and its main sensor PKR-like ER kinase (PERK). PERK is critical for cell fate determination - under prolonged ER stress, it may direct cell towards pro-apoptotic pathways. Targeting of -syn aggregation or UPR by genetic and pharmacological approaches proved effective in preclinical models of PD by previous research. Thus, in the present study, we aimed to determine the potential effect of combination of small-molecule inhibitors of -syn aggregation and ER stress-mediated PERK signaling (namely anle138b and AMG44) in a novel, 3D in vitro model of PD. We demonstrate that combination of both anti-aggregation and ER stress-targeting approaches amplifies neuroprotection against PD in organoid model in terms of increased neuronal metabolic activity, decreased -syn phosphorylation and aggregation, reduced dopaminergic cell death, and restoration of proteostasis.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712219",
-    "doi": "10.64898/2026.03.16.712219",
-    "categories": [],
-    "keywords_matched": [
-      "\\bCell\\ death\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712050",
-    "title": "Seminal extracellular vesicles from boar AI doses contain fertility-predictive protein and miRNA cargo and improve sperm physiology",
-    "authors": [
-      "Martin-San Juan, A.",
-      "Cerrato Martin-Hinojal, C.",
-      "Nieto-Cristobal, H.",
-      "Martinez-Alborcia, M. J.",
-      "de Mercado, E.",
-      "Alvarez-Rodriguez, M."
-    ],
-    "summary": "Boar semen contains spermatozoa and seminal plasma (SP) that carries extracellular vesicles (EVs) among other components. However, artificial insemination (AI) doses produced by AI companies are highly diluted based solely on sperm concentration. The aim of this study was to evaluate the integrity of EVs isolated from AI doses, characterize the protein and miRNA content from high-fertility (HF) and reduced-fertility (RF) boars, and evaluate their functional impact on spermatozoa after dilution by a coincubation up to 24 hours at 38 {degrees}C. Proteomics identified 108 differentially expressed proteins between HF and RF EVs (97 upregulated in HF, 11 in RF), and transcriptomics revealed 80 differentially expressed miRNAs (DEMs) in EVs, 52 in SP, and 3 in spermatozoa, showing inverse expression in various shared DEMs between fertility rates, suggesting compartment-specific regulation. Functional coincubation demonstrated that EVs remain biologically active after dilution. HF EVs improved sperm quality parameters and reduced oxidative stress, while RF EVs increased total and progressive motility. Overall, our findings show that EVs from AI doses retain structural integrity, carry fertility-associated protein and miRNA signatures, and functionally modulate sperm quality in vitro. These features highlight porcine EVs as promising biomarkers and potential tools to optimize reproductive performance in swine production.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712050",
-    "doi": "10.64898/2026.03.16.712050",
-    "categories": [],
-    "keywords_matched": [
-      "\\bOxidative\\ stress\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.15.711957",
-    "title": "Anticipatory metabolic reprogramming distinguishes caloric restriction from fasting-refeeding cycles",
-    "authors": [
-      "Velingkaar, N.",
-      "Astafev, A. A.",
-      "Prabahar, A.",
-      "Trokhimenko, E.",
-      "Rom, J.-M. B.",
-      "Asi, G. J.",
-      "Jiang, P.",
-      "Kondratov, R. V."
-    ],
-    "summary": "Interest in fasting-based dietary interventions to improve metabolic health is growing. Caloric restriction (CR) with one meal per day includes an extended fasting component that contributes to its metabolic and longevity benefits, yet the specific role of fasting within CR remains unclear. Here, we compared mice under CR with those subjected to a fasting-refeeding-fasting (FRF) regimen while controlling pre-fasting food intake and fasting duration. Simultaneous comparison of diet induced changes in plasma insulin and free fatty acids, hepatic mTOR signaling and ketogenesis, total body metabolic rhythms with kinetics of food digestion suggested that gastric emptying served as a primary metabolic trigger in acute fasting. In contrast, in CR, fasting responses were actively regulated and suggested anticipatory mechanisms. At the transcriptomic level, CR enhanced circadian rhythmicity and metabolic gene coordination, whereas FRF disrupted it. In agreement with the expression data, CR improves glucose and fatty acid metabolism while fasting leads to glucose intolerance and fat accumulation in the liver induced glucose intolerance and hepatic steatosis. These findings reveal that CR engages clock-aligned, anticipatory metabolic control, while fasting-refeeding cycles rely on direct nutrient cues. This mechanistic distinction between active and passive metabolic regulation may underlie the superior metabolic and longevity outcomes of caloric restriction.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.15.711957",
-    "doi": "10.64898/2026.03.15.711957",
-    "categories": [],
-    "keywords_matched": [
-      "\\bmTOR\\b",
-      "\\bCaloric\\ restriction\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712248",
-    "title": "Syndecan-1 Promotes Alveolar Type 2 Epithelial Cell Senescence during Lung Fibrosis.",
-    "authors": [
-      "Yao, C.",
-      "Espinola, M.",
-      "Liu, X.",
-      "Wang, Y.",
-      "Zuttion, M.",
-      "Kuchibhotla, V.",
-      "Zhang, X.",
-      "Prata, L. L.",
-      "Cho, S.",
-      "Ortega, Z.",
-      "Braghramian, E.",
-      "Merene, K.",
-      "Wang, Y.",
-      "Jackman, S.",
-      "Caudill, A.",
-      "Contreras, F.",
-      "Liang, J.",
-      "Jiang, D.",
-      "Noble, P. W.",
-      "Hogaboam, C. M.",
-      "Stripp, B. R.",
-      "Lopez-Martinez, C.",
-      "Gharib, S. A.",
-      "Seng, A.",
-      "Bottini, N.",
-      "Parks, W. C.",
-      "Chen, P.",
-      "Parimon, T."
-    ],
-    "summary": "Idiopathic pulmonary fibrosis (IPF) is an age-related, progressive, and fatal interstitial lung disease for which effective therapies remain limited. Alveolar type 2 (AT2) epithelial cells serve as facultative stem cells essential for alveolar repair; however, AT2 cell senescence disrupts epithelial regeneration and contributes to fibrotic remodeling in IPF. Syndecan-1 is a transmembrane heparan sulfate proteoglycan predominantly expressed by lung epithelial cells, but its role in AT2 dysfunction during fibrosis is poorly defined. Here, we demonstrate that syndecan-1 is robustly upregulated in AT2 cells in IPF and other fibrotic lung diseases, as well as in murine bleomycin-induced lung fibrosis. Syndecan-1 expression was further enhanced with aging and associated with increased fibrotic burden in aged mice. Using integrated human transcriptomic analyses, mouse genetic models, and epithelial cell-based systems, we show that excess syndecan-1 promotes cell-autonomous epithelial senescence and impairs AT2 progenitor function. Elevated syndecan-1 reduced AT2 renewal capacity, disrupted differentiation, and diminished surfactant protein C level, whereas genetic loss of syndecan-1 attenuated senescence and preserved epithelial function following injury. Together, these findings identify syndecan-1 as a critical epithelial regulator of AT2 senescence and maladaptive repair in pulmonary fibrosis and support targeting syndecan-1-driven epithelial dysfunction as a potential therapeutic strategy.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712248",
-    "doi": "10.64898/2026.03.16.712248",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b",
-      "\\bSenescence\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712191",
-    "title": "Cardiomyocyte autophagy promotes a pro-regenerative immune response during cardiac regeneration",
-    "authors": [
-      "Constanty, F.",
-      "Wu, B.",
-      "Shekhar, S.",
-      "Bektimirova, A.",
-      "Bakali, V.",
-      "Blasco Almodovar, L.",
-      "Senger, F.",
-      "Frey, N.",
-      "Beisaw, A."
-    ],
-    "summary": "Adult zebrafish possess a remarkable ability to regenerate their heart following cardiac injury. Over the past decades, our understanding of the diverse cell types involved in zebrafish cardiac regeneration has greatly advanced. However, the mechanisms governing their interaction and how heterocellular crosstalk drives regeneration remain poorly understood. Here, we identify cardiomyocyte autophagy as a key link between the cardiomyocyte injury response and heterocellular crosstalk between cardiomyocytes and macrophages. We find that cardiomyocyte autophagy is downstream of AP-1 transcription factors. Using newly generated genetic tools, we find that cardiomyocyte autophagy is an important regulator of cardiomyocyte protrusion into the fibrotic injured tissue and its disruption leads to defects in scar resolution. Notably, we find that blocking cardiomyocyte autophagy has a marked effect on the transcriptomic signatures in cardiac macrophages, shifting gene expression from phagocytic/pro-inflammatory/pro-reparative towards pro-angiogenic and pro-fibrotic states. Altogether, our results uncover autophagy as a mechanism linking cardiomyocyte injury responses to macrophage phenotype and coordinated tissue remodeling during heart regeneration.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712191",
-    "doi": "10.64898/2026.03.16.712191",
-    "categories": [],
-    "keywords_matched": [
-      "\\bAutophagy\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.710895",
-    "title": "Cardiac REDD1 alters glucose and fatty acid metabolic gene expression via an mTORC1-independent, PPAR alpha-dependent mechanism and drives hypertrophic growth",
-    "authors": [
-      "Wheeler, M.",
-      "Renick, J.",
-      "Fawbush, R.",
-      "McAlpin, E.",
-      "Stevens, S.",
-      "Sreedevi, K.",
-      "Warren, J.",
-      "Dennis, M.",
-      "Pfleger, J."
-    ],
-    "summary": "BackgroundRegulated in development and DNA damage 1 (REDD1) is a highly inducible molecule that plays a role in numerous physiological and pathophysiological processes. It is a well-established negative regulator of mammalian target of rapamycin complex 1 (mTORC1), which is critical for maintaining elevated fatty acid-to-glucose oxidation ratio in the heart. In addition, REDD1 deletion results in hyperglycemia, suggesting that REDD1 is critical for tissue glucose metabolism. The role of REDD1 in regulating cardiac glucose and/or fatty acid metabolism in response to physiologic or pathophysiologic cues, however, remains unexplored.\n\nMethodsHerein, we utilize AC16 cardiomyocytes with REDD1 deletion, as well as mice with global or cardiomyocyte-specific deletion of Redd1, and their respective controls. We also subject these mice cardiac pressure overload using transverse aortic constriction (TAC) for 2 weeks or sham operation as a control. To examine the molecular regulators of glucose oxidation, we utilized qPCR and western blotting to evaluate pyruvate dehydrogenase (PDH) kinase (PDK) and phospho-PDH (pPDH) levels, respectively. We also directly measured PDH activity and glucose-driven cellular respiration. To investigate the complete REDD1-dependent transcriptome and metabolome, we performed RNA-sequencing (RNA-Seq) and untargeted metabolomics, respectively. To determine if the observed gene expression changes were dependent upon transcription factor peroxisome proliferator-activated receptor alpha (PPAR), we utilized an established pharmacologic PPAR inhibitor, GW6471. Here, we measured PPAR activity directly, as well as the expression of its target genes. In order to determine if our observed effects were mTORC1-dependent, we utilized mTORC1-specific inhibitor, everolimus. Finally, we measured cardiac hypertrophy using gravimetric analyses (heart weight (HW)-to-body weight (BW) or HW-to-tibia length (TL) ratios) and histological analyses of cardiomyocyte cross sectional area (CSA). We also measured mRNA and protein levels of pathological hypertrophic markers Natriuretic Peptide B (Nppb) and Cardiac Ankyrin Repeat Protein (CARP), respectively.\n\nResultsOur data demonstrate that physiological levels of glucose induce REDD1 expression in cardiomyocytes. Further, we show that in cardiomyocytes or the hearts of mice with REDD1 deletion, there is elevated PDK4 expression, as well as increased levels of pPDH (S300 and/or S293) and reduced PDH activity. Interestingly, everolimus treatment has no effect on these alterations. In vitro, we also observe elevated glycolysis and glycolytic capacity, and reduced maximal respiratory capacity (MRC) in the presence of glucose. Interestingly, our RNA-Seq data reveals the upregulation of genes involved in fatty acid catabolism. Further, we demonstrate that PPAR activity is enhanced, and everolimus treatment also has no effect on this parameter. Additionally, we show that treatment of cardiomyocytes with GW6471 normalizes the expression of its target genes (PDK4, ACSL1) and levels of pPDH (S300), that are elevated in cells with REDD1 deletion. Finally, we observe elevated REDD1 in the hearts of mice following TAC. Moreover, we show reduced HW/BW, HW/TL, cardiomyocyte CSA, and levels of cardiac Nppb and CARP in mice with cardiomyocyte Redd1 deletion subjected to TAC versus controls also subjected to TAC. Importantly, TAC-induced reductions in cardiac Pdk4 and pPDH (S293 and S300), are normalized to control levels in mice with Redd1 deletion subjected to TAC.\n\nConclusionsTogether, our findings suggest that physiological glucose-induced and pathological pressure overload-induced REDD1 is required for enhancing glucose oxidation and suppressing fatty acid oxidation in cardiomyocytes. In this way, REDD1 supports cardiac hypertrophic growth. We also outline a mechanism whereby REDD1 inhibits PPAR activity, thereby inhibiting the expression of its target genes, including PDK4 and those involved in fatty acid oxidation. Finally, we demonstrate that these effects are independent of REDD1s ability to inhibit mTORC1.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.710895",
-    "doi": "10.64898/2026.03.16.710895",
-    "categories": [],
-    "keywords_matched": [
-      "\\bdna\\s+damage(?:\\s+response)?\\b",
-      "\\bRapamycin\\b",
-      "\\bGlycolysis\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.711853",
-    "title": "A relic at risk: Genomic evidence for an early-diverging domesticated lineage in Norwegian farmhouse yeast",
-    "authors": [
-      "Dondrup, M.",
-      "Martinussen, A. O.",
-      "Haugland, L. K.",
-      "Brandenburg, J.",
-      "Inanli, O.",
-      "Schroeder, H.",
-      "Dolan, D.",
-      "Grellscheid, S. N.",
-      "Hagen, S. B.",
-      "Elameen, A.",
-      "Myking, T.",
-      "Eiken, H. G."
-    ],
-    "summary": "IntroductionThe use of Saccharomyces cerevisiae to ferment alcoholic beverages is an ancient tradition, with genetic evidence indicating origins in Neolithic Asia, although the domestication process of the species is not fully understood. Kveik is a group of traditional yeasts used in farmhouse brewing in western Norway preserved through generations of rural brewing practice. While recent studies have highlighted the distinctiveness of kveik, its precise phylogenetic position, genetic diversity, and domestication history remain unclear.\n\nResultsWe performed whole-genome sequencing on 62 samples representing 25 unique Norwegian strains selected using cultural heritage criteria, and generated telomere-to-telomere (T2T) assemblies for representative isolates. Phylogenomic and population genetic analyses reveal that kveik forms a paraphyletic and early diverging group with respect to other domesticated S. cerevisiae strains. Most strains exhibit low within-strain diversity, strong geographic clustering, and little evidence of gene-flow or admixture. Mitochondrial genomes and Ty1 retrotransposon profiles corroborate this distinct lineage history. We further show that previously reported signals of gene flow between kveik and Asian fermentation strains are likely artifacts caused by population structure and selection. Divergence time estimates suggest that the common ancestor of beer, kveik, and other liquid-phase fermenting strains originated from ancestral populations 4,000 to 8,000 years ago.\n\nConclusionKveik yeasts represent a relic of early S. cerevisiae domestication, shaped by ancient human practices, migrations, and the spread of agriculture. Our genomic resource sheds light on yeast evolution and domestication. They likely comprise some of the oldest domesticated lineages in continuous use until today, connecting endangered intangible cultural heritage to an early genetic origin.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.711853",
-    "doi": "10.64898/2026.03.16.711853",
-    "categories": [],
-    "keywords_matched": [
-      "\\bTelomere\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712205",
-    "title": "A machine learning approach to infer DNase1L3 activity from plasma cell-free DNA fragmentomics",
-    "authors": [
-      "Linthorst, J.",
-      "Sistermans, E. A."
-    ],
-    "summary": "DNase1L3 is an endonuclease that fragments DNA during apoptosis and digests DNA from microparticles in plasma, shaping key features of cell-free DNA (cfDNA). The common missense variant p.Arg206Cys (R206C) affects cfDNA through a non-linear, semidominant allele dosage effect. Therefore, commonly used models trained on fragmentomics from individuals with normal DNase1L3 activity perform poorly in R206C homozygotes.\n\nTo address this we analyzed cfDNA sequencing data from 129,676 Non-Invasive Prenatal Tests and validated R206C genotypes in a selection of 169 matching plasma samples. Supervised and unsupervised learning were used to infer DNase1L3 activity from cfDNA fragmentation properties.\n\nOur models accurately identify R206C homozygotes using as little as 10,000 cfDNA fragments, outperforming genotype imputation in this setting. However, unsupervised analysis reveals a small number of samples that cluster with homozygotes but lack the corresponding genotype, suggesting that our method also identifies other or downstream effects of DNase1L3 impairment. Conversely, some R206C homozygotes initially lacked the aberrant fragmentome, but longitudinal follow-up across subsequent pregnancies suggests that they developed aberrant fragmentomes over time. While reversions of the fragmentome are also observed, they only occur in wildtype or heterozygote samples, suggesting that the aberrant fragmentome may be transient in the latter but represents a stable, time-dependent end-state in R206C homozygotes.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712205",
-    "doi": "10.64898/2026.03.16.712205",
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.15.711656",
-    "title": "High resolution interaction surface mapping by PRISMA reveals novel ARID1A interactions",
-    "authors": [
-      "Pardo Calvo, M.",
-      "Marcozzi, C.",
-      "Lane, K. A.",
-      "Sialana, F.",
-      "Shcherbakova, L.",
-      "Kozik, Z.",
-      "Wan, M.",
-      "Ye, F.",
-      "Alfieri, C.",
-      "Downs, J. A.",
-      "Choudhary, J. S."
-    ],
-    "summary": "The SWI/SNF chromatin remodelling complex controls proliferation and cell fate determination by regulating chromatin accessibility at promoters and enhancers, thereby modulating programs of gene expression, and has roles in DNA damage response, replication, splicing, and translation, and cell plasticity. The cBAF-exclusive subunit ARID1A acts as scaffold for the assembly of cBAF SWI/SNF complexes through its C-terminal globular domain and is the most frequently mutated SWI/SNF subunit in cancer. More than half of the ARID1A protein sequence contains regions of intrinsic disorder which are important for protein interactions, often mediated by short linear motifs. However, these interactions are notoriously difficult to study. Whilst hundreds of ARID1A interactions have been reported in the literature, their molecular basis remains obscure, and only a few have been explored functionally or mapped at an interface level. Here, we use a PRotein Interaction Screen on a peptide MAtrix (PRISMA) combined with quantitative mass spectrometry to identify novel ARID1A interactions and map amino acid residues and motifs that mediate interactions at high sequence resolution. The ARID1A PRISMA assay recapitulates binding of BAF subunits to ARID1A and detects the previously described binding of YAP1 transcriptional coactivator to a PPXY motif. Our PRISMA data reveals binding sites for transcriptional repressor SIN3A and identifies TOX4, CDK2 and CCNA2 as novel interactors. Mutation of a cell cycle-dependent CDK2 phosphorylation site in ARID1A leads to altered gene expression of microtubule factors and defects in cell proliferation. Our work underscores the utility of PRISMA to uncover weak or low abundance interactions that are not detectable by traditional affinity purification strategies. Together, our results characterise novel interactors and a new mode of regulation of ARID1A, and provide a useful resource to further explore mechanistic aspects of ARID1A function.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.15.711656",
-    "doi": "10.64898/2026.03.15.711656",
-    "categories": [],
-    "keywords_matched": [
-      "\\bdna\\s+damage(?:\\s+response)?\\b",
-      "\\b(?:ddr|dna\\s+damage\\s+response)\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.17.712213",
-    "title": "Ventricular Forebrain Organoids Reproduce Macroscale Geometry of the Developing Telencephalon",
-    "authors": [
-      "Justin, A. W.",
-      "Anderson, A.",
-      "Guglielmi, L.",
-      "Lancaster, M. A."
-    ],
-    "summary": "During development, the size of the neuroepithelial cell pool plays a key role in establishing brain size, determining the numbers of derived progenitors and subsequent neuronal cell types. While early histogenesis is well modelled in brain organoids, the organ-scale geometry of the telencephalon is not accurately recapitulated. Herein, we present a new approach for generating ventral and dorsal forebrain organoids which develop a large ventricular neuroepithelium, characteristic of the closed telencephalic vesicle. Using a growth medium that supports aerobic glycolysis and is typically used for endothelial cells, we modulate neuroepithelial expansion to induce a more anatomically accurate neuroepithelial layer which, upon maturation, thickens physiologically to generate the typical neurogenic layered architecture. In addition, we present a new method for embedding organoids in miniature collagen spheres which mimics native extracellular matrix, stabilizes the ventricular geometry for dynamic culture conditions, and provides a means for incorporating vascular cells for neurovascular development. Finally, we demonstrate that human organoids grown under these conditions exhibit dramatically enlarged ventricles and delayed maturation compared to mouse. Together, this approach provides a model of the forebrain neuroepithelium with morphogenetic macroscale geometry and tissue architecture, suitable for investigating neurodevelopment and disease.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.17.712213",
-    "doi": "10.64898/2026.03.17.712213",
-    "categories": [],
-    "keywords_matched": [
-      "\\bGlycolysis\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.711738",
-    "title": "Co-targeting an AMPK--MAPK axis reprograms CAFs and suppresses PDAC",
-    "authors": [
-      "Yamamura, R.",
-      "Satoh, Y.",
-      "Fukuda, J.",
-      "Kimura, T.",
-      "Otsuka, T.",
-      "Sekiya, S.",
-      "Hirata, T.",
-      "Hata, S.",
-      "Sato, R.",
-      "Kamijo, C.",
-      "Moriguchi, T.",
-      "Kosuge, S.",
-      "Kato, T.",
-      "Urano, Y.",
-      "Hatanaka, K. C.",
-      "Tyakht, A. V.",
-      "Harada, K.",
-      "Kawamoto, Y.",
-      "Kawakubo, K.",
-      "Kuwatani, M.",
-      "Takeuchi, S.",
-      "Wada, M.",
-      "Asano, T.",
-      "Nakamura, T.",
-      "Jin, S.",
-      "Mitsuhashi, T.",
-      "Sueishi, F.",
-      "Yamagata, K.",
-      "Masamune, A.",
-      "Oshima, M.",
-      "Abe, T.",
-      "Shinohara, N.",
-      "Matsuno, Y.",
-      "Hatanaka, Y.",
-      "Tanaka, S.",
-      "Shimono, Y.",
-      "Matoba, K.",
-      "Ley, R. E.",
-      "Sakamoto, N.",
-      "Hirano, S.",
-      "Soga, T.",
-      "Fukuda, S.",
-      "Enomoto, A.",
-      "Sonoshita, M."
-    ],
-    "summary": "Pancreatic ductal adenocarcinoma (PDAC) is a fatal cancer characterized by limited therapeutic options and a highly treatment-resistant tumor microenvironment. Beyond tumor-intrinsic genetic alterations, growing evidence indicates that host-microbiome interactions influence cancer progression through microbial metabolites. However, how microbiome-derived metabolites influence oncogenic signaling in PDAC remains unclear. Here, integrated profiling revealed a consistent reduction of the microbial metabolite acetic acid in fecal samples from treatment-naive patients with PDAC and in a genetically defined Drosophila model recapitulating key PDAC driver alterations. Acetic acid activates AMP-activated protein kinase, and pharmacological activation of this pathway together with inhibition of mitogen-activated protein kinase signaling suppressed tumor growth in fly and mouse models. Combined pathway targeting restored AMPK activity and suppressed cancer-associated fibroblast activation. These findings identify a microbiome-associated metabolic vulnerability in PDAC and suggest that coordinated targeting of metabolic and oncogenic signaling may restrain tumor progression and improve therapeutic strategies.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.711738",
-    "doi": "10.64898/2026.03.16.711738",
-    "categories": [],
-    "keywords_matched": [
-      "\\bAMPK\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.12.711477",
-    "title": "Integrated Multiomics Links Metabolic and Inflammatory Remodeling to Arterial Stiffness After the 4,486-km Trans Europe Footrace",
-    "authors": [
-      "Clements, C. M.",
-      "Udovich, C. C.",
-      "Ludwig, K. R.",
-      "Cendali, F. I.",
-      "Dzieciatkowska, M.",
-      "Fortis, S. P.",
-      "Schutz, U. H.",
-      "Schmidt-Trucksass, A.",
-      "Klenk, C.",
-      "D'Alessandro, A.",
-      "Seals, D. R.",
-      "Clayton, Z. S.",
-      "Nemkov, T."
-    ],
-    "summary": "Rationale: Regular aerobic exercise protects against vascular aging and reshapes the circulating molecular milieu, but the relation between vascular function, circulating molecules, and exercise dose at extreme volumes remains poorly defined. The vascular and molecular consequences of chronic, multi-stage ultra-endurance running are particularly unclear. Objective: To define circulating molecular signatures associated with vascular dysfunction following the 64-stage, 4,486-km Trans Europe Foot Race (TEFR). Methods and Results: Integrated multiomics analysis (proteomics, lipidomics, metabolomics) of plasma from 27 finishers revealed a coordinated systemic shift driving an oxidative phenotype. Specifically, we identified altered arginine metabolism and a universal upregulation of lipotoxic ceramides consistent with incomplete fatty acid oxidation. In conjunction, we identified upregulation of innate immune system pathways including the acute phase response and the complement system. Central pulse wave velocity (cPWV) increased significantly after the race, consistent with arterial stiffening. To test whether the post-race circulating milieu could directly influence vascular mechanics, naive murine aortic rings were incubated with participant plasma. Post-race plasma acutely increased aortic elastic modulus, and this effect was attenuated by the superoxide dismutase mimetic TEMPOL, supporting a ROS-dependent component. In human aortic endothelial cells (HAECs), post-race plasma increased reactive oxygen species generation without detectable changes in eNOS phosphorylation, total eNOS abundance, or stimulated nitric oxide production. Endothelial ROS responses were associated with components of the terminal complement pathway. Conclusions: Extreme multi-stage ultra-endurance exercise induces a distinct systemic milieu associated with arterial stiffening through ROS-sensitive mechanisms. This response is characterized by remodeling of arginine-related metabolism, ceramide accumulation, innate immune activation, and oxidative stress, without evidence of reduced measured eNOS abundance or stimulated NO production. These findings identify candidate molecular pathways linking prolonged metabolic stress to vascular dysfunction.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.12.711477",
-    "doi": "10.64898/2026.03.12.711477",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b",
-      "\\bOxidative\\ stress\\b",
-      "\\bReactive\\ oxygen\\ species\\b",
-      "\\bROS\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.17.712240",
-    "title": "Bacillus velezensis-derived muropeptide promotes growth of zebrafish via NOD2-mediated induction of IGF1 signaling",
-    "authors": [
-      "Meng, D.",
-      "Zhou, W.",
-      "Liang, H.",
-      "Xu, S.",
-      "Zhang, Y.",
-      "Wang, Y.",
-      "Yang, Y.",
-      "Zhang, Z.",
-      "Yao, Y.",
-      "Ding, Q.",
-      "Li, M.",
-      "Wang, N.",
-      "Wang, C.",
-      "Tao, Y.",
-      "Zhou, Z.",
-      "Ran, C."
-    ],
-    "summary": "The role of gut microbiome in regulating vertebrate metabolism has been well-recognized. However, the effects of gut bacteria on growth have been less studied. Bacillus is a prevalent genus in the gut microbiota of human and animals. In this study, the effect of gut-derived Bacillus velezensis T23 on growth was investigated in zebrafish. B. velezensis T23 improved the growth of zebrafish and promoted IGF1 production in the liver and muscle, with a concomitant activation of the AKT/mTOR signaling pathway. The growth-promoting effect of B. velezensis T23 was not dependent on lipopeptides and polyketides. Cell wall peptidoglycan isolated from B. velezensis T23, as well as muramyl dipeptide (MDP), was sufficient to stimulate IGF1 signaling and growth. Further, the effect of B. velezensis T23 on growth and IGF1 production was abrogated in nod2-/- zebrafish, confirming that B. velezensis T23 promoted growth via MDP-NOD2 signaling. Gut transcriptomic analysis indicated that B. velezensis T23 promoted renewal and differentiation of intestinal cells, suggesting an involvement of gut-liver axis in the effect of B. velezensis T23 on systemic IGF1 production. Together, our results revealed an effect of gut Bacillus-derived muropeptide on growth via NOD2-IGF1 signaling, and provided novel mechanistic insights in the beneficial effect of Bacillus spp. as probiotics.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.17.712240",
-    "doi": "10.64898/2026.03.17.712240",
-    "categories": [],
-    "keywords_matched": [
-      "\\bmTOR\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.17.712520",
-    "title": "APEX1 Protects Cardiomyocytes Against Oxidative Stress by Regulating p53 Protein Stability",
-    "authors": [
-      "Liu, M.",
-      "Dong, Y.",
-      "Zhang, Q.",
-      "Wu, Z.",
-      "Zheng, L.",
-      "Hu, M.",
-      "Tan, K.",
-      "Dai, M.",
-      "Chen, K.",
-      "Tong, Y.",
-      "Zeng, X.",
-      "Tang, H."
-    ],
-    "summary": "Myocardial ischemia-reperfusion injury significantly exacerbates cardiac damage and worsens clinical outcomes, with oxidative stress in cardiomyocytes representing a central pathological mechanism. In this study, we reveal that APEX1, a key redox regulator, is markedly downregulated in cardiomyocytes under oxidative stress conditions. Functional analyses demonstrate that APEX1 knockdown intensifies oxidative stress-induced cardiomyocyte injury, whereas APEX1 overexpression confers robust protection against hypoxia reoxygenation mediated damage. Mechanistically, APEX1 exerts its cardioprotective effects by stabilizing the p53 protein and modulating its ubiquitination status. These findings establish APEX1 as a critical defender against oxidative injury in cardiomyocytes through direct regulation of p53 protein stability, highlighting its potential as a therapeutic target for ischemia-reperfusion related heart disease.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.17.712520",
-    "doi": "10.64898/2026.03.17.712520",
-    "categories": [],
-    "keywords_matched": [
-      "\\bp53\\b",
-      "\\bOxidative\\ stress\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.17.711179",
-    "title": "From Metabolomics to Function: Ranking Plant Stem Cell Metabolomes for Use in Health and Cosmetics",
-    "authors": [
-      "Zemach, A.",
-      "Plaza, M. R.",
-      "Lee, B. S.",
-      "Little Dod, L.",
-      "Santiago-Rodriguez, E.",
-      "Simmons, D.",
-      "Palomares, M.",
-      "Talavera-Adame, D.",
-      "Newman, N."
-    ],
-    "summary": "Background: Plants produce diverse metabolites with potential benefits for human health. However, the metabolomes of plant callus cultures-cell cultures analogous to stem cells-remain poorly characterized in terms of their functional relevance. Methods: We profiled the metabolomes of six plant calli: Acacia concinna (Shikakai), Daucus carota (carrot), Hibiscus sabdariffa (hibiscus), Linum usitatissimum (flax), Ocimum sanctum (tulsi), and the Nicotiana tabacum Bright-Yellow 2 (BY-2) cell line. To facilitate functional interpretation, we developed Metabolite2Function (M2F), a pipeline that annotates metabolites with biological functions using scientific literature and large language modeling. Results: Untargeted metabolomics identified 177 metabolites, revealing clustering patterns independent of genetic relationships, culture age, or growth rate. Tulsi and carrot calli exhibited enrichment in metabolites relative to the tobacco reference line, whereas flax and hibiscus were comparatively depleted. Most metabolites varied across at least four calli, and 10% were unique to a single species. Using M2F, we annotated 87 metabolites with beneficial activities, including antioxidant, anti-glycation, anti-inflammatory, and anti-senescence functions, as well as skin-related effects such as collagen production and brightening. Notably, antioxidant and anti-senescence metabolite levels correlated with corresponding biological activities in human cells. Conclusions: Plant callus cultures generate distinct and functionally diverse bioactive metabolomes. M2F provides a scalable framework for systematic functional annotation relevant to human health and cosmetic applications.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.17.711179",
-    "doi": "10.64898/2026.03.17.711179",
-    "categories": [],
-    "keywords_matched": [
-      "\\bSenescence\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.17.712511",
-    "title": "Multi-omics characterization of vascular, neurodegenerative, and mixed neuropathology in the aging human brain",
-    "authors": [
-      "Lee, A. J.",
-      "Liu, M.",
-      "Yilmaz, E.",
-      "Kizil, C.",
-      "Oveisgharan, S.",
-      "Schneider, J. A.",
-      "Bennett, D. A.",
-      "Mayeux, R.",
-      "Vardarajan, B. N."
-    ],
-    "summary": "Late-life cognitive impairment most commonly occurs in the setting of mixed neurodegenerative and cerebrovascular pathology, yet the molecular programs distinguishing vascular, neurodegenerative, and mixed pathology in the aging human brain remain incompletely defined. We performed neuropathology-stratified proteomic and transcriptomic profiling of postmortem brain tissue from participants in the Religious Orders Study and Rush Memory and Aging Project. Dorsolateral prefrontal cortex proteomics (n = 733) were analyzed alongside bulk RNA sequencing from dorsolateral prefrontal cortex (n = 938), posterior cingulate cortex (n = 569), and anterior caudate (n = 632). Participants were classified into vascular, neurodegenerative, and mixed pathology groups based on comprehensive autopsy assessment. Neurodegenerative and mixed pathology, relative to vascular pathology, showed coordinated upregulation of immune and inflammatory pathways and downregulation of mitochondrial and oxidative phosphorylation programs across molecular layers. Although few individual proteins differed between mixed and neurodegenerative groups, pathway-level analyses identified additional remodeling programs in mixed pathology, including extracellular matrix organization and vesicle-mediated transport. Proteomic co-expression network analysis identified immune-stress modules associated with amyloid burden, tau pathology, and cognitive decline, whereas a mitochondrial bioenergetic module showed relative preservation in vascular pathology. Cross-omics concordance was robust at the pathway level but limited at the level of individual genes and proteins. These findings define conserved molecular programs distinguishing vascular, neurodegenerative, and mixed pathology and demonstrate that pathway-level organization provides a stable framework for interpreting molecular heterogeneity in late-life dementia.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.17.712511",
-    "doi": "10.64898/2026.03.17.712511",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.15.711457",
-    "title": "Multimodal MRI prediction of cognitive functioning across the lifespan: separating between-person differences from within-person changes",
-    "authors": [
-      "Konopkina, K.",
-      "Buianova, I.",
-      "Lal Khakpoor, F.",
-      "Pornprasertmanit, S.",
-      "Chan, M.",
-      "Pat, N."
-    ],
-    "summary": "Brain MRI shows promise for predicting cognitive functioning, but its utility depends on its capacity to capture stable between-person differences (e.g., patient stratification), longitudinal within-person changes (e.g., prognosis, treatment monitoring), or both. Using longitudinal data from 450 adults (aged 21-90; up to three waves, five years apart) in the Dallas Lifespan Brain Study, we benchmarked five modalities, task fMRI, functional connectivity (FC), structural MRI (sMRI), diffusion-weighted imaging (DWI), and arterial spin labeling (ASL), across 37 phenotypes and their combination. Stacking all MRI modalities into one marker predicted cognitive functioning with the highest accuracy (R{superscript 2}=.51), followed by DWI and FC. Variance decomposition showed MRI markers explained substantial between-person variance (up to 60.3%) but modest within-person changes (up to 17.2%) in cognitive functioning. Commonality analysis revealed most markers, except ASL, overlapped with age-related variance in cognitive functioning. These findings clarify the strengths and limitations of MRI markers for stratifying and monitoring cognitive aging.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.15.711457",
-    "doi": "10.64898/2026.03.15.711457",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.15.711869",
-    "title": "Erythroblast-derived mediators program neutrophil development and function",
-    "authors": [
-      "Koenis, D.",
-      "de Matteis, R.",
-      "Gomez, E. A.",
-      "Rot, A.",
-      "Dalli, J."
-    ],
-    "summary": "Granulopoiesis is a tightly regulated process encompassing the production, maturation, and release of neutrophils in the bone marrow, ensuring their optimal physiological contribution to host defence. The mechanisms that maintain a balanced regulation of neutrophil effector functions during this process remain incompletely understood. Here, we identify bone marrow-resident erythroblasts as a key source of specialized pro-resolving mediators (SPMs) and show that they imprint neutrophil development and function. Terminally differentiating erythroblasts highly express the key SPM biosynthetic enzyme 12/15-lipoxygenase (Alox15) and accordingly generate several SPMs, including n-3 docosapentaenoic acid-derived Resolvin D5 (RvD5n-3 DPA). Conditional erythroblast-specific depletion of Alox15 decreased bone marrow SPM levels and caused altered neutrophil phenotypes including augmented release of reactive oxygen species and neutrophil extracellular traps and increased migration to chemotactic stimuli, leading to increased neutrophil sequestration in peripheral organs and concomitant neutropenia. Mice with erythroblast-specific Alox15 depletion displayed impaired bacterial clearance in experimental peritonitis and increased severity in DSS-colitis. Aberrant neutrophil phenotypes were rectified by the reconstitution of RvD5n-3 DPA and were largely recapitulated by the specific depletion of the SPM receptor Gpr101 in bone marrow macrophages, but not in neutrophil precursors, suggesting the involvement of the macrophage niche in mediating the SPM effects on granulopoiesis. Our findings establish a central role for erythroblasts and their SPM production in instructing granulopoiesis for balanced functional neutrophil responses.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.15.711869",
-    "doi": "10.64898/2026.03.15.711869",
-    "categories": [],
-    "keywords_matched": [
-      "\\bReactive\\ oxygen\\ species\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.15.711849",
-    "title": "MRN-ATM Pathway Activation in CD4 T-Cell Senescence during Chronic Hepatitis B Virus Infection",
-    "authors": [
-      "Deng, X.",
-      "Wang, X.",
-      "Li, Y.",
-      "Li, F.",
-      "Xiong, J.",
-      "Shi, H.",
-      "Zhou, Y.",
-      "Ye, C.",
-      "Zheng, X.",
-      "Lian, J.",
-      "Fan, C.",
-      "Zhang, Y."
-    ],
-    "summary": "T-cell senescence is a hallmark of immune dysfunction in persistent viral infections, characterized by DNA damage accumulation and telomere erosion. However, the mechanisms driving CD4 T-cell senescence in the context of chronic hepatitis B virus (HBV) infection remain poorly defined. In this study, we demonstrated that people with chronic HBV infection exhibited CD4 T-cell senescence, marked by elevated KLRG1, along with increased DNA damage and telomere shortening, compared to HS. Notably, activation of the MRN-ATM (MRE11/RAD50/NBS1-Ataxia Telangiectasia Mutated Protein) pathway was prominent in CD4 T cells from HBV patients. Importantly, suppression of MRN attenuated ATM phosphorylation and its downstream signaling molecules, and inhibition of ATM reduced the production of proinflammatory cytokines in CD4 T cells derived from both HBV patients and HS. These results suggest that in chronic HBV infection, the virus induced CD4 T-cell senescence, telomere erosion, and DNA damage, while concurrent activation of the MRN-ATM pathway may serve as a compensatory mechanism to preserve CD4 T-cell function. Elucidating this relationship between T-cell senescence and DNA damage repair helps to understanding the mechanisms underlying HBV persistence and providing potential therapeutic targets against chronic HBV infection.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.15.711849",
-    "doi": "10.64898/2026.03.15.711849",
-    "categories": [],
-    "keywords_matched": [
-      "\\bdna\\s+damage(?:\\s+response)?\\b",
-      "\\bSenescence\\b",
-      "\\bTelomere\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712013",
-    "title": "GeNETop: Context-Specific Genome-Scale Constrained Models Using Network Topology, Flux Variability, and Transcriptomics",
-    "authors": [
-      "Troitino-Jordedo, D.",
-      "Mansouri, A.",
-      "Minebois, R.",
-      "Querol, A.",
-      "Remondini, D.",
-      "Balsa-Canto, E."
-    ],
-    "summary": "Context-specific genome-scale metabolic models are critical tools for studying cellular metabolism under dynamic conditions. However, most existing methods for deriving these models are designed for steady-state settings and may fail to preserve reactions required for transient metabolic shifts, thereby limiting their compatibility with dynamic FBA.\n\nHere, we present GeNETop, a methodology for deriving context-specific GEMs designed to preserve dynamic compatibility. GeNETop integrates flux variability analysis (FVA), network topology metrics based on the Integrated Value of Influence (IVI), and transcriptomic data to identify reactions that are both flux-flexible and structurally influential. Reactions are prioritized based on variability and maximality indices, while topology and gene expression guide further refinement, reducing dependence on fixed expression thresholds.\n\nUsing batch fermentation of Saccharomyces cerevisiae as a case study, we evaluate GeNETop against established methods for context-specific metabolic reconstruction.\n\nThe resulting networks remain dynamically feasible across growth phases, capture key metabolic transitions, reduce non-essential reactions, and maintain computational tractability.\n\nOverall, GeNETop enables context-specific metabolic reconstructions that are compatible with dynamic simulations while maintaining computational efficiency. By overcoming key limitations of existing approaches, the method supports a more accurate representation of time-dependent metabolic processes in biotechnology and systems biology.\n\nAuthor summaryCellular metabolism relies on complex networks of reactions to process nutrients, generate energy, and build essential compounds for biomass. Context-specific metabolic models aim to represent only the reactions active under a given condition, improving biological realism and reducing computational complexity in flux balance analysis simulations.\n\nHowever, metabolic activity adapts dynamically to changing environmental conditions, and reactions that are inactive at one stage may become essential at another.\n\nMany current reconstruction methods are designed for steady-state conditions and may exclude reactions that are required during metabolic transitions, thereby limiting their ability to describe dynamic behavior.\n\nHere, we introduce GeNETop, a novel approach that refines context-specific networks by integrating multiple layers of information. GeNETop identifies the most relevant reactions by considering their flexibility, importance within the network topology, and gene activity levels. In this way, the method generates biologically meaningful models that focus on metabolic pathways relevant under dynamic conditions.\n\nWe tested GeNETop on yeast fermentation, a key process in food and biofuel production. The resulting models capture metabolic changes over time and enable stable dynamic simulations, supporting improved flux balance analysis of time-dependent metabolic processes.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712013",
-    "doi": "10.64898/2026.03.16.712013",
-    "categories": [],
-    "keywords_matched": [
-      "\\bCellular\\ metabolism\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712004",
-    "title": "Autophagy impairment by ATG4B deficiency reduces experimental hypersensitivity pneumonitis severity",
-    "authors": [
-      "Cabrera, S.",
-      "Sanchez-Barajas, A.",
-      "Gaxiola, M.",
-      "Garcia-Vicente, A.",
-      "Selman, M.",
-      "Pardo, A."
-    ],
-    "summary": "Autophagy has been implicated in several lung diseases, either protecting tissues or driving pathology. Hypersensitivity pneumonitis (HP) is a complex inflammatory lung disease, and autophagy is heavily involved in regulating inflammation. The role of autophagy in HP remains unclear. The aim of our study was to understand the role of autophagy in HP pathogenesis. GFP-LC3 transgenic mice were exposed intranasally to Saccharopolyspora rectivirgula (SR) to induce HP and follow autophagy activation in the lung. Then, we take advantage of our Atg4b-deficient mouse model to assess how autophagy disruption impacts lung inflammation in response to SR antigen challenge. Increased autophagy activation was observed in epithelial and inflammatory cells after SR antigen exposure in GFP-LC3 transgenic lungs. GFP-LC3 puncta colocalized with ATG4B and ATG5 in epithelial and inflammatory cells after antigen exposure. Autophagy impairment limits the inflammatory response after SR antigen exposure in the lungs from the Atg4b-deficient mice when compared to WT mice. To evaluate whether lipopolysaccharide (LPS) exacerbates the inflammatory response in the Atg4b-deficient, a SR+LPS combined treatment was developed and we discovered that LPS aggravates the SR-induced HP in WT but not in Atg4b-deficient mice. Reduced HP severity in Atg4b-deficient mice was associated with decreased expression of NFkB, CCL1, CCL25, CXCL1, TNFR1, IL-13, and IL-17A, diminished CD4+ T cell recruitment and expansion, reduced M2-like macrophages, and decreased granuloma and iBALT development. Our findings highlight autophagy as a critical driver in HP pathogenesis and as a potetial target for novel theraphy development.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712004",
-    "doi": "10.64898/2026.03.16.712004",
-    "categories": [],
-    "keywords_matched": [
-      "\\bAutophagy\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712082",
-    "title": "Interpretable machine learning meets systems biology to decode genotype-phenotype maps",
-    "authors": [
-      "Reguna Madhan, R. L.",
-      "Balaji, R.",
-      "Sinha, H.",
-      "Bhatt, N."
-    ],
-    "summary": "Resolving causal genes from quantitative trait loci (QTL) remains fundamentally limited by linkage disequilibrium. We developed an interpretable machine learning framework that captures higher-order nonlinear genotype-phenotype relationships and allows conditional evaluation of genetic variants, enabling statistical decorrelation of linked loci. Applied to Saccharomyces cerevisiae segregants across chemical stress conditions, our method achieved >75% prediction accuracy and identified known causal genes, including MKT1 (genotoxic stress) and IRA2 (osmotic stress). SHAP-based analysis recovered 56% of the validated pleiotropic genes, compared with 36% by conventional contingency testing. Integration with genome-scale metabolic models revealed pathway enrichments distinguishing high-growing strains, including carbon transport, glycolysis, and oxidative phosphorylation. Notably, gene regulatory network analysis identified a novel function for PDR8 in protein mannosylation and cell wall integrity--functions extending beyond its role in drug resistance. This framework demonstrates that interpretable machine learning, coupled with systems biology, transforms QTL associations into mechanistic biological insight.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712082",
-    "doi": "10.64898/2026.03.16.712082",
-    "categories": [],
-    "keywords_matched": [
-      "\\bGlycolysis\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.711716",
-    "title": "Mitochondrial Carbonic Anhydrase-VB inhibition rescues brain endothelial stress and memory in Alzheimer's disease models",
-    "authors": [
-      "Lemon, N. L.",
-      "Canepa, E.",
-      "Vazquez-Torres, R.",
-      "Parodi-Rullan, R.",
-      "Hirt, T.",
-      "Petersohn, L. M.",
-      "Rifat, T.",
-      "Abyaneh, M. H.",
-      "Ilies, M. A.",
-      "Fossati, S."
-    ],
-    "summary": "Alzheimers Disease (AD) is a devastating neurodegenerative disorder with no effective cure, characterized by the cerebral parenchymal and vascular accumulation of aggregated Amyloid-{beta} (A{beta}) and hyperphosphorylated tau. Cerebrovascular and mitochondria dysfunction are early causal events in the progression of AD. Previous studies support that inhibiting carbonic anhydrases (CA) may prevent mitochondrial and cerebrovascular dysfunction in AD models. Here, we selectively target the mitochondrial CA isoform CA-VB by pharmacological and genetic manipulation, in human cerebral microvascular endothelial cells (hCMEC) and we confirm the protective effects of the CA-V inhibitor in AD mice. CA-V inhibition and CA-VB KO prevent A{beta} induced mitochondria-mediated endothelial apoptosis, loss of barrier resistance, and hCMEC inflammatory activation. Strikingly, CA-V inhibition also mitigates caspase activation and endothelial cell activation in the brains of 3xTg AD mice, resulting in preserved memory function. Our results demonstrate that selective CA-V inhibition is an effective and promising strategy against AD-mediated cerebrovascular pathology, neuroinflammation and cognitive impairment.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.711716",
-    "doi": "10.64898/2026.03.16.711716",
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712079",
-    "title": "YME1L1 is Dispensable for T Lymphocyte Activation Despite its Upregulation and Activity",
-    "authors": [
-      "Veldhoen, M.",
-      "Malpica, G.",
-      "Joaquim, M.",
-      "Machado, R. S.",
-      "Fernandes, J. C.",
-      "Hall, M. J.",
-      "Martins, G.",
-      "Morais, V. A."
-    ],
-    "summary": "Mitochondrial dynamics are critical for T cell activation, differentiation, and survival. The inner mitochondrial membrane ATP-dependent metalloprotease YME1L1 regulates proteostasis and the processing of optic atrophy protein 1 (OPA1), thereby shaping mitochondrial cristae architecture and respiratory function in many cell types. Whether YME1L1 fulfils similar roles in lymphocytes remains unknown. Here, we examined YME1L1 function in T cells using conditional knockout mice lacking YME1L1 in lymphocytes (YME1L1dTB). YME1L1 expression increased upon T cell activation, yet its absence did not alter thymic development, peripheral T cell homeostasis, or the proportions of naive, memory, and regulatory subsets. T cell activation and proliferation in response to anti-CD3e; stimulation were also unaffected. Mitochondrial parameters such as mass, membrane potential, and reactive oxygen species production, were largely preserved, with only modest, transient increases in oxidative stress detected in CD4 T cells lacking YME1L1. Electron microscopy revealed no major changes in mitochondrial size or roundness but showed increased cristae branching and reduced tortuosity, indicating subtle alterations in ultrastructure. Additionally, gd T cells in YME1L1dTB mice exhibited a mild shift toward interferon-g-producing phenotypes at the expense of interleukin-17-producing subsets. Collectively, our data indicate that YME1L1, despite its requirement for OPA1 cleavage, is dispensable for T cell development and acute activation but may contribute to fine-tune mitochondrial architecture and gd T cell effector programming. These findings highlight cell type-specific redundancies in mitochondrial quality control and underscore the value of negative data in refining the understanding of mitochondrial regulation in immune cells.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712079",
-    "doi": "10.64898/2026.03.16.712079",
-    "categories": [],
-    "keywords_matched": [
-      "\\bOxidative\\ stress\\b",
-      "\\bReactive\\ oxygen\\ species\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712170",
-    "title": "Age-related sleep changes in the human brain: insights from a large-scale thalamocortical model",
-    "authors": [
-      "Navas Zuloaga, M. G.",
-      "Purcell, S. M.",
-      "Bazhenov, M."
-    ],
-    "summary": "Sleep-dependent memory consolidation relies on slow oscillations (SOs) that coordinate large-scale brain dynamics during non-rapid eye movement (NREM) sleep. Aging disrupts SO properties - reducing amplitude, density, and slope while altering the spatiotemporal patterns of slow-wave propagation - yet the circuit-level mechanisms linking structural brain changes to these disruptions remain poorly understood. Here we present a multi-scale, whole-brain thalamocortical network model incorporating biologically grounded human connectivity derived from diffusion MRI tractography, comprising over 10,000 cortical columns per hemisphere with spiking pyramidal and inhibitory neurons and an anatomically differentiated thalamic module. Simulating progressive synaptic loss, we find that selective degradation of recurrent excitatory connectivity, but not excitatory-inhibitory projections, reproduces empirically observed age-related SO changes. These results suggest that aging selectively disrupts the temporal structure of slow-wave sleep critical for interference-free memory consolidation, providing mechanistic insight into cognitive decline in the aging brain.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712170",
-    "doi": "10.64898/2026.03.16.712170",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.712159",
-    "title": "Functional divergence of regulatory and conventional bovine neutrophils following Mycobacterium bovis infection",
-    "authors": [
-      "Saint Vanne, M.",
-      "Bounab, B.",
-      "Eymieux, S.",
-      "Perdriau, E.",
-      "Carreras, F.",
-      "Roullier, R.",
-      "Le Vern, Y.",
-      "Pichon, J.",
-      "Doz-Deblauwe, E.",
-      "Germon, P.",
-      "Winter, N.",
-      "Remot, A."
-    ],
-    "summary": "Bovine tuberculosis (bTB), due to Mycobacterium bovis (Mb) infection, is a chronic cattle disease and neglected cause of zoonotic tuberculosis. The role of neutrophils in bTB is overlooked. We recently identified a new neutrophil subset in cattle and mice with a similar morphology to conventional inflammatory neutrophils (Nconv). However, unlike Nconv, these regulatory neutrophils (Nreg) express MHC-II at their surface and can suppress lymphocyte proliferation. In this study, we compared the responses of bovine Nconv and Nreg to infection with a virulent Mb strain circulating in France and the attenuated Mb BCG vaccine. Nreg and Nconv had different transcriptional profiles and were differentially activated by Mb infection. Both Nreg and Nconv efficiently killed Mb, but Nreg had higher levels of phagocytosis activity and ROS production. Nreg had higher levels of mitochondrial activity and an ultrastructural organization different from that of Nconv. Our results provide the first insight into the functional characterization of bovine neutrophil subsets during Mb infection and highlight a new layer of complexity in their functional diversity that must be taken into account to improve our understanding of bTB pathophysiology, which is urgently required to improve the management of this costly disease.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.712159",
-    "doi": "10.64898/2026.03.16.712159",
-    "categories": [],
-    "keywords_matched": [
-      "\\bROS\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.18.712565",
-    "title": "The osteoclast intracellular environment fosters bacterial growth during Staphylococcus aureus infection",
-    "authors": [
-      "O'Connor, L. D.",
-      "Bhagat, S.",
-      "Rohatgi, N.",
-      "Mbalaviele, G.",
-      "Cassat, J. E.",
-      "Veis, D. J."
-    ],
-    "summary": "Bone infections, which are predominantly caused by Staphylococcus (S.) aureus, can be difficult to treat and have high rates of chronicity and reoccurrence. We previously identified that osteoclasts, the cells that break down bone matrix, may contribute to disease progression by allowing S. aureus to replicate intracellularly. There we identified that this bacteriums ability to grow intracellularly is tied to the maturation of osteoclasts. In this study we addressed whether osteoclast differentiation supports intracellular growth by changing the host cells response to infection or by altering the host cell environment to better support S. aureus. Using dual species RNA-sequencing we analyzed host and bacterial transcripts of infected osteoclast and precursor bone marrow macrophage (BMM) cultures. Host transcript analysis suggests that infected osteoclasts are slow to upregulate bacterial response genes compared to BMMs. We also identify that the S. aureus transcriptional response is primarily determined by the host cell type, and that bacteria in osteoclasts upregulate carbon metabolism genes compared to those inside BMMs. By utilizing intracellular survival assays on S. aureus mutants deficient in carbon metabolism and related pathways we determine that S. aureus require glycolysis, acetyl-CoA synthesis, and aspartate biosynthesis for proliferation inside osteoclasts, although bacteria can survive without them. With differentiation, osteoclasts increase glutamine uptake, and this metabolite is required for S. aureus intracellular growth. Taken together, these findings suggest that osteoclasts support S. aureus intracellular growth by providing nutrients required to replicate in the context of a blunted antimicrobial response.\n\nIMPORTANCEInfectious osteomyelitis, bone infection, is frequently caused by the bacterium Staphylococcus aureus. Intracellular infection of cells that build bone, osteoblasts, and cells that resorb bone, osteoclasts, have been implicated in disease progression by providing a niche for immune evasion. While S. aureus in osteoblasts are largely quiescent, bacteria in osteoclasts proliferate and therefore may be a source of reemergent infection. Factors that promote this growth in osteoclasts are poorly characterized. In this study we find that osteoclasts have a diminished transcriptional response to infection and show that S. aureus acquire glucose and glutamine, which have high flux in osteoclasts, to support intracellular growth. We further observe that S. aureus in osteoclasts require aspartate synthesis to grow intracellularly. This work highlights the importance of host cellular metabolism for the intracellular fate of S. aureus as an added factor beyond the direct antimicrobial response.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.18.712565",
-    "doi": "10.64898/2026.03.18.712565",
-    "categories": [],
-    "keywords_matched": [
-      "\\bGlycolysis\\b",
-      "\\bCellular\\ metabolism\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.03.16.711596",
-    "title": "Neuronal overexpression of Nrf2 reduces dystrophic neurites in 5XFAD Alzheimer's disease model mice",
-    "authors": [
-      "Sadleir, K. R.",
-      "Gomez, K. P.",
-      "Chandra, S.",
-      "Ley, M. L.",
-      "Khatri, A. W.",
-      "Guo, J.",
-      "Xue, Y.",
-      "Cepko, C. L.",
-      "Vassar, R."
-    ],
-    "summary": "BackgroundThe hallmark lesions of the Alzheimers disease (AD) brain are amyloid plaques consisting of the {beta}-amyloid protein and neurofibrillary tangles comprised of hyperphosphorylated, aggregated tau protein, which both cause neuronal dysfunction and loss. One goal of neuroprotective therapies is to maintain normal neuronal function and survival in the presence of toxic pathologies such as plaques and tangles. A potential neuroprotective target is nuclear factor erythroid 2-related factor 2 (Nrf2) transcription factor, which regulates the expression of many antioxidant and detoxification genes. Nrf2 mRNA is decreased in AD brains, and deletion of the Nrf2 gene causes increased BACE1 and A{beta} production and worsened cognitive deficits in amyloid pathology mouse models. Overexpression of Nrf2 in astrocytes has been shown to be protective against neurodegeneration, but the role of Nrf2 is neurons is unclear.\n\nMethodsWe overexpressed Nrf2 from birth in neurons of 5XFAD amyloid pathology model mice using AAV8, hypothesizing that neuronal Nrf2 overexpression decreases cortical neuron loss and reduces plaque load by decreasing BACE1 levels. We quantified protein levels by immunoblot and neuropathology by immunofluorescent staining, using two-way ANOVA to measure differences between genotypes and AAV treatments. To assess genetic changes, we performed bulk mRNA seq.\n\nResultsWhile neuronal overexpression of Nrf2 in 5XFAD mice did not prevent neuronal loss as measured by NeuN labeling, decrease neuroinflammation by Iba1 or GFAP labeling, or reduce amyloid load by A{beta} antibody or methoxy-XO4 staining, we show that increased Nrf2 expression reduces BACE1 protein levels, especially in swollen axonal dystrophic neurites around amyloid plaques. Other proteins that accumulate in dystrophic neurites were also reduced, indicating decreased dystrophic neurites overall. Immunoblot analysis suggested increased autophagy was unlikely to play a role, while bulk mRNA sequencing indicated changes in lipid metabolism and microtubule stability may have contributed to reduced dystrophic neurite formation.\n\nConclusionsDystrophic neurites impair action potential conductance and contribute to tau seeding and spreading. Their reduction by neuronal Nrf2 overexpression may protect neurons against these pathologic changes. Further study of the mechanisms by which Nrf2 reduces dystrophic neurites may lead to therapeutic strategies that can limit neuritic damage caused by cerebral amyloid accumulation.",
-    "published": "2026-03-18T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.16.711596",
-    "doi": "10.64898/2026.03.16.711596",
-    "categories": [],
-    "keywords_matched": [
-      "\\bAutophagy\\b",
       "\\bLipid\\ metabolism\\b"
     ]
   },
   {
-    "id": "10.64898/2026.03.18.712680",
-    "title": "Midgestation metabolic constraint in purine metabolism drives distinct strategies for placenta and fetal growth",
+    "id": "pmid:41862947",
+    "title": "Endoplasmic reticulum stress inhibitor 4-PBA alleviates immune damage in mice with enteroviral encephalitis by inhibiting ferroptosis.",
     "authors": [
-      "Xu, W.",
-      "De La Cruz, N.",
-      "Woods, A.",
-      "Lokshtanov, D.",
-      "Gao, S.",
-      "Khan, N. A.",
-      "Wright, S.",
-      "Florian-Rodriguez, M.",
-      "McIntire, D. D.",
-      "Duryea, E. L.",
-      "Nelson, D. B.",
-      "Spong, C. Y.",
-      "Herrera, C. L.",
-      "Hanna, J. H.",
-      "Srivatsan, S. R.",
-      "Aguilera Castrejon, A.",
-      "Solmonson, A."
+      "He S",
+      "Chen X",
+      "Luo J",
+      "Li X",
+      "Zeng F"
     ],
-    "summary": "Purine nucleotides are essential for mammalian development1,2. Purine monophosphates support cell signaling and proliferation and are synthesized by cells through either de novo synthesis or a salvage pathway3. We previously identified a midgestational metabolic transition in mice (gestational days gd10.5 to 11.5) characterized by changes in purine metabolism4. Midgestation is a period of rapid growth for placenta and embryo, yet it remains unclear how the placental tissues expand without directly competing with the embryo for biosynthetic resources. Here, we show that this midgestational metabolic transition is associated with a marked reduction in embryonic expression of purine salvage enzymes, which constrains embryonic metabolism and leads to different strategies for purine synthesis between the placenta and embryo. Midgestation embryos are unable to engage the purine salvage pathway even when de novo purine synthesis is blocked either in vivo or in ex utero embryo culture, whereas placental tissue and trophoblasts retain the capacity to use either pathway. Disruption of de novo purine synthesis in mice causes reduced embryonic growth, impaired axial elongation, and abnormal brain and placental development, which are only partially rescued by supplementation with purine salvage precursors. In human placenta, trophoblast stem cells readily switch between the de novo and salvage pathways based on nutrient availability, and syncytiotrophoblasts (STB) preferentially rely on the salvage pathway. We identified guanosine monophosphate (GMP) as a metabolic checkpoint regulating STB differentiation, with insufficient GMP levels causing degradation of the small GTPase Rheb and failure of mTOR activation. Supplementation of purine salvage substrates restored GMP synthesis and STB differentiation in humans, but not mice. Further, in vivo measurements in humans revealed that maternal circulating hypoxanthine decreases during pregnancy and is further reduced in women with clinically small placentas, highlighting the role of hypoxanthine in supporting placental growth. These results uncover compartmentalized purine salvage between the embryo and placenta as a mechanism that limits competition for biosynthetic resources and enables coordinated growth during mammalian development.",
-    "published": "2026-03-18T00:00:00+00:00",
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
     "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.18.712680",
-    "doi": "10.64898/2026.03.18.712680",
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862947/",
+    "doi": "doi: 10.1186/s12985-026-03103-7",
     "categories": [],
     "keywords_matched": [
-      "\\bmTOR\\b"
+      "\\bFerroptosis\\b"
     ]
   },
   {
-    "id": "10.64898/2026.03.18.712693",
-    "title": "UFMylation of Pyruvate Dehydrogenase Regulates Mitochondrial Metabolism",
+    "id": "pmid:41862889",
+    "title": "Anticancer potential of Curcuma caesia: induction of DNA damage and apoptosis in cervical cancer.",
     "authors": [
-      "Nguyen, P. T.",
-      "Wu, Z.",
-      "Kim, D.",
-      "Ogu, T.",
-      "Yin, S.",
-      "Sondhi, V.",
-      "Cai, F.",
-      "Tippetts, T. S.",
-      "Jen, A.",
-      "Shishkova, E. J.",
-      "Cai, L.",
-      "Dumesnil, D.",
-      "Cervantes, M.",
-      "Chen, H.",
-      "Mishra, P.",
-      "Coon, J.",
-      "Hoxhaj, G.",
-      "Ni, M.",
-      "DeBerardinis, R. J."
+      "Radhakrishnan M",
+      "Parida BP",
+      "Shekhar H",
+      "Singh P",
+      "Ansari MA",
+      "Singh J",
+      "Singh S",
+      "Narayan G"
     ],
-    "summary": "The ubiquitin-fold modifier 1 (UFM1) post-translational modification (PTM), or UFMylation, regulates protein homeostasis and is essential for human development. Yet the roles of the de-UFMylase, UFM1-specific peptidase 2 (UFSP2), which removes UFM1 from UFMylated proteins, remain poorly characterized. Here, we demonstrate that UFMylation and UFSP2 regulate mitochondrial metabolism. Quantitative proteomics in UFSP2-deficient cells revealed the accumulation of many proteins previously unknown to be impacted by UFMylation. These included components of the mitochondrial ribosome, electron transport chain (ETC), and pyruvate dehydrogenase (PDH) complex. Functional analyses demonstrated that excessive UFMylation in UFSP2-deficient cells increases mitochondrial respiration, glucose oxidation in the tricarboxylic acid (TCA) cycle, and PDH enzymatic activity. We identified dihydrolipoamide S-acetyltransferase (DLAT), the E2 component of PDH, as a direct UFMylation substrate, with lysine 118 (K118) as the primary conjugation site. Mutating K118 to arginine (K118R) abolished DLAT UFMylation and reduced pyruvate oxidation, identifying this modification as an activator of PDH. These findings reveal a UFMylation-based regulatory mechanism that controls mitochondrial function by inducing utilization of pyruvate as a TCA cycle fuel.",
-    "published": "2026-03-18T00:00:00+00:00",
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
     "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.03.18.712693",
-    "doi": "10.64898/2026.03.18.712693",
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862889/",
+    "doi": "doi: 10.1186/s12906-026-05351-0",
     "categories": [],
     "keywords_matched": [
-      "\\bMitochondrial\\ metabolism\\b"
+      "\\bdna\\s+damage(?:\\s+response)?\\b",
+      "\\bApoptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862855",
+    "title": "Adverse childhood experiences and hypertension jointly increase cardiovascular risk: evidence from three national aging cohorts.",
+    "authors": [
+      "Zhang Z",
+      "Liu Z",
+      "Ye F",
+      "Mo D",
+      "Shi Y",
+      "Tao P",
+      "Xie C",
+      "Chen L",
+      "Li Y",
+      "Gu Q",
+      "Tu Q",
+      "Liu J"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862855/",
+    "doi": "doi: 10.1186/s12889-026-27061-5",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862812",
+    "title": "Targeting dormant cancer cells: ferroptosis as a precision therapeutic strategy.",
+    "authors": [
+      "Hao S",
+      "Guo Y",
+      "Huang Q",
+      "Gan L",
+      "Chen C",
+      "Li Q",
+      "Di C",
+      "Si J"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862812/",
+    "doi": "doi: 10.1186/s11658-026-00895-y",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862802",
+    "title": "Intermittent fasting inhibits ferroptosis by modulating CD36 and its palmitoylation to alleviate diabetic dry eye.",
+    "authors": [
+      "Wang W",
+      "Xue J",
+      "Xiao B",
+      "Qian X",
+      "Li J",
+      "Lin X",
+      "Chen Z",
+      "Wang W",
+      "Liang L"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862802/",
+    "doi": "doi: 10.1186/s11658-026-00893-0",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862733",
+    "title": "Cancer-associated fibroblasts as key regulators of lipid metabolism in the tumour microenvironment.",
+    "authors": [
+      "Adams J",
+      "Suelzu CM",
+      "Strusi G",
+      "Stebbing J"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862733/",
+    "doi": "doi: 10.1038/s41388-026-03733-9",
+    "categories": [],
+    "keywords_matched": [
+      "\\bLipid\\ metabolism\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862686",
+    "title": "ROS-NLRP3 participates in the pyroptosis response of excretory-secretory products from protoscoleces of Echinococcus granulosus in hepatocytes.",
+    "authors": [
+      "Cao J",
+      "Chen J",
+      "Li H",
+      "Lv H",
+      "Jiang Y"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862686/",
+    "doi": "doi: 10.1038/s41598-026-45127-7",
+    "categories": [],
+    "keywords_matched": [
+      "\\bPyroptosis\\b",
+      "\\bROS\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862685",
+    "title": "Microglial NLRP3-dependent pyroptosis promotes cognitive dysfunction of diabetic encephalopathy by inhibiting adult hippocampal neurogenesis through the release of IL-1β.",
+    "authors": [
+      "Hua MY",
+      "Huang S",
+      "Zhuang ZY",
+      "Han XL",
+      "Liu XJ",
+      "Liang ZH",
+      "Lou NJ",
+      "Zheng FJ",
+      "Lv L",
+      "Zhuang XH",
+      "Yu SY",
+      "Chen SH"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862685/",
+    "doi": "doi: 10.1038/s41401-026-01774-0",
+    "categories": [],
+    "keywords_matched": [
+      "\\bPyroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862635",
+    "title": "Uncaged by ROS.",
+    "authors": [
+      "Chong G"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862635/",
+    "doi": "doi: 10.1038/s41589-026-02194-1",
+    "categories": [],
+    "keywords_matched": [
+      "\\bROS\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862581",
+    "title": "The redundant protein synthesis gene Aimp1 challenges the canonical inverse relationship between translation and autophagy.",
+    "authors": [
+      "Lee DD",
+      "Rutkowski BN",
+      "Wilson NC",
+      "Kuc RD",
+      "Schwarz CD",
+      "Schwarz MA"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862581/",
+    "doi": "doi: 10.1038/s42003-026-09892-5",
+    "categories": [],
+    "keywords_matched": [
+      "\\bAutophagy\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862549",
+    "title": "Thioredoxin protects against diabetic hearing loss by regulating TOMM22 mediated mitochondrial autophagy in hair cells and inhibiting microglial M1 polarization.",
+    "authors": [
+      "Zhong S",
+      "Xu M",
+      "Wang Q",
+      "Wang S",
+      "Li X",
+      "Guo Y",
+      "Kong H"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862549/",
+    "doi": "doi: 10.1038/s41598-026-44909-3",
+    "categories": [],
+    "keywords_matched": [
+      "\\bAutophagy\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862492",
+    "title": "Modified letrozole vs GnRH antagonist protocols in ovarian aging women for IVF: an open-label, multicenter, randomized controlled trial.",
+    "authors": [
+      "Zhao Y",
+      "Zhao S",
+      "Xu J",
+      "Chen J",
+      "Lin Y",
+      "Peng Y",
+      "Li X",
+      "Pan P",
+      "Shu J",
+      "Li X",
+      "Wang J",
+      "Chu C",
+      "Hu R",
+      "Yu Y",
+      "Zhang Y",
+      "Rehman SU",
+      "Dong G",
+      "Yang D",
+      "Azziz R",
+      "Mol BW",
+      "Xia Y",
+      "Zhao X"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862492/",
+    "doi": "doi: 10.1038/s41467-026-70964-5",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862446",
+    "title": "ATGL sensitizes hepatocellular carcinoma cells to genotoxic drugs by modulating p53 acetylation/phosphorylation status.",
+    "authors": [
+      "Castelli S",
+      "De Cristofaro A",
+      "Desideri E",
+      "Salvi E",
+      "Ciccarone F",
+      "Ciriolo MR"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862446/",
+    "doi": "doi: 10.1038/s41420-026-03048-4",
+    "categories": [],
+    "keywords_matched": [
+      "\\bp53\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862445",
+    "title": "FAK/SRC-JNK axis promotes ferroptosis via upregulating ACSL4 expression.",
+    "authors": [
+      "Qin J",
+      "Ma S",
+      "Wang J",
+      "Huang S",
+      "Luan J",
+      "He J",
+      "Hou G",
+      "Sun N",
+      "Zhang W",
+      "Gao M"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862445/",
+    "doi": "doi: 10.1038/s41419-026-08570-y",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862441",
+    "title": "Endothelial cell senescence shapes T cell activity in late-stage of chronic obstructive pulmonary disease.",
+    "authors": [
+      "Lee CM",
+      "Kim J",
+      "Song J",
+      "Kim AS",
+      "Jo S",
+      "Hwang N",
+      "Jeong JW",
+      "Kim M",
+      "Shin SJ",
+      "Fang S",
+      "Yoon BK"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862441/",
+    "doi": "doi: 10.1038/s41420-026-03020-2",
+    "categories": [],
+    "keywords_matched": [
+      "\\bSenescence\\b"
+    ]
+  },
+  {
+    "id": "pmid:41861416",
+    "title": "Research progress on ROS-responsive hydrogels for the treatment of osteoporosis: a review.",
+    "authors": [
+      "Zhao Y",
+      "Lan W",
+      "Zhang L",
+      "Xu D",
+      "Wang C"
+    ],
+    "summary": "",
+    "published": "2026-03-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41861416/",
+    "doi": "doi: 10.1088/1748-605X/ae5566",
+    "categories": [],
+    "keywords_matched": [
+      "\\bROS\\b"
     ]
   },
   {
@@ -3246,106 +2735,292 @@
     ]
   },
   {
-    "id": "pmid:41857749",
-    "title": "The critical role of necroptosis in oil cyst formation associated with autologous fat transplantation.",
+    "id": "pmid:41863165",
+    "title": "Global Trends and Research Hotspots in Vascular Ageing: A Comprehensive Bibliometric Analysis.",
     "authors": [
-      "Chen RX",
-      "Du HY",
-      "Zhu XR",
-      "Zhao C",
-      "Zhang JX",
-      "Jiang SX",
-      "Mei JX",
-      "Liao X",
-      "Li SH",
-      "Liu HW"
-    ],
-    "summary": "",
-    "published": "2026-03-02T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857749/",
-    "doi": "doi: 10.1186/s12964-026-02821-3",
-    "categories": [],
-    "keywords_matched": [
-      "\\bNecroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857676",
-    "title": "Interactive effects of telomere length and genetic variants on Alzheimer disease risk across multiple ancestral populations.",
-    "authors": [
-      "Khurshid Z",
-      "Tong T",
-      "Olayinka O",
-      "Farrell JJ",
-      "Zhu C",
-      "Alzheimer’s Disease Sequencing Project",
-      "Martin ER",
-      "Bush WS",
-      "Pericak-Vance MA",
-      "Wang LS",
-      "Schellenberg GD",
-      "Haines JL",
-      "Lunetta KL",
       "Zhang X",
-      "Farrer LA"
+      "Lyu X",
+      "Li T",
+      "Jin J",
+      "Li J",
+      "Cui S",
+      "Yang X",
+      "Zhang X",
+      "Li W",
+      "Sun Y",
+      "Guo S",
+      "Xing Z",
+      "Xu R",
+      "Zhou B",
+      "Jiao L",
+      "Wang T"
     ],
     "summary": "",
-    "published": "2026-03-02T00:00:00+00:00",
+    "published": "2026-03-01T00:00:00+00:00",
     "updated": null,
     "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857676/",
-    "doi": "doi: 10.1186/s13195-026-02005-8",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41863165/",
+    "doi": "doi: 10.2174/0109298673408902251208193221",
     "categories": [],
     "keywords_matched": [
-      "\\bTelomere\\b"
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
     ]
   },
   {
-    "id": "pmid:41857240",
-    "title": "Targeting ZNF570 activates ferroptosis to reverse tamoxifen resistance in ER + breast cancer cells.",
+    "id": "pmid:41863163",
+    "title": "Classifying molecular subtypes and establishing a prognosis model using oxidative stress-related genes for lung adenocarcinoma.",
     "authors": [
-      "Ren Y",
-      "Zhang J",
-      "Duan M",
-      "Zhao Z",
-      "Guo R",
-      "Xu J",
+      "Zhang W",
+      "Zhao X",
       "Wang Y",
-      "Jia H"
+      "Li X"
     ],
     "summary": "",
-    "published": "2026-03-02T00:00:00+00:00",
+    "published": "2026-03-01T00:00:00+00:00",
     "updated": null,
     "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857240/",
-    "doi": "doi: 10.1007/s00210-026-05171-6",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41863163/",
+    "doi": "doi: 10.2174/0109298673423335251226131133",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:41863120",
+    "title": "Anti-Radiation-induced damage: Mechanisms of Natural Products Against Oxidative Stress..",
+    "authors": [
+      "Wu W",
+      "Huang S",
+      "Li Y",
+      "Wang Q",
+      "Guo C",
+      "Luo Y",
+      "Zhang Z",
+      "Yang J",
+      "Liu X",
+      "Yi F",
+      "Yin J",
+      "Qin H",
+      "Yi L"
+    ],
+    "summary": "",
+    "published": "2026-03-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41863120/",
+    "doi": "doi: 10.2174/0125899775390664251203215325",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862347",
+    "title": "Corrigendum to \"Endplate chondrocyte-derived exosomal miR-128-3p mitigates intervertebral disc degeneration by targeting TRAF6 via the miR-128-3p/TRAF6 axis to suppress pyroptosis\" [Int. Immunopharmacol. 143(Part 3) (2024) 113620].",
+    "authors": [
+      "Li Q",
+      "Guo R",
+      "Wu Z",
+      "Zhao C",
+      "Chen X",
+      "Wang H",
+      "Shen C"
+    ],
+    "summary": "",
+    "published": "2026-03-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862347/",
+    "doi": "doi: 10.1016/j.intimp.2026.116512",
+    "categories": [],
+    "keywords_matched": [
+      "\\bPyroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862346",
+    "title": "Corrigendum \"The Chinese herbal medicine Fufang Zhenzhu Tiaozhi ameliorates diabetic cardiomyopathy by regulating cardiac abnormal lipid metabolism and mitochondrial dynamics in diabetic mice\" [Biomed. Pharmacother. 164 (2023) 114919].",
+    "authors": [
+      "Yan M",
+      "Liu S",
+      "Zeng W",
+      "Guo Q",
+      "Mei Y",
+      "Shao X",
+      "Su L",
+      "Liu Z",
+      "Zhang Y",
+      "Wang L",
+      "Diao H",
+      "Rong X",
+      "Guo J"
+    ],
+    "summary": "",
+    "published": "2026-03-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862346/",
+    "doi": "doi: 10.1016/j.biopha.2026.119206",
+    "categories": [],
+    "keywords_matched": [
+      "\\bLipid\\ metabolism\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862342",
+    "title": "Retraction notice to \"Inhibition of non-muscular myosin light chain kinase accelerates the clearance of inflammatory cells by promoting the lysosome-mediated cell death\" [Biomedicine & Pharmacotherapy 170 (2024) 115986].",
+    "authors": [
+      "Wu J",
+      "Barkat MQ",
+      "Su J",
+      "Wu F",
+      "Tan D",
+      "Shen T",
+      "He Q",
+      "Qu M",
+      "Lu M",
+      "Cai J",
+      "Wu X",
+      "Xu C"
+    ],
+    "summary": "",
+    "published": "2026-03-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862342/",
+    "doi": "doi: 10.1016/j.biopha.2026.119226",
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b"
+    ]
+  },
+  {
+    "id": "pmid:41862304",
+    "title": "Association of oxidative stress with postural control and functional outcomes in lumbar degenerative disease: An exploratory cross-sectional study.",
+    "authors": [
+      "Yamazaki Y",
+      "Nojiri H",
+      "Aita N",
+      "Kitahara E",
+      "Takahashi R",
+      "Ishijima M",
+      "Fujiwara T"
+    ],
+    "summary": "",
+    "published": "2026-03-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41862304/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:41861656",
+    "title": "Corrigendum to \"Quercetin attenuates cisplatin-induced mitochondrial apoptosis via PI3K/Akt mediated inhibition of oxidative stress in pericytes and improves the blood labyrinth barrier permeability\" [Chemico-Biological Interactions 393 (2024) 110939].",
+    "authors": [
+      "Huang TL",
+      "Jiang WJ",
+      "Zhou Z",
+      "Shi TF",
+      "Yu M",
+      "Yu M",
+      "Si JQ",
+      "Wang YP",
+      "Li L"
+    ],
+    "summary": "",
+    "published": "2026-03-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41861656/",
+    "doi": "doi: 10.1016/j.cbi.2026.112040",
+    "categories": [],
+    "keywords_matched": [
+      "\\bApoptosis\\b",
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:41861540",
+    "title": "Diminished expression of decorin drives enzalutamide resistance in CRPC by suppressing ACSL4-dependent lipid remodeling and ferroptosis.",
+    "authors": [
+      "Zhang P",
+      "Wu L",
+      "Nie J",
+      "Qi Z",
+      "Wang L",
+      "Zheng H",
+      "Guo Z",
+      "Yu Y"
+    ],
+    "summary": "",
+    "published": "2026-03-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41861540/",
+    "doi": "doi: 10.1016/j.intimp.2026.116496",
     "categories": [],
     "keywords_matched": [
       "\\bFerroptosis\\b"
     ]
   },
   {
-    "id": "pmid:41856997",
-    "title": "Loss of Pum2 exacerbates colitis by disrupting macrophage-epithelial crosstalk and promoting epithelial necroptosis.",
+    "id": "pmid:41861539",
+    "title": "Celastrol protects against renal tubular injury in early diabetic kidney disease through modulation of NOX2 and ferroptosis.",
     "authors": [
-      "Wang X",
-      "Han X",
-      "Qiu W",
-      "Jiang L",
-      "Duan X",
-      "Liu X"
+      "Ma D",
+      "Dai T",
+      "Wang D",
+      "Zhang J",
+      "Zeng C",
+      "Dai S",
+      "Li W",
+      "Shan X",
+      "Li H",
+      "Hou Y",
+      "Guo M"
     ],
     "summary": "",
-    "published": "2026-03-02T00:00:00+00:00",
+    "published": "2026-03-01T00:00:00+00:00",
     "updated": null,
     "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41856997/",
-    "doi": "doi: 10.1038/s41420-026-03041-x",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41861539/",
+    "doi": "doi: 10.1016/j.intimp.2026.116533",
     "categories": [],
     "keywords_matched": [
-      "\\bNecroptosis\\b"
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:41861524",
+    "title": "EZH2 inhibition in resistant glioblastoma stem cells counteracts oxidative stress protection and triggers ferroptosis.",
+    "authors": [
+      "Doualle C",
+      "Guérin M",
+      "Codron P",
+      "Spinazzi M",
+      "Tessier A",
+      "Lelièvre B",
+      "Delamotte M",
+      "Saulnier P",
+      "Letournel F",
+      "Gouju J"
+    ],
+    "summary": "",
+    "published": "2026-03-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/41861524/",
+    "doi": "doi: 10.1016/j.biopha.2026.119254",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b",
+      "\\bOxidative\\ stress\\b"
     ]
   },
   {
@@ -3369,603 +3044,6 @@
     "keywords_matched": [
       "\\b(?:aging|ageing)\\b",
       "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:41859981",
-    "title": "Author Correction: Rescuing fertility: C-Phycocyanin prevents ovarian damage through NRF2-mediated ferroptosis pathways in polycystic ovary syndrome models.",
-    "authors": [
-      "Zhang J",
-      "Shen QS",
-      "Chen YX",
-      "Cheng HR",
-      "Zhang W",
-      "Xing T",
-      "Liu YJ",
-      "Cao YX",
-      "Liang D",
-      "Luo M",
-      "Yu B"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41859981/",
-    "doi": "doi: 10.24272/j.issn.2095-8137.2026.032",
-    "categories": [],
-    "keywords_matched": [
-      "\\bFerroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857699",
-    "title": "A dual-mechanism model of Selinexor in DLBCL: p53 reactivation and metabolic reprogramming.",
-    "authors": [
-      "Zhang W",
-      "Shi L",
-      "Li Y",
-      "He C",
-      "Cui S",
-      "Liu Y",
-      "Wang X",
-      "Liu L",
-      "Gao Y",
-      "Diao L",
-      "Wu L",
-      "Yao Y",
-      "Feng Y",
-      "Wu X",
-      "Yin S",
-      "Li W",
-      "Song B",
-      "Huang C"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857699/",
-    "doi": "doi: 10.1186/s12967-026-08014-3",
-    "categories": [],
-    "keywords_matched": [
-      "\\bp53\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857621",
-    "title": "Deubiquitination and stabilization of EIF4A3 by OTUB2 contributes to TPI1-mediated glycolysis and TNBC progression.",
-    "authors": [
-      "Wang Z",
-      "Chen X",
-      "Han X",
-      "Cao X",
-      "Wang X"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857621/",
-    "doi": "doi: 10.1186/s13058-026-02260-5",
-    "categories": [],
-    "keywords_matched": [
-      "\\bGlycolysis\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857591",
-    "title": "Baseline epigenetic clock measures in the Northern Ireland Cohort for the Longitudinal Study of Ageing (NICOLA).",
-    "authors": [
-      "Hill C",
-      "Potter C",
-      "Smyth L",
-      "Kilner J",
-      "Scott A",
-      "Neville C",
-      "Kee F",
-      "McGuinness B",
-      "McKnight AJ"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857591/",
-    "doi": "doi: 10.1186/s13104-026-07771-0",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857570",
-    "title": "Inhibition of RBM23 induces ferroptosis in colon cancer cells via c-Myc regulation.",
-    "authors": [
-      "Oh JJ",
-      "Lee YJ",
-      "Han YJ",
-      "Park J",
-      "Kim W",
-      "Lee IS",
-      "Lee S",
-      "Jo MG",
-      "Jung JH"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857570/",
-    "doi": "doi: 10.1186/s12935-026-04262-x",
-    "categories": [],
-    "keywords_matched": [
-      "\\bFerroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857523",
-    "title": "Comprehensive analysis of RNA sequencing reveals DNA damage response and immune-associated alternative splicing and RBP regulators contributing to preeclampsia.",
-    "authors": [
-      "Wang Y",
-      "Li W",
-      "Li Z",
-      "Qiang K",
-      "Shen J",
-      "Huang L"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857523/",
-    "doi": "doi: 10.1186/s12864-026-12765-0",
-    "categories": [],
-    "keywords_matched": [
-      "\\bdna\\s+damage(?:\\s+response)?\\b",
-      "\\b(?:ddr|dna\\s+damage\\s+response)\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857458",
-    "title": "Growth charts for grown-ups? BMI-for-age percentile curves to measure obesity status: An analysis of data from the Canadian Longitudinal Study on Aging.",
-    "authors": [
-      "Cook CE",
-      "Kim C",
-      "Yu JMY",
-      "Banack HR"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857458/",
-    "doi": "doi: 10.17269/s41997-026-01181-2",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857406",
-    "title": "Stress drives plasticity in leaf ageing transcriptional dynamics in Arabidopsis thaliana.",
-    "authors": [
-      "Swift J",
-      "Wu X",
-      "Xu J",
-      "Procko C",
-      "Jain T",
-      "Illouz-Eliaz N",
-      "Nery JR",
-      "Chory J",
-      "Ecker JR"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857406/",
-    "doi": "doi: 10.1038/s41477-026-02254-3",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857374",
-    "title": "Heparin inhibits NLRP3-dependent pyroptosis in acute pancreatitis.",
-    "authors": [
-      "Tang G",
-      "Yan W",
-      "Li X",
-      "Zhang X",
-      "Wu D",
-      "Zhao S"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857374/",
-    "doi": "doi: 10.1038/s41435-026-00390-6",
-    "categories": [],
-    "keywords_matched": [
-      "\\bPyroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857347",
-    "title": "Biochanin-A, Coenzyme Q10, and Phloretin Mitigate Cadmium-Induced Pulmonary and Testicular Toxicity in Mice Through Modulating Oxidative Stress and Apoptosis Via SIRT1-NRF2-KEAP1 Signaling Pathway.",
-    "authors": [
-      "Tripathi S",
-      "Parmar D",
-      "Raval S",
-      "Kharkwal G",
-      "Singh G"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857347/",
-    "doi": "doi: 10.1007/s12011-026-04986-x",
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b",
-      "\\bOxidative\\ stress\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857191",
-    "title": "PRSS22 inhibits HMOX1-mediated ferroptosis and induces osteopontin cleavage to promote M2 macrophage polarization and colitis-associated carcinogenesis.",
-    "authors": [
-      "Kuang Z",
-      "Su Q",
-      "Liang W",
-      "Shen K",
-      "Xie J"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857191/",
-    "doi": "doi: 10.1038/s41388-026-03729-5",
-    "categories": [],
-    "keywords_matched": [
-      "\\bFerroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857155",
-    "title": "Potential subtype-specific alterations in gut microbiota and branched-chain amino acid metabolism in hydrogen- and methane-predominant small intestinal bacterial overgrowth.",
-    "authors": [
-      "Wang Z",
-      "Tan W",
-      "Zhang P",
-      "Xiong H",
-      "Zhu L",
-      "Cui J",
-      "Li L",
-      "Guo C",
-      "He L",
-      "Huang J",
-      "Wei H",
-      "Liu H"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857155/",
-    "doi": "doi: 10.1038/s41598-026-43935-5",
-    "categories": [],
-    "keywords_matched": [
-      "\\bAmino\\ acid\\ metabolism\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857137",
-    "title": "Znhit3 regulates p53/p21 signaling and governs cerebellar granule cell development.",
-    "authors": [
-      "Chen F",
-      "Kang Z",
-      "Liu K",
-      "Yang W",
-      "Lu QR",
-      "Zhou W",
-      "Lin Y"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857137/",
-    "doi": "doi: 10.1038/s41418-026-01707-8",
-    "categories": [],
-    "keywords_matched": [
-      "\\bp53\\b",
-      "\\bp21\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857132",
-    "title": "Quantitative prediction and degradation mechanism of CFRP-TC4 adhesive joints under hygrothermal aging.",
-    "authors": [
-      "Liu H",
-      "Liu R",
-      "He C",
-      "Yu M",
-      "Wang Y",
-      "Ding Z"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857132/",
-    "doi": "doi: 10.1038/s41598-026-44026-1",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857129",
-    "title": "Virtual screening and molecular dynamics simulations for drug repurposing against autophagy to attenuate blast in cereal plants.",
-    "authors": [
-      "Rahman S",
-      "Rahman A",
-      "Huang YM",
-      "Hossen ML"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857129/",
-    "doi": "doi: 10.1038/s41598-026-43708-0",
-    "categories": [],
-    "keywords_matched": [
-      "\\bAutophagy\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857115",
-    "title": "TREM1-NLRP3-driven pyroptosis in sepsis-associated acute kidney injury (AKI) with parallel autophagy changes.",
-    "authors": [
-      "Liu X",
-      "Chen Q",
-      "Chen X",
-      "Wang Y",
-      "Fan J",
-      "Tian X",
-      "Xu X",
-      "Su L"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857115/",
-    "doi": "doi: 10.1038/s41598-026-40893-w",
-    "categories": [],
-    "keywords_matched": [
-      "\\bPyroptosis\\b",
-      "\\bAutophagy\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857073",
-    "title": "Identification and evaluation of tumor pyroptosis-associated antigens for design a vaccine candidate against lung cancer.",
-    "authors": [
-      "Nguyen TL",
-      "Kim H"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857073/",
-    "doi": "doi: 10.1038/s41598-024-84792-4",
-    "categories": [],
-    "keywords_matched": [
-      "\\bPyroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:41857046",
-    "title": "IVNS1ABP mutation drives cellular senescence in newly identified progeroid neuropathy.",
-    "authors": [
-      "Yuan F",
-      "Tan YS",
-      "Wang H",
-      "Ali AN",
-      "Yuan Q",
-      "Chou SM",
-      "Yen YH",
-      "Narayanan G",
-      "Zhou L",
-      "Shboul M",
-      "Bonnard C",
-      "Reversade B",
-      "Zhang SC"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41857046/",
-    "doi": "doi: 10.1038/s41467-026-70756-x",
-    "categories": [],
-    "keywords_matched": [
-      "\\bSenescence\\b"
-    ]
-  },
-  {
-    "id": "pmid:41856911",
-    "title": "Correction to \"Chanling Gao Suppresses Colorectal Cancer via PI3K/Akt/mTOR Pathway Modulation and Enhances Quality of Survival\".",
-    "authors": [],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41856911/",
-    "doi": "doi: 10.1002/tox.70083",
-    "categories": [],
-    "keywords_matched": [
-      "\\bmTOR\\b"
-    ]
-  },
-  {
-    "id": "pmid:41856854",
-    "title": "Mitoxyperilysis: fasting-induced cell death in immunometabolism and disease.",
-    "authors": [
-      "Al-Zidan R",
-      "Gautam M",
-      "Man SM"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41856854/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bCell\\ death\\b"
-    ]
-  },
-  {
-    "id": "pmid:41856849",
-    "title": "Retraction notice to \"Dapagliflozin attenuates diabetic cardiomyopathy via NRF2 protein upregulation-driven glutathione synthesis to inhibit myocardial ferroptosis\" [Life Sciences 378 (2025) 123819].",
-    "authors": [
-      "Chen X",
-      "Wang T",
-      "Gao Y",
-      "Wang G",
-      "Zhuang L",
-      "Liu X",
-      "Gong L",
-      "Wang M",
-      "Dai H",
-      "Guan J"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41856849/",
-    "doi": "doi: 10.1016/j.lfs.2026.124335",
-    "categories": [],
-    "keywords_matched": [
-      "\\bFerroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:41856811",
-    "title": "Retraction notice to \"Yap-Hippo promotes A549 lung cancer cell death via modulating MIEF1-related mitochondrial stress and activating JNK pathway\" [Biomedicine & Pharmacotherapy 113 (2019) 108754].",
-    "authors": [
-      "Zhou J",
-      "Zhang S",
-      "Li Z",
-      "Chen Z",
-      "Xu Y",
-      "Ye W",
-      "He Z"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41856811/",
-    "doi": "doi: 10.1016/j.biopha.2026.119214",
-    "categories": [],
-    "keywords_matched": [
-      "\\bCell\\ death\\b"
-    ]
-  },
-  {
-    "id": "pmid:41856804",
-    "title": "PcCPR12 participates in coordinating chitin and lipid metabolism to maintain cuticle structural stability in Panonychus citri.",
-    "authors": [
-      "Wang H",
-      "Xin T",
-      "Jiang C",
-      "Li Y",
-      "Wang J",
-      "Wan B",
-      "Xia C",
-      "Xia B"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41856804/",
-    "doi": "doi: 10.1002/ps.70749",
-    "categories": [],
-    "keywords_matched": [
-      "\\bLipid\\ metabolism\\b"
-    ]
-  },
-  {
-    "id": "pmid:41856770",
-    "title": "Impact of ageing on progressive thinning of the retinal nerve fibre layer in glaucoma.",
-    "authors": [
-      "Matsuo M",
-      "Sharpe GP",
-      "Hutchison DM",
-      "Shuba LM",
-      "Nicolela MT",
-      "Chauhan BC"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41856770/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:41856556",
-    "title": "CDK4 and CDK6 variants in patients with primary microcephaly lead to cell cycle defects and mitochondria-induced apoptosis.",
-    "authors": [
-      "Isik E",
-      "Zafeer MF",
-      "Bademci G",
-      "Ramzan M",
-      "Turkut Tan T",
-      "Peart L",
-      "Dogan YC",
-      "Topaloğlu MM",
-      "Cogulu O",
-      "Karadas N",
-      "Kizilay DO",
-      "Goksen D",
-      "Erarslan C",
-      "Duman D",
-      "Atik T",
-      "Tekin M"
-    ],
-    "summary": "",
-    "published": "2026-03-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41856556/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b"
     ]
   },
   {
@@ -4124,25 +3202,6 @@
     "categories": [],
     "keywords_matched": [
       "\\bPyroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:41858052",
-    "title": "Low, plasma level‑informed native curcumin concentrations fail to induce cell death in human lung and colorectal cancer cells.",
-    "authors": [
-      "Imtiaz I",
-      "Schloss J",
-      "Bugarcic A"
-    ],
-    "summary": "",
-    "published": "2026-01-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/41858052/",
-    "doi": "doi: 10.1080/13880209.2026.2640678",
-    "categories": [],
-    "keywords_matched": [
-      "\\bCell\\ death\\b"
     ]
   }
 ]
