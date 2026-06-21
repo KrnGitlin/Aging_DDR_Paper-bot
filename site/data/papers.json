@@ -1,106 +1,85 @@
 [
   {
-    "id": "10.64898/2026.06.15.731916",
-    "title": "Disrupted Mitochondrial Copper Homeostasis Promotes Ferroptotic Stress, Senescence and MASLD Progression",
+    "id": "10.64898/2026.06.16.732769",
+    "title": "Microstructural and Biomechanical Determinants of Biological Aging",
     "authors": [
-      "Ren, N.",
-      "Wang, L.",
-      "Dutta, R.",
-      "Umbaugh, D.",
-      "Zhang, Q.",
-      "Oh, S. H.",
-      "Ko, D. C.",
-      "Song, M.",
-      "Diehl, A. M.",
-      "DU, K."
+      "Doddaballapur, P.",
+      "Di Palo, J.",
+      "Liu, D.",
+      "Lin, L.",
+      "CAVINATO, C.",
+      "Ramachandra, A. B.",
+      "Yan, X.",
+      "Manning, E. P."
     ],
-    "summary": "Background & AimsSystemic metabolic dysfunction promotes degenerative diseases in many organs, including liver and kidney. The liver is a master regulator of systemic metal ion homeostasis. Hepatic copper deficiency is increasingly observed in metabolic dysfunction associated steatotic liver disease (MASLD) and is associated with greater disease severity and poor outcomes. However, mechanisms linking copper dysregulation to MASLD and its co-morbidities remain poorly defined. We investigated whether impaired mitochondrial copper homeostasis contributes to MASLD-related pathobiology and represents a modifiable therapeutic axis.\n\nMethods & ResultsUsing dietary mouse models of MASLD and in vitro systems, we found that dietary copper deficiency induces lipotoxicity and suppresses mitochondrial metabolic programs. MASLD livers exhibited marked depletion of copper, impaired cytochrome c oxidase integrity, and bioenergetic failure. Targeted restoration of mitochondrial copper with the copper ionophore elesclomol normalized copper-handling programs, improved mitochondrial function, and suppressed ferroptotic stress, hepatocyte senescence, and fibroinflammatory remodeling. Mechanistically, reduced expression of the mitochondrial copper transporter SLC25A3 and MT-CO1 disrupted the SLC25A3-SCO1-MT-CO1-CTR1 axis, limited copper uptake and destabilized copper-iron balance, promoting maladaptive cell fate changes. Across multiple human cohorts and mouse models, copper-iron imbalance tracks with MASLD progression, clinical outcomes, and multiple extrahepatic comorbidities; restoring copper homeostasis in mice with MASLD attenuates both liver and kidney inflammation and fibrosis.\n\nConclusionsMitochondrial copper deficiency is a mechanistically actionable driver of MASLD that promotes bioenergetic failure, ferroptosis, senescence and fibroinflammatory damage in the liver and other organs. Targeting copper-centered mitochondrial regulation represents a novel biomarker and therapeutic strategy for MASLD and its systemic complications.",
-    "published": "2026-06-17T00:00:00+00:00",
+    "summary": "The pulmonary artery undergoes measurable structural and mechanical deterioration with age, but whether these changes can be integrated into a quantitative normative aging prediction model has not been demonstrated. Using two-photon imaging and paired vascular mechanical measurements from C57BL6 mice spanning 6 to 24 months, we developed a multimodal support vector regression (SVR) model integrating collagen fiber orientation, straightness, and hemodynamic mechanical parameters to predict normative age. Fiber orientation was encoded via the von Mises probability density function referenced to the circumferential and axial vessel wall axes providing a principled circular-variable encoding of both mean direction and concentration. The microstructure-only model achieved leave-one-out (LOO) R{superscript 2} = 0.596, Mean Absolute Error (MAE) = 3.43 months. Adding vascular mechanical parameters (PWV) raised a combined LOO R{superscript 2} to 0.834 (MAE = 2.26 months), a 40.1% improvement. Because pulmonary vascular and parenchymal aging are mechanistically coupled, lung mechanics were included as a complementary readout to assess whether airway mechanics contribute independent predictive signal beyond vascular microstructure alone. A sex dimorphism was observed, where females drove the majority of the collagen-based predictive signal (female-only R{superscript 2} = 0.960 vs. male-only R{superscript 2} = 0.658). These results establish a multimodal framework for vascular biological age quantification that integrates structural and mechanical aging signatures.",
+    "published": "2026-06-18T00:00:00+00:00",
     "updated": null,
     "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.06.15.731916",
-    "doi": "10.64898/2026.06.15.731916",
-    "categories": [],
-    "keywords_matched": [
-      "\\bSenescence\\b",
-      "\\bFerroptosis\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.06.14.730922",
-    "title": "Exposure to perfluorooctanoic acid accelerates Drosophila melanogaster juvenile development and disrupts mitochondrial metabolism",
-    "authors": [
-      "Kilbourn, E. A.",
-      "Lowe, M. R.",
-      "Panda, K.",
-      "Bhaskaran, A.",
-      "Zheng, G.",
-      "Aalati, A. R.",
-      "Malave, A.",
-      "White, S.",
-      "Graber, A.",
-      "Zulkowski, N.",
-      "Pepin, R.",
-      "Salamova, A.",
-      "Nemkov, T.",
-      "D'Alessandro, A.",
-      "Yadlapalli, S.",
-      "Reddy, P.",
-      "Meyhofer, E.",
-      "Tennessen, J. M."
-    ],
-    "summary": "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental contaminants with poorly understood sublethal effects on insects. Perfluorooctanoic acid (PFOA), one of the most widely distributed legacy PFAS is increasingly recognized for altering organismal physiology beyond traditional toxicity endpoints. Here, we use the fruit fly Drosophila melanogaster as a model to examine how PFOA exposure during larval (juvenile) development reshapes insect life-history progression and metabolic homeostasis. Our studies reveal that at environmentally relevant concentrations (nM to low {micro}M), PFOA induces precocious expression of developmentally-regulated genes and leads to metabolic changes that persist into adulthood. At higher concentrations used to probe mechanism, PFOA accelerates larval development, disrupts mitochondrial membrane potential, and increases whole-organism metabolic heat production - results that suggest altered mitochondrial energetic efficiency. Consistent with this tradeoff, PFOA-exposed larvae that develop faster under permissive conditions exhibit heightened sensitivity to environmental stressors, including elevated temperature and reduced food hydration. Together, these findings demonstrate that PFOA disrupts metabolic and developmental processes in a dose- and context-dependent manner, highlighting sublethal effects that may influence insect resilience under environmental stress.\n\nSYNOPSIS STATEMENTHere we describe how PFOA alters the growth, development, and metabolism of the fruit fly Drosophila melanogaster. Specifically, we find that PFOA accelerates Drosophila juvenile growth while also rendering exposed larvae sensitive to environmental stress. These observations suggest that widespread PFOA contamination may impair the developmental fitness of insect populations.",
-    "published": "2026-06-17T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.06.14.730922",
-    "doi": "10.64898/2026.06.14.730922",
-    "categories": [],
-    "keywords_matched": [
-      "\\bMitochondrial\\ metabolism\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.06.14.732179",
-    "title": "Mitochondrial Complex I Modulator Restores Network Resilience in Advanced Alzheimer's Disease Through Metabolic Reprogramming",
-    "authors": [
-      "Gabal, E.",
-      "Nguyen, T. K. O.",
-      "Kovalenko, T.",
-      "Gao, H.",
-      "Rappaport, N.",
-      "Funk, C. C.",
-      "Baloni, P.",
-      "Trushina, E."
-    ],
-    "summary": "Mitochondrial dysfunction and lipid dysregulation are among the earliest abnormalities in Alzheimers disease (AD), yet their mechanistic interplay and therapeutic potential remain poorly understood. Here, we investigated whether restoration of mitochondrial function can reverse metabolic dysfunction and promote resilience in advanced-stage AD. Female APP/PS1 mice were treated with the brain-penetrant mitochondrial complex I (mtCI) modulator CP2 beginning at 19 months of age, when pathology and cognitive deficits were well established. To define the metabolic mechanisms underlying therapeutic response, we developed iMiceBrain, the first brain-specific genome-scale metabolic model of the mouse brain, and integrated transcriptomics, targeted metabolomics, lipidomics, and metabolic network analyses. CP2 treatment broadly reprogrammed AD-associated molecular signatures and restored pathways involved in mitochondrial function, glucose utilization, lipid metabolism, synaptic activity, and cellular stress responses. Metabolic modeling identified enhanced mitochondrial substrate flexibility, activation of fatty acid utilization, restoration of pyruvate dehydrogenase flux, and normalization of cholesterol metabolism as key features of the therapeutic response. Lipidomic analyses further demonstrated correction of disease-associated alterations in cholesteryl esters, phospholipids, and sphingolipids. Together, these findings demonstrate that mild mtCI modulation restores metabolic resilience by coordinating mitochondrial and lipid metabolism, establishing it as a disease-modifying therapeutic strategy for AD.",
-    "published": "2026-06-17T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.06.14.732179",
-    "doi": "10.64898/2026.06.14.732179",
-    "categories": [],
-    "keywords_matched": [
-      "\\bMitochondrial\\ dysfunction\\b",
-      "\\bLipid\\ metabolism\\b"
-    ]
-  },
-  {
-    "id": "10.64898/2026.06.16.732599",
-    "title": "Maintenance of immune tolerance during aging requires competitive expansion of memory phenotype regulatory T cells",
-    "authors": [
-      "Chiu, B. C."
-    ],
-    "summary": "Memory phenotype (MP) CD4+ T cells accumulate with age; however, the immunological significance of this population shift and the mechanisms that preserve MP T-cell fitness remain poorly understood. Here, we show that age-associated accumulation of MP T cells is regulated by intra-clonal competition and that competitive expansion of MP regulatory T (Treg) cells is required for maintenance of immune tolerance during aging. Using MLL1 deficiency as a model, we found that Mll1-deficient T cells failed to undergo normal age-associated accumulation and were progressively outcompeted by wild-type (WT) cells despite retaining the ability to proliferate and generate MP populations in the absence of competitors. Mechanistically, MLL1 preserved competitive fitness by maintaining transcription of TCR variable region genes and sustaining T-cell receptor expression during proliferation. Loss of competitive fitness impaired MP Treg-cell expansion and disrupted immune homeostasis. Remarkably, a small population of WT Treg cells restored tolerance through extensive expansion of MP Treg cells. These findings identify competitive expansion of MP Treg cells as a critical mechanism for maintaining immune tolerance during aging.",
-    "published": "2026-06-17T00:00:00+00:00",
-    "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.06.16.732599",
-    "doi": "10.64898/2026.06.16.732599",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.06.16.732769",
+    "doi": "10.64898/2026.06.16.732769",
     "categories": [],
     "keywords_matched": [
       "\\b(?:aging|ageing)\\b",
       "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.06.17.732842",
+    "title": "Hepatocyte-, but not myeloid cell-Rictor/mTORC2 deficiency moderately attenuates steatotic liver disease induced by intake of a choline-deficient, amino acid-defined high-fat diet",
+    "authors": [
+      "Leonardi, B. F.",
+      "Pires, A. B.",
+      "Abe-Honda, M. A.",
+      "Silveira, L.",
+      "Peixoto, A. S.",
+      "Castro, E.",
+      "Vieira, T. S.",
+      "Pessoa, N. M.",
+      "Pessoa, E. V.",
+      "Pontara-Corte, N.",
+      "Yin, G.",
+      "Kohlhepp, M. S.",
+      "Baptista, A. C. P.",
+      "Mesquita, M.",
+      "de Freitas, H. S.",
+      "Bezerra, C. N.",
+      "Tacke, F.",
+      "Guillot, A.",
+      "Festuccia, W. T."
+    ],
+    "summary": "Previous studies have demonstrated that mechanistic target of rapamycin complex 2 (mTORC2) deficiency provides complete protection against steatotic liver disease driven by constitutive activation of the phosphoinositide 3-kinase (PI3K)-Akt signaling pathway and de novo lipogenesis, and partial protection against disease induced by a high-fat diet. We investigated herein whether mTORC2 deficiency in hepatocytes and myeloid cells, including Kupffer cells and recruited macrophages, influences the development of liver disease induced by intake of a choline-deficient, amino acid-defined high-fat diet (CDAHFD), a model in which liver disease is induced by impaired hepatic secretion of very low-density lipoprotein (VLDL) triacylglycerol. For this, mice with either hepatocyte- or myeloid cells-specific deletion of mTORC2 essential component rapamycin-insensitive companion of mTOR (Rictor) and their respective littermate controls were fed with either chow or CDAHFD for 10 weeks and evaluated for hepatic steatosis, inflammation and fibrosis. Our main findings indicate that hepatocyte Rictor/mTORC2 deficiency slightly attenuated the CDAHFD-induced increases in liver mass, macrovesicular steatosis and triacylglycerol accumulation, without affecting though liver cholesterol, serum markers of liver injury (AST and ALT), as well as the upregulation in proinflammatory cytokine IL-1{beta} and expression of fibrosis-related genes. Myeloid cells-Rictor deletion had no detectable impact on liver steatosis, inflammatory, or fibrosis induced by CDAHFD. In conclusion, mTORC2 deficiency show modest beneficial effects in counteracting liver disease induced by CDAHFD intake.",
+    "published": "2026-06-18T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.06.17.732842",
+    "doi": "10.64898/2026.06.17.732842",
+    "categories": [],
+    "keywords_matched": [
+      "\\bmTOR\\b",
+      "\\bRapamycin\\b"
+    ]
+  },
+  {
+    "id": "pmid:42322119",
+    "title": "Prolonged autophagy induction correlates with host cell protein reduction in CHO cell culture.",
+    "authors": [
+      "Sahoo A",
+      "Tsukidate T",
+      "Pendyala G",
+      "Yang RS",
+      "Li X",
+      "Madabhushi SR"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42322119/",
+    "doi": "doi: 10.1002/btpr.88528",
+    "categories": [],
+    "keywords_matched": [
+      "\\bAutophagy\\b"
     ]
   },
   {
@@ -297,6 +276,69 @@
     "categories": [],
     "keywords_matched": [
       "\\bFOXO\\b"
+    ]
+  },
+  {
+    "id": "pmid:42322084",
+    "title": "Modulating Host Lipid Metabolism via Gut Microbiota: Therapeutic Potential of Plant-Derived Compounds.",
+    "authors": [
+      "Wang L",
+      "Cheng J",
+      "Peng W",
+      "Chen Y",
+      "Pan S",
+      "Lu Y"
+    ],
+    "summary": "",
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42322084/",
+    "doi": "doi: 10.1002/ptr.70402",
+    "categories": [],
+    "keywords_matched": [
+      "\\bLipid\\ metabolism\\b"
+    ]
+  },
+  {
+    "id": "pmid:42322008",
+    "title": "Engineering Oxidation-Responsive Polymeric Self-Assembled Nanoreactors for Enhanced Reactive Oxygen Species (ROS) Scavenging.",
+    "authors": [
+      "Yang Y",
+      "Wang S",
+      "Ma Y",
+      "Yang D",
+      "Li X",
+      "Li X",
+      "Che H"
+    ],
+    "summary": "",
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42322008/",
+    "doi": "doi: 10.1021/acs.biomac.6c00697",
+    "categories": [],
+    "keywords_matched": [
+      "\\bReactive\\ oxygen\\ species\\b",
+      "\\bROS\\b"
+    ]
+  },
+  {
+    "id": "pmid:42321990",
+    "title": "Mechanistic Insight Into Metal-Induced Toxicity: Oxidative Stress, Genomic Instability, and Carcinogenesis.",
+    "authors": [
+      "Islam N"
+    ],
+    "summary": "",
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42321990/",
+    "doi": "doi: 10.1002/jat.70279",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
     ]
   },
   {
@@ -1173,121 +1215,6 @@
     ]
   },
   {
-    "id": "pmid:42320448",
-    "title": "Preliminary insights into the release behavior of dissolved organic matter from aged microplastics in seawater: Effects of aging types.",
-    "authors": [
-      "Li X",
-      "Yang Q",
-      "Ma H",
-      "Ge R",
-      "Zhou X",
-      "Ren P"
-    ],
-    "summary": "",
-    "published": "2026-06-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42320448/",
-    "doi": "doi: 10.1016/j.marenvres.2026.108206",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:42320437",
-    "title": "D-Ribose-L-Cysteine mitigates copper-induced testicular toxicity in mice through modulation of redox, inflammation, and apoptosis mechanisms.",
-    "authors": [
-      "Omeiza NA",
-      "Omeiza FR",
-      "Chimezie J",
-      "Ogunyemi OM",
-      "Isibor H",
-      "Ayodeji AZ",
-      "Adebayo OG",
-      "Abdulrahim HA",
-      "Ben-Azu B",
-      "Ajayi AM",
-      "Umukoro S",
-      "Aderibigbe AO",
-      "Alagbonsi AI"
-    ],
-    "summary": "",
-    "published": "2026-06-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42320437/",
-    "doi": "doi: 10.1016/j.jtemb.2026.127915",
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:42320360",
-    "title": "HSP60 mediates AKT/mTOR signaling to promote the progression of colorectal cancer.",
-    "authors": [
-      "Huang C",
-      "Zhou CC",
-      "Wu QR"
-    ],
-    "summary": "",
-    "published": "2026-06-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42320360/",
-    "doi": "doi: 10.1016/j.tice.2026.103706",
-    "categories": [],
-    "keywords_matched": [
-      "\\bmTOR\\b"
-    ]
-  },
-  {
-    "id": "pmid:42320358",
-    "title": "Saligenin restores insulin responsiveness in lipotoxic myotubes through L-cell-derived GLP-1 via ER stress-autophagy modulation.",
-    "authors": [
-      "Lim DS",
-      "Park SK",
-      "Pyo MK",
-      "Ko JH",
-      "Abd El-Aty AM",
-      "Jeong JH",
-      "Lee KT",
-      "Jung TW"
-    ],
-    "summary": "",
-    "published": "2026-06-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42320358/",
-    "doi": "doi: 10.1016/j.tice.2026.103704",
-    "categories": [],
-    "keywords_matched": [
-      "\\bAutophagy\\b"
-    ]
-  },
-  {
-    "id": "pmid:42320297",
-    "title": "Bombyx mori p53 requires multiple domains for transcription-dependent apoptosis induction.",
-    "authors": [
-      "Sugiura W",
-      "Ikeda M",
-      "Hamajima R"
-    ],
-    "summary": "",
-    "published": "2026-06-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42320297/",
-    "doi": "doi: 10.1016/j.bbrc.2026.154161",
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b",
-      "\\bp53\\b"
-    ]
-  },
-  {
     "id": "pmid:42320266",
     "title": "Redox imbalance dictates dependence on GOT1 versus GOT2 for rod photoreceptor health during aging and stress.",
     "authors": [
@@ -1317,38 +1244,6 @@
     "keywords_matched": [
       "\\b(?:aging|ageing)\\b",
       "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:42320265",
-    "title": "BCKDK protects against obesity-induced cardiac remodelling and dysfunction by alleviating mitochondrial oxidative stress and ROS-driven MAPK signalling.",
-    "authors": [
-      "Liu Y",
-      "Ma M",
-      "Guo Y",
-      "Wang H",
-      "Xiao Y",
-      "Xu Y",
-      "Cai Z",
-      "Wang Q",
-      "Zhou W",
-      "Xiao Y",
-      "Atlass K",
-      "Cao H",
-      "Yao Y",
-      "Sun Z",
-      "Fan Y"
-    ],
-    "summary": "",
-    "published": "2026-06-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42320265/",
-    "doi": "doi: 10.1016/j.redox.2026.104265",
-    "categories": [],
-    "keywords_matched": [
-      "\\bOxidative\\ stress\\b",
-      "\\bROS\\b"
     ]
   },
   {
@@ -1396,6 +1291,79 @@
     "categories": [],
     "keywords_matched": [
       "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42319928",
+    "title": "Universal diseased-site targeting via glycolysis-driven lactic acid gradient.",
+    "authors": [
+      "Cao Z",
+      "Cheng X",
+      "Lu X",
+      "He Q",
+      "Dai Q",
+      "Zhang L",
+      "Zhang X",
+      "Harding J",
+      "Xu S",
+      "van Dam RM",
+      "Wang M",
+      "Li Y",
+      "Chiou PY",
+      "Liu C",
+      "Wen J",
+      "Lu Y"
+    ],
+    "summary": "",
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42319928/",
+    "doi": "doi: 10.1126/sciadv.aeb4570",
+    "categories": [],
+    "keywords_matched": [
+      "\\bGlycolysis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42319896",
+    "title": "Development of a Healthy Aging Index and Analysis of Healthy Aging Trajectories Over a 6-Year Period Using the Korean Frailty and Aging Cohort Study.",
+    "authors": [
+      "Kim E",
+      "Lee Y",
+      "Kim J",
+      "Kim M",
+      "Choi Y",
+      "Han J"
+    ],
+    "summary": "",
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42319896/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42319893",
+    "title": "Social asymmetry and healthy aging: Advancing conceptualization and measurement in loneliness and social isolation research.",
+    "authors": [
+      "Huang J"
+    ],
+    "summary": "",
+    "published": "2026-06-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42319893/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
     ]
   }
 ]
