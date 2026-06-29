@@ -1,25 +1,1597 @@
 [
   {
-    "id": "10.64898/2026.02.15.705972",
-    "title": "Survival curve steepening and flattening reflect evolutionarily conserved changes in the variability of aging",
+    "id": "10.64898/2026.06.19.733409",
+    "title": "D3 nutraceutical pre-supplementation ameliorates behavioral, ionotropic receptors, and synaptic proteins alterations in a MK-801 induced mouse model of schizophrenia",
     "authors": [
-      "Zhang, B.",
-      "Borland, G.",
-      "Zhang, Y.",
-      "Gong, Z.",
-      "Selman, C.",
-      "Gems, D."
+      "Komal, P.",
+      "Eshwari, O.",
+      "Golla, K.",
+      "Patel, S.",
+      "Yenagi, V. A.",
+      "Kushwaha, R.",
+      "Abraham, S. M.",
+      "Chakravarty, S.",
+      "Nayak, R. B."
     ],
-    "summary": "As global human life expectancy continues to rise, accompanying increases in healthspan that prevent morbidity expansion become increasingly imperative. Population lifespan can increase in distinct ways, for instance through rectangularization (steepening) or triangularization (flattening) of survival curves. These two demographic changes, particularly rectangularization, occur frequently across human and model organism populations, yet their biological determinants and effects on healthspan and morbidity are largely unknown. Notably, these modes of life-extension occur when parameters of the Gompertz mortality model (capturing exponential age-increases in mortality rate) change inversely, a widely-reported phenomenon known as the Strehler-Mildvan correlation - whose biological basis also remains unexplained. We therefore investigated longitudinal health, morbidity and lifespan in 30 Caenorhabditis elegans cohorts using multiple life-extension protocols. We report that survival curve rectangularization results from healthspan expansion in short-lived population members, whereas triangularization (which primarily extends the curve tail) from healthspan and morbidity expansion in long-lived population members. Interestingly, rectangularization and triangularization respectively decrease and increase inter-individual variation in the aging process, and the mode of life-extension that occurs depends on levels of existing variation. Notably, triangularization was more effective at extending lifespan without morbidity expansion. Analysis of fruit fly and mouse data show that these biodemographic dynamics are also largely evolutionarily conserved.",
-    "published": "2026-06-25T00:00:00+00:00",
+    "summary": "Vitamin D3 (VD) deficiency is a global health concern, and its supplementation has been shown to alleviate inflammation and oxidative stress across numerous neurological disorders. However, the beneficial effect of this common nutraceutical in schizophrenia (SCZ) remains inadequately explored. The present study investigated the presupplementation effects of VD on positive and cognitive symptoms in a MK-801induced mouse model of SCZ. MK-801, a non-competitive NMDA receptor antagonist, is a widely used drug that mimics some of the psychotic symptoms associated with SCZ. The repeated administration of a single dose of MK-801 (0.5mg/kg; intraperitoneally) for two weeks produced hyperlocomotion, anxiety- like behavior, and working memory deficits in MK-801-induced SCZ-like mice. These behavioral abnormalities were significantly attenuated in VS5 mice (SCZ mice presupplemented with 500 IU/kg/day of VD). At the molecular level, VD rescued gene expression of major NMDA receptor subunits (NR1, NR2A, NR2B), 7 nicotinic acetylcholine receptors (7nAChRs), and neurotrophin factors (NGF and BDNF). A restoration of PSD-95 protein expression, accompanied by downregulation of calcineurin, was also observed in the prefrontal cortex (PFC) of VS5 mice, suggesting protective effects of VD on synaptic communication and function in SCZ. In vitro studies showed that calcitriol (1 M) treatment of HEK-293 T cells transfected with 7nAChRs potentiated the single-channel current amplitude and demonstrated a direct modulatory effect of this nutraceutical on 7nAChRs expression and function. In silico JASPAR analysis further identified putative Vitamin D response elements (VDREs) within the promoter regions of various target genes, supporting the genomic action of VD. Additionally, VD deficiency was observed in Indian SCZ patients, highlighting its potential clinical relevance. Together with our previous findings (Manjari et al., 2022, 2023), the present study also demonstrates anti-inflammatory, anti-cholinesterase, neurotrophic, and synaptic-enhancing effects of VD, deepening our understanding of the multifaceted neuroprotective effects of the \"D3\" neurosteroid in neuropsychiatric disorders such as SCZ.\n\nHighlightsO_LIVD presupplementation improves the behavioral deficits in MK-801 induced SCZ mice.\nC_LIO_LINutraceutical intervention normalizes the gene expression of major NMDARs subunits namely, NR1, NR2A, NR2B, in the PFC of SCZ mice.\nC_LIO_LIVD mediates a restoration in the expression and function of 7nAChRs in SCZ mice.\nC_LIO_LIVD exhibits neuroprotective, neurotrophic, synaptoprotective, anti-inflammatory and anti-acetylcholinesterase effects, highlighting its therapeutic potential in SCZ.\nC_LI",
+    "published": "2026-06-26T00:00:00+00:00",
     "updated": null,
     "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.02.15.705972",
-    "doi": "10.64898/2026.02.15.705972",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.06.19.733409",
+    "doi": "10.64898/2026.06.19.733409",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.06.22.733689",
+    "title": "A Generalised Epigenetic Clock Reveals Therapeutic Vulnerabilities Linked to Ageing in Cancer Cells",
+    "authors": [
+      "Fernandez-Rebollo, I.",
+      "Digilio, A.",
+      "Oikonomou, A.",
+      "Trastulla, L.",
+      "Esteller, M.",
+      "Iorio, F."
+    ],
+    "summary": "Epigenetic clocks estimate biological age from DNA methylation patterns but perform poorly in cancer due to extensive epigenetic reprogramming, limiting the study of ageing in tumour biology.Here, we develop GepiClock, an epigenetic clock trained on DNA methylation data from 32 cancer types in The Cancer Genome Atlas. Based on 4,862 CpG sites, GepiClock accurately predicts age across both tumour and normal samples, indicating that core ageing-associatedmethylation programmes remain detectable despite malignant transformation.Applying GepiClock to molecularly profiled cancer cell lines with matched drug response and CRISPR screening data revealed age-associated vulnerabilities. Younger-predicted cell lines were more sensitive to mTOR, MEK1/2 and HSP90 inhibitors, whereas older lines showed increased sensitivity to AKT and PI3K inhibitors. Additional cancer-type-specific patterns and age-associated genetic dependencies were identified.These findings establish a framework to quantify biological age in cancer and link ageing-associated states to therapeutic vulnerabilities.",
+    "published": "2026-06-26T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.06.22.733689",
+    "doi": "10.64898/2026.06.22.733689",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b",
+      "\\bmTOR\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366351",
+    "title": "Necroptosis in alveolar epithelium orchestrates lung ischemia-reperfusion injury: a multi-omics study.",
+    "authors": [
+      "Liang F",
+      "Wang T",
+      "Lou Z",
+      "Li J",
+      "Yu H",
+      "Xu Z",
+      "Yu Y",
+      "Hu X",
+      "Xu X",
+      "Wang Y",
+      "Chen Y",
+      "Zhang W",
+      "Lu Y",
+      "Wu M"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366351/",
+    "doi": "doi: 10.1186/s12931-026-03794-0",
+    "categories": [],
+    "keywords_matched": [
+      "\\bNecroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366318",
+    "title": "The shaky voice of aging localized to the larynx: dissociation of frequency and amplitude tremor.",
+    "authors": [
+      "Bošković B",
+      "Bilić I",
+      "Rogić Vidaković M",
+      "Šoda J",
+      "Džamonja G",
+      "Runjić-Stoilova A",
+      "Žuljević K",
+      "Pavelin S",
+      "Stipica Safić I",
+      "Markotić A",
+      "Đogaš Z",
+      "Hlavnička J"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366318/",
+    "doi": "doi: 10.1007/s11357-026-02382-w",
     "categories": [],
     "keywords_matched": [
       "\\b(?:aging|ageing)\\b",
       "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366314",
+    "title": "Tamoxifen loaded lipid nanoparticles as a novel therapeutic approach enhancing apoptotic cell death in triple negative breast cancer cells.",
+    "authors": [
+      "Gunbay S",
+      "Sarigul-Ozbek S",
+      "Cakirli E",
+      "Sala OB",
+      "Demirbolat GM"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366314/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366284",
+    "title": "Prolactin-Releasing Hormone Receptor (PRLHR) enhances radiosensitivity and exacerbates DNA damage in glioblastoma post-irradiation by inhibiting Y-box-binding protein-1 (YBX1) nuclear translocation: a novel perspective on precision radiotherapy.",
+    "authors": [
+      "Qiu Y",
+      "Zhang J",
+      "Liu J",
+      "Wang Z",
+      "Ma Z",
+      "Wang M",
+      "Wang Q",
+      "Liu X",
+      "Yan D",
+      "Zhang Z"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366284/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bdna\\s+damage(?:\\s+response)?\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366271",
+    "title": "The effect of spiritual transcendence and kinesiophobia on successful aging in older adults.",
+    "authors": [
+      "Uncu F",
+      "Evci̇men H",
+      "Yildiz M",
+      "Aydin MA",
+      "Polat E"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366271/",
+    "doi": "doi: 10.1007/s40520-026-03414-3",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366244",
+    "title": "Gut Microbiota-Derived TMAO Drives MC3T3-E1 Senescence and Osteogenic Dysfunction via cGAS-STING-NF-κB Signaling: Implications for Age-Related Bone Loss.",
+    "authors": [
+      "Li L",
+      "Li X",
+      "Jin M",
+      "Zhang Y",
+      "Bai J",
+      "An J",
+      "Yang Y",
+      "Li S",
+      "Lv H"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366244/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bSenescence\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366201",
+    "title": "Lifestyle-associated blood metabolic pathways and functional performance in cognitive aging.",
+    "authors": [
+      "Chen Y",
+      "Gui H",
+      "Ma K",
+      "Zhang Z",
+      "Zhao T",
+      "Wang M"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366201/",
+    "doi": "doi: 10.1038/s41598-026-58782-7",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366180",
+    "title": "The Ageing Adipose Paradox: Implications for Metabolic Health.",
+    "authors": [
+      "Matar DB",
+      "Elahi MA",
+      "Nassar WK",
+      "Alotaibi MI",
+      "Murphy D",
+      "Fakhoury HMA",
+      "Aljada A"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366180/",
+    "doi": "doi: 10.1111/dom.71037",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366134",
+    "title": "Retraction notice to 'Mitochondrial ferritin upregulation reduced oxidative stress and blood-brain-barrier disruption by maintaining cellular iron homeostasis in a neonatal rat model of germinal matrix hemorrhage' [Experimental Neurology 374 (2024) 114703].",
+    "authors": [
+      "Yuan Y",
+      "He Q",
+      "Yang X",
+      "Flores JJ",
+      "Huang L",
+      "Luo X",
+      "Zhang X",
+      "Zhang Z",
+      "Li R",
+      "Gu L",
+      "Dong S",
+      "Zhu S",
+      "Yi K",
+      "Han M",
+      "Wu L",
+      "Zhou Y",
+      "Zhang JH",
+      "Xie Z",
+      "Tang J"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366134/",
+    "doi": "doi: 10.1016/j.expneurol.2026.115735",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366118",
+    "title": "Chlorfenapyr Induces Hepatotoxicity Associated With Oxidative Stress and Mitochondrial Dysfunction Involving Keap1/Nrf2 Signaling.",
+    "authors": [
+      "Zhao D",
+      "Li J",
+      "Li C",
+      "He H",
+      "Deng L"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366118/",
+    "doi": "doi: 10.1002/jat.70297",
+    "categories": [],
+    "keywords_matched": [
+      "\\bMitochondrial\\ dysfunction\\b",
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366061",
+    "title": "Association of glycolysis-related protein expression with prognosis in canine pulmonary adenocarcinoma.",
+    "authors": [
+      "Aoyama A",
+      "Kato T",
+      "Ichimata M",
+      "Kobayashi K",
+      "Sakurai M",
+      "Kagawa Y",
+      "Toyoda H",
+      "Katayama R",
+      "Harada K",
+      "Fukazawa E",
+      "Matsuyama F",
+      "Kobayashi T",
+      "Mizuno T",
+      "Igase M"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366061/",
+    "doi": "doi: 10.1292/jvms.26-0125",
+    "categories": [],
+    "keywords_matched": [
+      "\\bGlycolysis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365900",
+    "title": "From Lifespan Extension to Hallmark-Informed Gerotherapeutic Prioritization: A Bibliometric-Guided, Strategy-Oriented Review of Anti-Aging Drug Research.",
+    "authors": [
+      "Liu Z",
+      "Abulaiti A",
+      "Li D",
+      "Li J",
+      "Wahafu P",
+      "Zhang Y",
+      "Maimaitiming M",
+      "Shu L",
+      "Li G",
+      "Yakufu M"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365900/",
+    "doi": "doi: 10.1016/j.arr.2026.103221",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365890",
+    "title": "VNN1 aggravates sepsis by promoting inflammation and oxidative stress through PPARγ signaling VNN1 in sepsis.",
+    "authors": [
+      "Wang CC",
+      "Ma XX",
+      "Zhu CB",
+      "Zhang F",
+      "Xu G",
+      "Shi QH",
+      "Lu HX",
+      "Zhang AQ"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365890/",
+    "doi": "doi: 10.1016/j.clim.2026.110734",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365869",
+    "title": "miR-205-5p accelerates lung fibroblast senescence in IPF patients via mediation of mitochondrial dynamics.",
+    "authors": [
+      "Wei R",
+      "Shen Y",
+      "Guo B",
+      "Wang S",
+      "Han Q"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365869/",
+    "doi": "doi: 10.1016/j.mito.2026.102189",
+    "categories": [],
+    "keywords_matched": [
+      "\\bSenescence\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365859",
+    "title": "DXA-Measured Visceral Adipose Tissue and Accelerated Biological Aging in Middle-Aged Adults.",
+    "authors": [
+      "O'Shea R",
+      "Hui J",
+      "Bharat C",
+      "Murray K",
+      "Arscott G",
+      "Hunter M",
+      "Walsh J",
+      "Zhu K"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365859/",
+    "doi": "doi: 10.1002/oby.70239",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366287",
+    "title": "Author Correction: TGF-β promotes pericyte-myofibroblast transition in subretinal fibrosis through the Smad2/3 and Akt/mTOR pathways.",
+    "authors": [
+      "Zhao Z",
+      "Zhang Y",
+      "Zhang C",
+      "Zhang J",
+      "Luo X",
+      "Qiu Q",
+      "Luo D",
+      "Zhang J"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366287/",
+    "doi": "doi: 10.1038/s12276-026-01786-0",
+    "categories": [],
+    "keywords_matched": [
+      "\\bmTOR\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366260",
+    "title": "The effects of glutamine supplementation on inflammatory and oxidative stress indices in chronic diseases: a systematic review.",
+    "authors": [
+      "Movahed S",
+      "Bahadorkhan A",
+      "Malov V",
+      "Emadzadeh M",
+      "Pahlavani N"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366260/",
+    "doi": "doi: 10.1007/s00726-026-03543-z",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42366165",
+    "title": "Histone Lactylation Links Glycolysis to Ferroptosis in Diabetic Cataract.",
+    "authors": [
+      "Tao D",
+      "Wang H",
+      "Liu Z",
+      "Wang Y",
+      "Lei L",
+      "Li S",
+      "Li R",
+      "Ni N"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42366165/",
+    "doi": "doi: 10.1177/15230864261463738",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b",
+      "\\bGlycolysis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365903",
+    "title": "Ferroptosis in the tumor immune microenvironment: A double-edged sword in immunotherapy.",
+    "authors": [
+      "Yang R",
+      "Zhu T",
+      "Jiang J",
+      "Deng M",
+      "Miao J"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365903/",
+    "doi": "doi: 10.1016/j.bbcan.2026.189646",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365862",
+    "title": "Harnessing natural herbaceous plants against ferroptosis: Implications for managing polycystic ovary syndrome.",
+    "authors": [
+      "Chang J",
+      "Wan W",
+      "Yang C"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365862/",
+    "doi": "doi: 10.1016/j.jep.2026.122135",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365847",
+    "title": "Region-specific dysregulation of proline metabolic enzymes underlying mitochondrial dysfunction in the postmortem brains of patients with schizophrenia.",
+    "authors": [
+      "Nagaoka A",
+      "Hino M",
+      "Shishido R",
+      "Hatano M",
+      "Hosogai Y",
+      "Kano A",
+      "Hamasaki H",
+      "Kakita A",
+      "Tomita H",
+      "Kunii Y"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365847/",
+    "doi": "doi: 10.1016/j.jpsychires.2026.06.042",
+    "categories": [],
+    "keywords_matched": [
+      "\\bMitochondrial\\ dysfunction\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365727",
+    "title": "A multifunctional graphene oxide-based nanoplatform sensitizes ovarian cancer to cisplatin via ROS-PINK1/Parkin mitophagy under chemo-photothermal-photodynamic synergy.",
+    "authors": [
+      "Li X",
+      "Guo Y",
+      "Wang X",
+      "Liu C",
+      "Shi M",
+      "Zhu H",
+      "Zhai X",
+      "Wang Y",
+      "Yang T",
+      "Zhao H",
+      "Chang B",
+      "Liu Z",
+      "Liang W",
+      "Yang X",
+      "Yu B",
+      "Gong T",
+      "Guo R"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365727/",
+    "doi": "doi: 10.1016/j.bioadv.2026.215044",
+    "categories": [],
+    "keywords_matched": [
+      "\\bROS\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365691",
+    "title": "Corrigendum to \"Acacetin ameliorates pressure overload-induced cardiac remodeling by targeting USP10 and inhibiting maladaptive cardiomyocyte autophagy\" [Phytomedicine 141C (2025) 156588].",
+    "authors": [
+      "Ge G",
+      "Zhao W",
+      "Zhong Z",
+      "Huang Y",
+      "Hua Y",
+      "Chen K",
+      "Yu Y",
+      "Wu T",
+      "Lu Y",
+      "Yadav N",
+      "Zhang F"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365691/",
+    "doi": "doi: 10.1016/j.phymed.2026.158440",
+    "categories": [],
+    "keywords_matched": [
+      "\\bAutophagy\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365688",
+    "title": "Corrigendum to \"Total saponins from Panax japonicus mediate the paracrine interaction between adipocytes and macrophages to promote lipolysis in the adipose tissue during aging via the NLRP3 inflammasome/GDF3/ATGL axis\" [ Phytomedicine 136 (2025)/156304].",
+    "authors": [
+      "Xia F",
+      "Hu Y",
+      "Wang Y",
+      "Xue M",
+      "Zhu L",
+      "Li Y",
+      "Zhang Y",
+      "Wang S",
+      "Wang R",
+      "Yuan Q",
+      "He Y",
+      "Yuan D",
+      "Zhang J",
+      "Yuan C"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365688/",
+    "doi": "doi: 10.1016/j.phymed.2026.158494",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365686",
+    "title": "Cuminal-triggered mitophagy induces mitochondrial dysfunction, resulting in decreased vegetative growth and pathogenicity in Trichothecium roseum.",
+    "authors": [
+      "Kang R",
+      "Zhang Z",
+      "Sun P",
+      "Xu X",
+      "Djomptchouang HT",
+      "Bi Y",
+      "Prusky D",
+      "Kuffi KD"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365686/",
+    "doi": "doi: 10.1016/j.ijfoodmicro.2026.111925",
+    "categories": [],
+    "keywords_matched": [
+      "\\bMitochondrial\\ dysfunction\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365602",
+    "title": "An OLD DOG teaching us new tricks in ageing biology.",
+    "authors": [
+      "Carvalho OMS",
+      "Abukwaik A",
+      "Sultan O",
+      "Koizia LJ",
+      "Harris BHL"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365602/",
+    "doi": "doi: 10.1016/j.tjfa.2026.100181",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365479",
+    "title": "Material-Encoded Synchronization of Immunogenic Cell Death With Adenosine A2A Receptor Blockade Reprograms the Tumor Microenvironment.",
+    "authors": [
+      "Yi X",
+      "Yang H",
+      "Huang J",
+      "Wu P",
+      "Zhou S",
+      "Liao Z",
+      "Han M",
+      "Chen Z",
+      "Huang X",
+      "Ma N",
+      "Zhou J",
+      "Li M",
+      "Zhong Y"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365479/",
+    "doi": "doi: 10.1002/advs.76303",
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365373",
+    "title": "Removal of aging microenvironment of bone defects can effectively promote bone defect repair.",
+    "authors": [
+      "Huang J",
+      "Long H",
+      "Malik MA",
+      "Wu S",
+      "Cao X"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365373/",
+    "doi": "doi: 10.1186/s12967-026-08500-8",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365366",
+    "title": "Chlorogenic acid attenuates skin senescence and UVR-induced photoaging via the modulation of mitochondrial function.",
+    "authors": [
+      "Li R",
+      "Hu C",
+      "Zhou P",
+      "Si G",
+      "Cui J",
+      "He Y",
+      "Han Y",
+      "Zhang J",
+      "Li W",
+      "Wang L",
+      "Jiang J"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365366/",
+    "doi": "doi: 10.1186/s12967-026-08538-8",
+    "categories": [],
+    "keywords_matched": [
+      "\\bSenescence\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365323",
+    "title": "Programmable aging function-related mitochondrial DNA 5-methylcytosine (m5C) modification with a TALE-directed methyltransferase.",
+    "authors": [
+      "Li G",
+      "Zhou X",
+      "Zhu G",
+      "Cheng Y",
+      "Pan Y",
+      "Guo X",
+      "Liao G",
+      "Li X",
+      "Hu X",
+      "Yao Y",
+      "Gu Z",
+      "Jiang W"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365323/",
+    "doi": "doi: 10.1186/s12964-026-03030-8",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365316",
+    "title": "From paradox to target: IFN-β hijacks MEK signaling to drive a cell death-evading dormant phenotype in colorectal cancer.",
+    "authors": [
+      "Zhou Y",
+      "Geng H",
+      "Xu Y",
+      "Hong Y",
+      "Mei B",
+      "Wu H",
+      "Jin X",
+      "Ye M",
+      "Wang Y",
+      "Shen Z",
+      "Zheng Z",
+      "Zhu Z",
+      "Yang X",
+      "Zhang Z",
+      "Zhu C"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365316/",
+    "doi": "doi: 10.1186/s13046-026-03768-6",
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365283",
+    "title": "Retraction Note: In vitro evaluation of Pandanus amaryllifolius ethanol extract for induction of cell death on non-hormone dependent human breast adenocarcinoma MDA-MB-231 cell via apoptosis.",
+    "authors": [
+      "Chong HZ",
+      "Yeap SK",
+      "Rahmat A",
+      "Akim AM",
+      "Alitheen NB",
+      "Othman F",
+      "Gwendoline-Ee CL"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365283/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b",
+      "\\bApoptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365271",
+    "title": "HIF-1α enhances ferroptosis resistance in anaplastic thyroid carcinoma by suppressing ACSL4-mediated lipid metabolic homeostasis.",
+    "authors": [
+      "Xie R",
+      "Geng R",
+      "Wang Y",
+      "Zhan C",
+      "Deng X",
+      "Duan Y",
+      "Liang J",
+      "Wang J",
+      "Liang R",
+      "Ge J",
+      "Ge M",
+      "Zhu X"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365271/",
+    "doi": "doi: 10.1186/s11658-026-00973-1",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365254",
+    "title": "Myo-inositol mitigates heat-induced leaf senescence by enhancing antioxidant defense, sugar metabolism, and heat shock pathway in creeping bentgrass.",
+    "authors": [
+      "Cai Y",
+      "Peng D",
+      "Li Z"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365254/",
+    "doi": "doi: 10.1186/s12870-026-09338-4",
+    "categories": [],
+    "keywords_matched": [
+      "\\bSenescence\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365242",
+    "title": "Lavandin cell extract enriched in rosmarinic acid attenuates inflammation via AMPK/Nrf2/HO-1 activation and IKK/IκB/NF-κB inhibition.",
+    "authors": [
+      "Jeon G",
+      "Kim BR",
+      "Jeong YJ",
+      "Kim S",
+      "Lee J",
+      "Lee OR",
+      "Jeong HJ",
+      "Jeong JC",
+      "Kim CY"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365242/",
+    "doi": "doi: 10.1186/s12870-026-09361-5",
+    "categories": [],
+    "keywords_matched": [
+      "\\bAMPK\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365238",
+    "title": "Aging with burden: multimorbidity, depression and quality of life in older adults residing in long-term care facilities in South Africa.",
+    "authors": [
+      "Naidoo S",
+      "Naidoo N"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365238/",
+    "doi": "doi: 10.1186/s12877-026-07846-4",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365227",
+    "title": "Cannabidiol alleviates traumatic brain injury-induced neuronal damage and cognitive deficits by inhibiting ferroptosis via the TRPV1/MCU/PI3K/Akt pathway.",
+    "authors": [
+      "Xu Y",
+      "Li X",
+      "Gu Z",
+      "Chen X",
+      "Zhao Y",
+      "Jia B",
+      "Wu Y",
+      "Wan R",
+      "Li Q",
+      "Wang T",
+      "Luo C"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365227/",
+    "doi": "doi: 10.1186/s11658-026-00983-z",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365225",
+    "title": "Inferring genetic associations of programmed cell death genes with retinitis pigmentosa through multimodal Mendelian randomization.",
+    "authors": [
+      "Guo N",
+      "Peng GH"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365225/",
+    "doi": "doi: 10.1186/s10020-026-01547-9",
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365184",
+    "title": "SLC7A11 deficiency exacerbates systemic lupus erythematosus by inducing instability and ferroptosis in regulatory T cells.",
+    "authors": [
+      "Ouyang L",
+      "Chen F",
+      "Zheng M",
+      "Hu Z",
+      "Min X",
+      "Song Y",
+      "Gao X",
+      "Chen X",
+      "Wang Q",
+      "Lu Q",
+      "Zhao M"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365184/",
+    "doi": "doi: 10.1038/s42003-026-10570-9",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365148",
+    "title": "Author Correction: Progerinin, an optimized progerin-lamin A binding inhibitor, ameliorates premature senescence phenotypes of Hutchinson-Gilford progeria syndrome.",
+    "authors": [
+      "Kang SM",
+      "Yoon MH",
+      "Ahn J",
+      "Kim JE",
+      "Kim SY",
+      "Kang SY",
+      "Joo J",
+      "Park S",
+      "Cho JH",
+      "Woo TG",
+      "Oh AY",
+      "Chung KJ",
+      "An SY",
+      "Hwang TS",
+      "Lee SY",
+      "Kim JS",
+      "Ha NC",
+      "Song GY",
+      "Park BJ"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365148/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bSenescence\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365121",
+    "title": "Zingerone attenuates aluminum chloride/D-galactose-induced hippocampal neurotoxicity in mice: Modulation of oxidative stress, astrogliosis, cholinergic function, ATP hydrolysis, and neurotrophic signaling.",
+    "authors": [
+      "Oria RS",
+      "Akpang KE",
+      "Ugbem LP",
+      "Ojie AP",
+      "Obu T",
+      "Oge PA",
+      "Ohaegbulam CM",
+      "Igiri AO"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365121/",
+    "doi": "doi: 10.1007/s00210-026-05626-w",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42365045",
+    "title": "Synthesis, structural characterization, and dual DNA/HSA binding of novel Palladium(II) violurate complex with selective p53/Caspase-3-mediated anticancer activity.",
+    "authors": [
+      "El-Kemary MA",
+      "El-Motaleb A",
+      "Ramadan M",
+      "Sahyon HA",
+      "Shabbat AA",
+      "Fathy AM"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42365045/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bp53\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364999",
+    "title": "Targeting macrophage ferritin heavy chain mitigates ferroptosis and lung injury in experimental acute respiratory distress syndrome.",
+    "authors": [
+      "Zhang WZ",
+      "Kim K",
+      "Bhatia D",
+      "Faherty L",
+      "Simmons W",
+      "Kallinos E",
+      "Carrasco SE",
+      "Hoffman KL",
+      "Houghton S",
+      "Hsu CL",
+      "Haber L",
+      "Meydan C",
+      "Mason CE",
+      "Mirchandani AS",
+      "Walmsley SR",
+      "Goyal P",
+      "Chung KP",
+      "Ballman KV",
+      "Redmond D",
+      "Mancias JD",
+      "Choi AMK",
+      "Schenck EJ",
+      "Plataki M",
+      "Cloonan SM"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364999/",
+    "doi": "doi: 10.1038/s41467-026-74828-w",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364986",
+    "title": "The role of supraoptic hypothalamic arginine vasopressin neurons in aging-associated water balance and thermoregulatory deficits in male mice.",
+    "authors": [
+      "Morones N",
+      "Jovanovic P",
+      "Sanetra AM",
+      "Jang K",
+      "Keshishian N",
+      "Cui ZC",
+      "Novinbakht E",
+      "Breunig JJ",
+      "Berg AH",
+      "Pirtskhalava T",
+      "Chaib S",
+      "Karumanchi SA",
+      "Tchkonia T",
+      "Silm K",
+      "Kirkland JL",
+      "Riera CE"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364986/",
+    "doi": "doi: 10.1038/s41467-026-74819-x",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364867",
+    "title": "Dietary exposure to polystyrene microplastics impairs muscle growth via gut microbiota dysbiosis and hepatic oxidative stress along the gut-liver-muscle axis in Qihe gibel carp (Carassius gibelio var. Qihe).",
+    "authors": [
+      "Li Y",
+      "Jin Y",
+      "Wang F",
+      "Wang L",
+      "Zhang M",
+      "Shi X",
+      "Li X",
+      "Wu F",
+      "Wu L"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364867/",
+    "doi": "doi: 10.1016/j.envpol.2026.128648",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364863",
+    "title": "SHC4 suppresses ferroptosis and promotes sorafenib resistance in hepatocellular carcinoma by disrupting the interaction between NCOA4 and FTH1.",
+    "authors": [
+      "Chai D",
+      "Zhang J",
+      "Dong K",
+      "Yu J",
+      "Zhang X",
+      "Kuang T",
+      "Feng J",
+      "Li M",
+      "Wang W"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364863/",
+    "doi": "doi: 10.1016/j.cellsig.2026.112699",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364861",
+    "title": "PDK4-dependent lactate production and lactylation promote renal calcium oxalate crystal-induced EMT and mitochondrial dysfunction via the TGF-β/SMAD3/GPX4 axis.",
+    "authors": [
+      "Zhang B",
+      "Liu K",
+      "Fan R",
+      "Zeng Y",
+      "Li H"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364861/",
+    "doi": "doi: 10.1016/j.cellsig.2026.112701",
+    "categories": [],
+    "keywords_matched": [
+      "\\bMitochondrial\\ dysfunction\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364855",
+    "title": "Proteome-wide quantitative analysis of redox cysteine in porcine uterus reveals deoxynivalenol induced oxidative stress via protein hyperoxidation.",
+    "authors": [
+      "Fan S",
+      "Tian F",
+      "Wang Q",
+      "Guan J",
+      "Lu S",
+      "Ding Y",
+      "Zheng X",
+      "Li Y",
+      "Yin Z",
+      "Zhang X"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364855/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364854",
+    "title": "Ginsenoside Rk1 suppresses osteosarcoma progression by coordinately activating ferritinophagy and disrupting antioxidant defense to induce ferroptosis.",
+    "authors": [
+      "Lin R",
+      "Wu J",
+      "Fang R",
+      "Suo Y",
+      "Lu H",
+      "Liu Q"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364854/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364821",
+    "title": "IL-11 neutralizing antibodies alleviate pulmonary fibrosis in aging mice by inhibiting TGF-β/NOX4/IL-11 signaling pathway.",
+    "authors": [
+      "Miao Y",
+      "Hu YY",
+      "Xu L",
+      "Meng LX",
+      "Yang Y",
+      "Liu ZG",
+      "Yang ZY",
+      "Liu XZ",
+      "Liu YM",
+      "Jiao R",
+      "Xu AG",
+      "Gu XT",
+      "Zhou HG",
+      "Li XH"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364821/",
+    "doi": "doi: 10.1016/j.bcp.2026.118204",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364785",
+    "title": "ACSS2 promotes macrophage senescence and atherosclerosis by upregulating histone H3 lysine 9 crotonylation.",
+    "authors": [
+      "Yin Q",
+      "Yang J",
+      "Xu Y",
+      "Qi Z",
+      "Wang X",
+      "Zhu X",
+      "Jing Y",
+      "Chen J",
+      "Min J",
+      "Lu H",
+      "Wei H",
+      "Li X",
+      "Chao M",
+      "Li X",
+      "Chen X",
+      "Chen H",
+      "Jiang H"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364785/",
+    "doi": "doi: 10.1016/j.bbadis.2026.168336",
+    "categories": [],
+    "keywords_matched": [
+      "\\bSenescence\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364746",
+    "title": "Apoptosis-mediated anti-leishmanial activity of azurin: An integrated in silico and in vitro investigation.",
+    "authors": [
+      "Reddy VRC",
+      "Sahu R",
+      "Santhanu S",
+      "Khan JM",
+      "Saudagar P"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364746/",
+    "doi": "doi: 10.1016/j.ijbiomac.2026.153235",
+    "categories": [],
+    "keywords_matched": [
+      "\\bApoptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364682",
+    "title": "Polystyrene nanoplastics trigger ferroptosis to aggravate ulcerative colitis: Integrated multi-database bioinformatics, machine learning, and experimental validation.",
+    "authors": [
+      "Gu M",
+      "Tian M",
+      "Jiang C",
+      "Ping G",
+      "Chen H",
+      "Huang X"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364682/",
+    "doi": "doi: 10.1016/j.cbi.2026.112218",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364639",
+    "title": "Sodium arsenite promotes Pseudomonas aeruginosa-induced apoptosis in human bronchial epithelial cells via H(2)O(2) production.",
+    "authors": [
+      "Qi H",
+      "Wang M",
+      "Wang L",
+      "Wang L",
+      "Sun Z",
+      "Wang Q"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364639/",
+    "doi": "doi: 10.1016/j.ecoenv.2026.120430",
+    "categories": [],
+    "keywords_matched": [
+      "\\bApoptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364584",
+    "title": "Ameliorative effects of Bambusa balcooa leaf extract on high fat diet induced obesity, metabolic dysregulation, and adipocyte oxidative stress in C57BL/6 mice.",
+    "authors": [
+      "Joshi B",
+      "Indira A",
+      "Koul A",
+      "Chongtham N"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364584/",
+    "doi": "doi: 10.1016/j.talanta.2026.130220",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364498",
+    "title": "Sequential targeting nanochaperone disrupts positive feedback loop of mitochondrial dysfunction for Alzheimer's disease therapy.",
+    "authors": [
+      "Hu H",
+      "Zhao S",
+      "Xu L",
+      "Ma Z",
+      "Ma R",
+      "Huang F",
+      "Shi L"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364498/",
+    "doi": "doi: 10.1016/j.biomaterials.2026.124408",
+    "categories": [],
+    "keywords_matched": [
+      "\\bMitochondrial\\ dysfunction\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364341",
+    "title": "Rewiring lipid metabolism in diabetic kidney disease: Pathogenic networks and the therapeutic convergence of natural products.",
+    "authors": [
+      "Pi Y",
+      "Wen L",
+      "Cheng X",
+      "Tang X"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364341/",
+    "doi": "doi: 10.1016/j.prp.2026.156604",
+    "categories": [],
+    "keywords_matched": [
+      "\\bLipid\\ metabolism\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364156",
+    "title": "Mitochondria as Integrative Regulators of Ferroptosis in the Female Reproductive System.",
+    "authors": [
+      "Yenigun I",
+      "Huner NE",
+      "Yaba A"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364156/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364101",
+    "title": "Managed grazing as a strategy for climate change mitigation: a commentary on 'Grazing-driven ontogenetic aging and reproductive shifts in a dominant Stipa grass mediate community reorganization'.",
+    "authors": [
+      "Lemoine N"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364101/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364077",
+    "title": "The toxicity of neodymium substances to soil invertebrates in a boreal soil, and the impacts of soil type, aging, and leaching on metal bioavailability and toxicity.",
+    "authors": [
+      "Boyd P",
+      "Schwertfeger D",
+      "Lemieux H",
+      "Velicogna J",
+      "Scroggins R",
+      "Princz J"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364077/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364050",
+    "title": "Selenium Nanoparticles Inhibited H(2)O(2)-Induced Endothelial Cell Dysfunction by Alleviating Oxidative Stress.",
+    "authors": [
+      "Li N",
+      "Xiao S",
+      "Yang W",
+      "Liu H"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364050/",
+    "doi": "doi: 10.1007/s12011-026-05201-7",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42364047",
+    "title": "Mesenchymal Stem Cell-Derived Extracellular Vesicles Attenuate Diabetic β-Cell Apoptosis and Dedifferentiation by Delivering miR-4436.",
+    "authors": [
+      "Xu J",
+      "Sun Y",
+      "Sun F"
+    ],
+    "summary": "",
+    "published": "2026-06-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42364047/",
+    "doi": "doi: 10.1007/s13770-026-00823-3",
+    "categories": [],
+    "keywords_matched": [
+      "\\bApoptosis\\b"
     ]
   }
 ]
