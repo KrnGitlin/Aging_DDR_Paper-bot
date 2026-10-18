@@ -1,5 +1,34 @@
 [
   {
+    "id": "pmid:42888947",
+    "title": "Targeted intestinal ROS scavenging alleviated rheumatoid arthritis by microbial metabolite kynurenic acid mediated Treg/Th17 balance through AhR pathway activation.",
+    "authors": [
+      "Ling Z",
+      "Xiang T",
+      "Yang C",
+      "Zhang D",
+      "You Y",
+      "Xiao S",
+      "Xie L",
+      "Tan J",
+      "Dai Q",
+      "Huang G",
+      "Sun D",
+      "Luo F",
+      "Chen Y"
+    ],
+    "summary": "",
+    "published": "2026-12-03T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888947/",
+    "doi": "doi: 10.1080/19490976.2026.2739669",
+    "categories": [],
+    "keywords_matched": [
+      "\\bROS\\b"
+    ]
+  },
+  {
     "id": "pmid:42886879",
     "title": "APOE Beyond Alzheimer Disease: Cognitive Aging in the Oldest Old.",
     "authors": [
@@ -19,22 +48,132 @@
     ]
   },
   {
-    "id": "10.64898/2026.04.21.719741",
-    "title": "MetAR: A semi-automated meta-analysis of skeletal muscle androgen receptors association with age",
+    "id": "10.64898/2026.04.02.716177",
+    "title": "A Tissue Virus Microenvironment with Activated Stress Responses Underlies Durable SIV Persistence",
     "authors": [
-      "Williams, R. M.",
-      "Engman, V.",
-      "Soria, M.",
-      "Wadley, G. D.",
-      "Hiam, D.",
-      "Lamon, S."
+      "Hope, T. J.",
+      "Crentsil, E. U.",
+      "Arif, M. S.",
+      "Thomas, Y.",
+      "Zhang, E.",
+      "Thuruthiyil, C. T.",
+      "Moriarty, R. V.",
+      "Engelmann, F.",
+      "Pascoe, S. C.",
+      "Hasson, J. M.",
+      "Borrowman, S. H.",
+      "Shaaban, M. A.",
+      "Allen, E. J.",
+      "Monette, A.",
+      "Carias, A. M.",
+      "Ferrell, D.",
+      "Ouguirti, N.",
+      "Clerc, I.",
+      "Hultquist, J. F.",
+      "D'Aquila, R. T.",
+      "McRaven, M. D.",
+      "Arainga, M.",
+      "Villinger, F.",
+      "Lorenzo-Redondo, R."
     ],
-    "summary": "Ageing is associated with reduced skeletal muscle mass and function. Testosterone, the main androgenic hormone, exerts its anabolic effects in muscle through androgen receptor (AR) mediated pathways, with evidence suggesting that AR availability may represent a rate-limiting factor in androgen signalling. Rodent studies report age-related reductions in AR expression, however findings in human muscle are inconclusive. This study aimed to characterise age-related changes in AR expression and its upstream and downstream regulators in human skeletal muscle. To this end, we developed a novel R-based pipeline, MetAR, for reproducible meta-analyses of publicly available RNA sequencing (RNA-seq) datasets, to investigate associations between target gene expression and variables of interest. Eligible datasets included skeletal muscle samples from healthy adult males aged [&ge;]18 years, with an age range of [&ge;] 10 years and sample size [&ge;] 6. Raw counts data were downloaded, appraised and trimmed mean of M-values (TMM) normalised. Dataset-level associations between age and target gene expression were modelled and random-effects meta-analyses performed. Sixteen RNA-seq datasets (n = 364; age 18-92 years) were included. AR expression was negatively associated with age ({beta} = -0.006 log2 TMM-Counts Per Million (CPM) per year, p < 0.001, 4.4% decline per decade, I-squared=53.8%, 95% prediction interval [-0.0143 to +0.0014]). Age was associated with a reduction in expression of regulators of AR stability, transcriptional activity and nuclear transport, as well as downstream regulators relevant to AR signalling. These findings suggest multi-faceted age-associated remodelling of AR expression, signalling and nuclear transport, potentially explaining a component of age-associated muscle loss.",
-    "published": "2026-10-14T00:00:00+00:00",
+    "summary": "HIV persistence during suppressive antiretroviral therapy (ART) remains a central barrier to cure, with the majority of reservoirs residing in gut-associated lymphoid tissues (GALT). Here, we define a spatially organized viral microenvironment (VME) that sustains reservoir durability and governs early viral rebound by comparing animals initiating ART early after infection (transient reservoirs) versus late (persistent reservoirs). Using immunoPET/CT-guided sampling of SIV-infected rhesus macaques combined with spatial transcriptomics, we interrogated tissue sites of viral production during the eclipse phase following analytical treatment interruption (ATI). Our results revealed that viral rebound from persistent reservoirs arises from discrete, transcriptionally active foci enriched in the mucosa lining the gut lumen. Eclipse phase persistent reservoirs were characterized by increased proviral burden and a distinct tissue state marked by activation of stress-response, metabolic, mitochondrial, and cell cycle programs coupled to repression of cytoplasmic translation and increased cellular senescence. These features co-occurred with immunosuppressive cellular architectures resembling tertiary lymphoid structures enriched for Treg cells, innate lymphoid cells, and mast cells, regulated by Treg-centered cell-cell interaction networks. In contrast, transient reservoirs displayed enhanced translational and metabolic activity and were embedded within immune-active environments enriched for CD8+ T cells, Th17, Tfh, and activated CD4+ T cells. Machine learning identified stress adaptation, hypoxia, metabolic rewiring, and cytoskeletal remodeling pathways as dominant predictors of viral density within persistent VMEs, with strong convergence on programs observed in tumor microenvironments (TME). Orthogonal validation confirmed activation of the integrated stress response (ISR) at sites of viral production in concurrence with results of immunofluorescent microscopy revealing SIV gag expression in two populations primarily in the mucosa, differentiated by the phosphorylation of eIF2alpha. Together, these findings establish the VME as a critical determinant of reservoir persistence, integrating immune regulation, tissue remodeling, and translational control to enable viral survival. This framework suggests that effective HIV cure strategies will require coordinated disruption of VME-supportive functions in addition to targeting infected cells.",
+    "published": "2026-10-15T00:00:00+00:00",
     "updated": null,
     "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.04.21.719741",
-    "doi": "10.64898/2026.04.21.719741",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.04.02.716177",
+    "doi": "10.64898/2026.04.02.716177",
+    "categories": [],
+    "keywords_matched": [
+      "\\bSenescence\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.10.09.757761",
+    "title": "Title: Unilateral loss of tyrosine hydroxylase in adult midbrain dopaminergic neurons reveals reduction to neuregulin1 in rat model of acute dopaminergic dysfunction",
+    "authors": [
+      "Greer, L. K.",
+      "Harr, A. E.",
+      "Hoffman, A. F.",
+      "Jämsä, A. J.",
+      "Airavaara, M.",
+      "Lupica, C. R.",
+      "Harvey, B. K."
+    ],
+    "summary": "Dopamine, produced primarily in the midbrain, is required for movement and reward-based signaling all throughout life. Loss of dopaminergic function can result in changes to motor systems, mood, motivation, and cognition. Dopaminergic cell death or dopaminergic hypofunction are implicated in a variety of diseases including synucleinopathies, neuropsychiatric disorders, and substance use disorders. Loss of dopaminergic neurons (DANs) in the substantia nigra pars compacta (SNpc) and subsequent dysregulation of dopamine signaling in striatum are implicated to varying degrees in all synucleinopathies. By the time patients present with motor symptoms in Parkinson's disease, the most common synucleinopathy, >30% of DANs are lost in the SNpc because of ongoing degeneration for years prior to diagnosis. Studying the early consequences of dopamine loss is critical to understanding mechanisms of dopamine depletion disease progression and identifying biomarkers for earlier diagnosis so that effective treatment can ensue. Here, we created a model of dopamine loss in adult rats to study early transcriptional changes following loss of dopamine synthesis. We used CRISPR to knock out tyrosine hydroxylase (TH), the rate-limiting enzyme for dopamine synthesis, in the adult rat midbrain through injection of Th guide RNAs into transgenic rats expressing Cas9 nuclease specifically in dopamine transporter positive neurons and performed single nucleus RNA sequencing on midbrain and dorsal striatal tissue. Two weeks after injection, we measured a 90% loss of TH and dopamine in the midbrain, but striatal TH and dopamine were unaffected. Despite preceding striatal dopamine loss, our data identified alterations to genes involved in synaptic signaling, organization, and function in both midbrain and striatal neurons. We found the neurotrophic factor, neuregulin1, to be significantly reduced in dopaminergic neurons, which may account for transcriptional changes in surrounding cells that precede detectable reductions to striatal dopamine. These data establish a new rat model of adult TH loss and identify early transcriptional consequences of dopamine loss in the adult midbrain after normal development, providing potential biomarkers for early-stage dopamine loss in PD, synucleinopathies and related disorders of dopamine depletion.",
+    "published": "2026-10-15T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.10.09.757761",
+    "doi": "10.64898/2026.10.09.757761",
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b"
+    ]
+  },
+  {
+    "id": "10.64898/2026.10.08.757807",
+    "title": "THE BILE ACID RECEPTOR TGR5 MODULATES HIPPOCAMPAL NEURAL STEM CELL STATE AND AGEING",
+    "authors": [
+      "Kaushik, D.",
+      "Dugam, P.",
+      "Sarkar, G.",
+      "Kumar, B. A.",
+      "Patel, S. K.",
+      "Pydi, S. P.",
+      "Yadav, P. N."
+    ],
+    "summary": "Ageing locks hippocampal neural stem cells (NSCs) into deeper quiescence and inflammation-driven senescence, which are also associated with impaired cognition. The bile-acid receptor TGR5, a member class I G-protein coupled receptors (GPCRs), is expressed in cultured hippocampal NSCs and in SOX2-positive cells of the adult sub granular zone, yet its role in NSC homeostasis is unknown. In this study we show that TGR5 selective agonist, TC-G 1005, expanded the NSC pool without forcing neuronal differentiation. Primary NSCs treatment with TC-G 1005 increased BrdU incorporation and PCNA in a concentration-dependent manner, and both responses were lost after TGR5 knockdown. TGR5 agonism in differentiating cultures increased nestin, left doublecortin (DCX) unchanged and suppressed MAP2 expression, preserving stemness rather than neuronal commitment. The agonist also released BMP4-imposed quiescence, lowering FOXO3a and restoring phospho-EGFR and ASCL1, and reopened autophagic flux, with less p62 and LC3-II, fewer LAMP2 puncta and more Beclin-1. Furthermore, activation of TGR5 suppressed IL-6 induced p53 and p16 expression, restored proliferation and contracted the inflammatory transcriptome by more than 90%, including Cdkn2a, Cdkn2b and Cdk6. In 18-month-old mice, brain-penetrant TC-G 1005 (5 mg/kg, subcutaneously, twice daily for 28 days) expanded SOX2-positive and proliferating NSCs, reduced p16, recovered ASCL1 and improved spatial memory, without changing locomotion or generating DCX-positive neurons. Dentate gyrus-restricted TGR5 knockdown abolished these cellular effects and the rescue of spatial and social discrimination. Hippocampal proteomic analysis revealed that TC-G 1005 treated aged mice occupied an intermediate, partially rejuvenated position between young and aged proteomes, with 86 proteins shared between ageing- and treatment-responsive sets, and mitochondrial and complement C1q modules shifted toward youthful levels. TGR5 activation therefore relieves both quiescence and senescence in the aged neurogenic niche without driving neuronal differentiation. Collectively, these results suggest that TGR5 could be targeted to preserve cognition in ageing by rejuvenating the hippocampal stem-cell niche.",
+    "published": "2026-10-15T00:00:00+00:00",
+    "updated": null,
+    "source": "bioRxiv",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.10.08.757807",
+    "doi": "10.64898/2026.10.08.757807",
+    "categories": [],
+    "keywords_matched": [
+      "\\b(?:aging|ageing)\\b",
+      "\\b(?:aging|ageing)\\b",
+      "\\bSenescence\\b",
+      "\\bp53\\b",
+      "\\bp16\\b"
+    ]
+  },
+  {
+    "id": "pmid:42891394",
+    "title": "BODIPY-based photosensitizers for cancer phototherapy: photophysical modulation, ROS-mediated cell death and phototheranostic applications.",
+    "authors": [
+      "Sharma L",
+      "Chouhan T",
+      "Pathania K",
+      "Rangra NK"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42891394/",
+    "doi": "doi: 10.1039/d6ra08100b",
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b",
+      "\\bROS\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888636",
+    "title": "Association between anthropometric indices and serum liver enzyme levels in Iranian older adults: A cross-sectional study based on the Neyshabur Longitudinal Study on Ageing (NeLSA).",
+    "authors": [
+      "Hariri M",
+      "Heshmati M",
+      "Azimi-Nezhad M",
+      "Doostparast Torshizi G",
+      "Gholami A"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888636/",
+    "doi": "doi: 10.1097/MD.0000000000051201",
     "categories": [],
     "keywords_matched": [
       "\\b(?:aging|ageing)\\b",
@@ -42,24 +181,298 @@
     ]
   },
   {
-    "id": "10.64898/2026.07.02.736118",
-    "title": "Drosben, an affordable system for scalable survival analysis in Drosophila",
+    "id": "pmid:42888597",
+    "title": "Development and validation of a ferroptosis and metabolic reprogramming gene signature for risk stratification in bladder urothelial carcinoma: A retrospective multicohort study.",
     "authors": [
-      "Trinca, T. M.",
-      "Berenguer-Molins, P.",
-      "Fernandez-Garcia, C.",
-      "de Navascues, J."
+      "Ma Y",
+      "Zhang Z",
+      "Tang L",
+      "Li Q",
+      "Zhao Y"
     ],
-    "summary": "Survival analysis is a workhorse assay in Drosophila research to evaluate somatic fitness. It is indispensable in the study of ageing and insightful in immunity, metabolism, radiobiology, toxicology, ecology, and others. While conceptually simple, lifespan measurement is labour-intensive because it requires the continuous manual maintenance of large experimental cohorts. Here, we describe Drosben, an approach that combines a 3D-printed device to transfer flies from several vials simultaneously, a paper system for quick data recording and accompanying software that automatically digitalises life tables for analysis. We show that using Drosben reduces the time investment to perform lifespan assays by ~85% respect to handling individual vials, with improved speed regardless of user experience handling these. Using Drosben, we address the effects on longevity of chronic feeding of indole-acetic acid (IAA), naphthalene-acetic acid (NAA) and trimethoprim (TMP) - compounds used to control heterologous targeted protein degradation systems. We find that IAA and NAA mildly shorten lifespan, while TMP extends female longevity. We further show that strong static magnetic fields do not affect Drosophila lifespan. Our work suggests that Drosben can cheaply accelerate research where lifespan is used as a life history trait.",
-    "published": "2026-10-14T00:00:00+00:00",
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
     "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.07.02.736118",
-    "doi": "10.64898/2026.07.02.736118",
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888597/",
+    "doi": "doi: 10.1097/MD.0000000000051078",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888573",
+    "title": "Completed clinical trials of p53-targeted therapeutic strategies in cancer: A cross-sectional ClinicalTrials.gov registry analysis.",
+    "authors": [
+      "Alorfi NM",
+      "Alourfi NM"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888573/",
+    "doi": "doi: 10.1097/MD.0000000000050949",
+    "categories": [],
+    "keywords_matched": [
+      "\\bp53\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888548",
+    "title": "PLCG1 regulates pyroptosis to inhibit the progression of non-small cell lung cancer: A Mendelian randomization study.",
+    "authors": [
+      "Zhang Y",
+      "Wang G",
+      "Qin Z",
+      "Mo Z",
+      "Liu J"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888548/",
+    "doi": "doi: 10.1097/MD.0000000000050908",
+    "categories": [],
+    "keywords_matched": [
+      "\\bPyroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888332",
+    "title": "Apolipoprotein A1 attenuates epirubicin-induced cardiotoxicity with GPX4-linked ferroptosis-defense modulation.",
+    "authors": [
+      "Yang G",
+      "Duan Q",
+      "Liao K",
+      "Huang B",
+      "Dong Q"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888332/",
+    "doi": null,
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888319",
+    "title": "Identification of a novel Microbacterium species and biosynthesis of gold nanoparticles: activation of apoptosis and dysregulation of ABCG transporters in gastric adenocarcinoma cells.",
+    "authors": [
+      "Huq MA",
+      "Dhandapani S",
+      "Samad A",
+      "Akter S",
+      "Kim YJ"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888319/",
+    "doi": "doi: 10.1007/s00210-026-06011-3",
+    "categories": [],
+    "keywords_matched": [
+      "\\bApoptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888316",
+    "title": "The dual role of the PI3K/AKT/mTOR axis in glial cell survival and neuroinflammation.",
+    "authors": [
+      "Neili N",
+      "Jlassi A",
+      "Hjaij S",
+      "Elbini I"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888316/",
+    "doi": "doi: 10.1007/s00210-026-05986-3",
+    "categories": [],
+    "keywords_matched": [
+      "\\bmTOR\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888315",
+    "title": "Delta-9-tetrahydrocannabinol ameliorates oxidative stress, mitochondrial redox state, and neuroinflammation induced by high-fructose diet.",
+    "authors": [
+      "Toprak MS",
+      "Coskun Yazici ZM",
+      "Yanar K",
+      "Bolkent S"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888315/",
+    "doi": "doi: 10.1007/s00210-026-05991-6",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888314",
+    "title": "Comparative hepatoprotective effects of Ginkgo biloba extract and N-Acetylcysteine against methotrexate-induced liver injury in rats: modulation of IκB-α, p38 MAPK, and p53 phosphorylation.",
+    "authors": [
+      "Abdel-Rasol MA",
+      "Abbas RAR",
+      "Al-Hamadani MYI",
+      "El-Sayed WM"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888314/",
+    "doi": "doi: 10.1007/s00210-026-05973-8",
+    "categories": [],
+    "keywords_matched": [
+      "\\bp53\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888282",
+    "title": "The endocannabinoid system and the ageing brain.",
+    "authors": [
+      "Zimmer A"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888282/",
+    "doi": "doi: 10.1038/s41583-026-01085-7",
     "categories": [],
     "keywords_matched": [
       "\\b(?:aging|ageing)\\b",
       "\\b(?:aging|ageing)\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888218",
+    "title": "Platelet-derived microparticles induce CD8(+) T cell senescence in chronic kidney disease via the transfer of microRNA-550a-5p.",
+    "authors": [
+      "Sun Y",
+      "Lan Q",
+      "Wang Y",
+      "Xie M",
+      "Wu X",
+      "Lv L",
+      "Xin Q",
+      "Chen J",
+      "Zhong X",
+      "Yao M",
+      "Gong S",
+      "Zhou S",
+      "Wang J",
+      "Zhao J"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888218/",
+    "doi": "doi: 10.1038/s12276-026-01876-z",
+    "categories": [],
+    "keywords_matched": [
+      "\\bSenescence\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888216",
+    "title": "CircRNA-mediated regulation of ferroptosis in cancer: mechanistic networks and therapeutic implications.",
+    "authors": [
+      "Zhang Y",
+      "Du X",
+      "Liu J",
+      "Guo Y",
+      "Wang X"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888216/",
+    "doi": "doi: 10.1038/s41417-026-01092-x",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888206",
+    "title": "Adipose tissue transcriptome before and after surgery: effects on genes driving lipid metabolism, inflammation, and RNA processing.",
+    "authors": [
+      "Dadson P",
+      "Jaakkola MK",
+      "Sun L",
+      "Klén R",
+      "Suomi T",
+      "Vaittinen M",
+      "Anastasiou IA",
+      "Honka H",
+      "Immonen H",
+      "Badeau RM",
+      "Salminen P",
+      "Helmiö M",
+      "Roivainen A",
+      "Pekkarinen L",
+      "Kalliokoski KK",
+      "Rebelos E",
+      "Olkkonen VM",
+      "Nuutila P"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888206/",
+    "doi": "doi: 10.1038/s41366-026-02243-8",
+    "categories": [],
+    "keywords_matched": [
+      "\\bLipid\\ metabolism\\b"
+    ]
+  },
+  {
+    "id": "pmid:42888200",
+    "title": "PABPC1 dictates castration sensitivity in prostate cancer via orchestrating ferroptosis resistance and CD8(+) T-cell dysfunction.",
+    "authors": [
+      "Luo T",
+      "Zhou Q",
+      "Cheng B",
+      "Fu J",
+      "Luo Y",
+      "Hu J",
+      "Zhong H",
+      "Wu Y",
+      "Dong X",
+      "Wu Z",
+      "Huang H",
+      "Yao K",
+      "He H",
+      "Huang H"
+    ],
+    "summary": "",
+    "published": "2026-10-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42888200/",
+    "doi": "doi: 10.1038/s41418-026-01870-y",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
     ]
   },
   {
@@ -746,330 +1159,85 @@
     ]
   },
   {
-    "id": "pmid:42886269",
-    "title": "Harnessing microvesicles from plantaricin-enhanced stem cells to trigger apoptosis in colon cancer cells.",
+    "id": "pmid:42890471",
+    "title": "RETRACTION: Persea declinata (Bl.) Kosterm Bark Crude Extract Induces Apoptosis in MCF-7 Cells via G(0)/G(1) Cell Cycle Arrest, Bcl-2/Bax/Bcl-xl Signaling Pathways, and ROS Generation.",
     "authors": [
-      "Yaghoubinezhad AR",
-      "Halabian R",
-      "Nilchiani LS",
-      "Najafi A"
+      "And Alternative Medicine EC"
     ],
     "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
+    "published": "2026-01-01T00:00:00+00:00",
     "updated": null,
     "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42886269/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:42886268",
-    "title": "Resveratrol attenuates hydrogen peroxide- and ADP-ribose-associated calcium dysregulation, oxidative stress, and apoptosis in TRPM2-transfected Chinese hamster ovary (CHO)-K1 cells.",
-    "authors": [
-      "Alparslan Çulha A",
-      "Tola EN",
-      "Köse SA",
-      "Uğuz AC"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42886268/",
-    "doi": null,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42890471/",
+    "doi": "doi: 10.1155/ecam/9806495",
     "categories": [],
     "keywords_matched": [
       "\\bApoptosis\\b",
-      "\\bOxidative\\ stress\\b"
-    ]
-  },
-  {
-    "id": "pmid:42886259",
-    "title": "Lycopene inhibits proliferation, induces apoptosis, and suppresses migration in cervical cancer cells: involvement of PI3K/Akt signaling.",
-    "authors": [
-      "Colín-Val Z",
-      "Reyes-Nava LA",
-      "García DA",
-      "Beltrán-Isabeles D",
-      "Herrera-Maya G",
-      "López-Marure R"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42886259/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:42886165",
-    "title": "Light- and ROS-responsive nanomicelles enable targeted combination photothermal molecular therapy in melanoma cells and spheroids.",
-    "authors": [
-      "Antony IR",
-      "Mathew AP",
-      "Masud N",
-      "Nethi SK",
-      "Mallapragada SK",
-      "Sarkar A",
-      "Bardhan R"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42886165/",
-    "doi": "doi: 10.1039/d6nr01741j",
-    "categories": [],
-    "keywords_matched": [
       "\\bROS\\b"
     ]
   },
   {
-    "id": "pmid:42886108",
-    "title": "CAVI: A Window Into Vascular Aging and Subclinical Atherosclerosis.",
+    "id": "pmid:42889933",
+    "title": "Senescent Cell-Derived Extracellular Vesicles in Therapy-Induced Senescence: Immune Remodelling and Emerging Links to Mitochondrial Stress in Cancer.",
     "authors": [
-      "Shah HC"
+      "Qian Y",
+      "Weng Z",
+      "Li N",
+      "Zhou Y",
+      "Pei H"
     ],
     "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
+    "published": "2026-01-01T00:00:00+00:00",
     "updated": null,
     "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42886108/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:42886052",
-    "title": "Ferroptosis-related hub genes and immune infiltration characteristics in Duchenne muscular dystrophy: a molecular framework with implications for aging-related muscle degeneration.",
-    "authors": [
-      "Peng J",
-      "Hu J",
-      "Wu M",
-      "Xu H"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42886052/",
-    "doi": "doi: 10.18632/aging.206429",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b",
-      "\\bFerroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885981",
-    "title": "Targeting Vascular Smooth Muscle Cell Senescence for Cardiovascular Pharmacology: Mechanisms and Therapeutic Perspectives.",
-    "authors": [
-      "El Darzi A",
-      "El Darzi R",
-      "Kanbar K",
-      "Iratni R",
-      "Nematalla HA",
-      "Dakroub AH",
-      "Eid AH"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885981/",
-    "doi": "doi: 10.1097/FJC.0000000000001891",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42889933/",
+    "doi": "doi: 10.1002/jex2.70193",
     "categories": [],
     "keywords_matched": [
       "\\bSenescence\\b"
     ]
   },
   {
-    "id": "pmid:42885783",
-    "title": "Associations of Angiotensin-Converting Enzyme 2 Activity With Markers of Endothelial Dysfunction and Oxidative Stress in Young Healthy Adults: The African-PREDICT Study.",
+    "id": "pmid:42889684",
+    "title": "The PIEZO1/CISD1/IP3R Mechanotransduction Axis Drives Macrophage Mitochondrial Dysfunction and Inflammatory Activation in Pulmonary Fibrosis.",
     "authors": [
-      "Maugana VF",
-      "Burrell LM",
-      "Patel SK",
-      "Mels CMC",
-      "Schutte AE",
-      "Mokhaneli MC",
-      "Navise NH",
-      "Mpofana T",
-      "Gona PN",
-      "Gafane-Matemane LF"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885783/",
-    "doi": "doi: 10.1161/JAHA.125.047345",
-    "categories": [],
-    "keywords_matched": [
-      "\\bOxidative\\ stress\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885682",
-    "title": "Association between late-life blood pressure and incident dementia in older men: The Kuakini Honolulu-Asia aging study.",
-    "authors": [
-      "Ogawa Y",
-      "Chen R",
-      "Ross GW",
-      "Donlon T",
-      "Fujikami G",
-      "Takenaka C",
-      "Willcox B",
-      "Masaki K"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885682/",
-    "doi": "doi: 10.1177/13872877261498372",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885557",
-    "title": "Selective Cancer Cell Killing via a Fluorofoldamer-Based Proton Channel That Triggers Ferroptosis.",
-    "authors": [
-      "Zhou ZX",
-      "Cao G",
-      "Yuan X",
-      "Gou F",
-      "Chang W",
-      "Li J",
-      "Shen J",
-      "Yan M",
-      "Wu L",
-      "Zeng H"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885557/",
-    "doi": "doi: 10.1002/anie.8040741",
-    "categories": [],
-    "keywords_matched": [
-      "\\bFerroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885397",
-    "title": "Glycolysis-Dependent Fatty Acid Metabolism Supports Human Tfh Cell Function.",
-    "authors": [
-      "Jha SN",
-      "Nikam B",
-      "Barik V",
-      "Khatua A",
-      "Jena D",
-      "Sachan S",
-      "Swain M",
-      "Coshic P",
-      "Raghav SK",
-      "Gupta N"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885397/",
-    "doi": "doi: 10.1111/imcb.70166",
-    "categories": [],
-    "keywords_matched": [
-      "\\bGlycolysis\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885216",
-    "title": "Sex-Specific Early Life Corticosterone Stress-Coping Capacity Is Linked to Mitochondrial Content and Telomere Maintenance.",
-    "authors": [
-      "Guillen-Parra M",
-      "Velando A",
-      "Montoya B",
-      "Torres R"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885216/",
-    "doi": "doi: 10.1002/jez.70140",
-    "categories": [],
-    "keywords_matched": [
-      "\\bTelomere\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885137",
-    "title": "Effects of three doses of tea polyphenols on lipid metabolism, intestinal barrier function, and gut microbiota in overweight mice.",
-    "authors": [
-      "Lu GY",
-      "Ma YH",
-      "Jia RN",
-      "Lv YC",
-      "Ye GQ",
-      "Liu J",
-      "Wu NN",
-      "Tan B"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885137/",
-    "doi": "doi: 10.1002/jsfa.71137",
-    "categories": [],
-    "keywords_matched": [
-      "\\bLipid\\ metabolism\\b"
-    ]
-  },
-  {
-    "id": "pmid:42881547",
-    "title": "Targeting Nupr1-Mediated p53 Mitochondrial Sequestration Alleviates Aortic Dissection by Restoring the Gadd45b-Dependent Survival Program.",
-    "authors": [
+      "Wei Y",
+      "Xie C",
       "Yang X",
-      "Chen KY",
-      "Tian Y",
-      "Jiang ZS",
-      "Lei J",
-      "Zhuang XH",
-      "Wu JB",
-      "Tang LL",
-      "Li HY",
-      "Chen XH",
-      "Wang Y",
-      "Li YM",
-      "Qiu ZH",
-      "Cai ZW",
-      "Chen LW"
+      "Tang XX"
     ],
     "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
+    "published": "2026-01-01T00:00:00+00:00",
     "updated": null,
     "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42881547/",
-    "doi": "doi: 10.1002/advs.78143",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42889684/",
+    "doi": "doi: 10.1002/mco2.71080",
     "categories": [],
     "keywords_matched": [
-      "\\bp53\\b"
+      "\\bMitochondrial\\ dysfunction\\b"
+    ]
+  },
+  {
+    "id": "pmid:42889256",
+    "title": "Spatiotemporally Regulated Pro-/Anti-Inflammatory Transition via Reactive Oxygen Species-Sensitive Core-Shell Hydrogel for Diabetic Infected Wound Healing.",
+    "authors": [
+      "Zhang J",
+      "Lin Y",
+      "Liu Y",
+      "Wang W",
+      "Li Y",
+      "Tang BZ",
+      "Wang X"
+    ],
+    "summary": "",
+    "published": "2026-01-01T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42889256/",
+    "doi": "doi: 10.34133/bmr.0432",
+    "categories": [],
+    "keywords_matched": [
+      "\\bReactive\\ oxygen\\ species\\b"
     ]
   },
   {
@@ -1091,169 +1259,6 @@
     "categories": [],
     "keywords_matched": [
       "\\bSenescence\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885311",
-    "title": "[Expression of Concern] EETs and CYP2J2 inhibit TNF‑α‑induced apoptosis in pulmonary artery endothelial cells and TGF‑β1‑induced migration in pulmonary artery smooth muscle cells.",
-    "authors": [
-      "Feng W",
-      "Xu X",
-      "Zhao G",
-      "Li G",
-      "Liu T",
-      "Zhao J",
-      "Dong R",
-      "Wang DW",
-      "Tu L"
-    ],
-    "summary": "",
-    "published": "2026-01-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885311/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885308",
-    "title": "Disporum cantoniense suppresses non‑small cell lung cancer through AMPK/mTOR/ULK1‑mediated autophagy‑dependent apoptosis.",
-    "authors": [
-      "Feng C",
-      "Ji Y",
-      "Chen R",
-      "Chen Q",
-      "Pan Y",
-      "Wu J",
-      "Qin D",
-      "Law BYK",
-      "Wong VKW",
-      "Zhou X",
-      "Liu J",
-      "Wu A"
-    ],
-    "summary": "",
-    "published": "2026-01-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885308/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b",
-      "\\bAutophagy\\b",
-      "\\bmTOR\\b",
-      "\\bAMPK\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885307",
-    "title": "Resveratrol alleviates osteoarthritis progression by inhibiting NLRP3 inflammasome response via the AMPK/PPARγ signaling pathway.",
-    "authors": [
-      "Cui S",
-      "Luo Z",
-      "Qin W",
-      "Chen B",
-      "Zhang Q",
-      "Ma J",
-      "Ma J",
-      "Zhang R"
-    ],
-    "summary": "",
-    "published": "2026-01-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885307/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bAMPK\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885301",
-    "title": " Leptin promotes obesity‑related osteoarthritis progression via CD44/JAK2/STAT3 axis‑mediated chondrocyte apoptosis.",
-    "authors": [
-      "Qiu H",
-      "Zeng C",
-      "Chen C",
-      "Zhou X",
-      "Zhu Y",
-      "Deng Z"
-    ],
-    "summary": "",
-    "published": "2026-01-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885301/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885295",
-    "title": "Erbin deficiency exacerbates sepsis‑induced liver injury through mitochondrial ROS/NLRP3‑mediated inflammatory responses.",
-    "authors": [
-      "Zuo J",
-      "Wang X",
-      "Jing G",
-      "Wu X",
-      "Song X"
-    ],
-    "summary": "",
-    "published": "2026-01-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885295/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bROS\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885291",
-    "title": "SEC31A promotes gastric cancer progression by inducing the PI3K/AKT/mTOR pathway and enhancing the CCL5‑mediated M2 polarization and recruitment of tumor‑associated macrophages.",
-    "authors": [
-      "Zhao X",
-      "Huang L"
-    ],
-    "summary": "",
-    "published": "2026-01-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885291/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bmTOR\\b"
-    ]
-  },
-  {
-    "id": "pmid:42885290",
-    "title": "Epigallocatechin gallate and thermal cycling‑stimulation synergistically promote apoptosis in A549 cells via endoplasmic reticulum stress‑induced calcium ion dysregulation and oxidative stress.",
-    "authors": [
-      "Hsu FT",
-      "Liu HH",
-      "Kung Y",
-      "Lin CJ",
-      "Chao CY"
-    ],
-    "summary": "",
-    "published": "2026-01-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42885290/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b",
-      "\\bOxidative\\ stress\\b"
     ]
   }
 ]
