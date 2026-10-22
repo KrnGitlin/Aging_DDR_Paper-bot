@@ -19,76 +19,179 @@
     "updated": null,
     "source": "PubMed",
     "link": "https://pubmed.ncbi.nlm.nih.gov/42900164/",
-    "doi": null,
+    "doi": "doi: 10.1083/jcb.202505056",
     "categories": [],
     "keywords_matched": [
       "\\bAMPK\\b"
     ]
   },
   {
-    "id": "10.64898/2026.10.13.758751",
-    "title": "Targeting skin ageing at the source: a novel cellular reprogramming approach using natural extract combinations",
+    "id": "http://arxiv.org/abs/2610.29157v1",
+    "title": "A Multiscale Kinetic Model of DNA Damage Signalling and Repair under Combined Proton and Nanoparticle Exposure",
     "authors": [
-      "Perciato, M. L.",
-      "Davies, M.",
-      "Akhbari, P.",
-      "Denise, H.",
-      "Clauss, A.",
-      "Cole, S. L.",
-      "Haas, K. M.",
-      "Lee, B.",
-      "Jouy, C.",
-      "Ballihaut, C.",
-      "Lee, B. P.",
-      "Harries, L. W."
+      "Mushtaq Loan"
     ],
-    "summary": "Cellular senescence is a driver of skin ageing that leads to structural deterioration and aesthetic changes. This study evaluated a novel senomorphic strategy, using synergistic combinations of natural small molecules to target RNA splicing regulation via upstream ERK/AKT signaling pathways. Nature-identical synthetic molecules, and corresponding extracts were assessed for cytotoxicity, impact on senescent cell load, proliferation, DNA damage load and SASP markers in naturally aged human primary skin cells. A topical, simple formulation was evaluated for impact on senescence and skin structure using 3D human ex vivo full-thickness skin explants exposed to 1.5 J/cm2 UVC irradiation. Combination of H. lupulus and G. biloba extracts produced a dose-dependent senomorphic impact of up to 45% in aged dermal fibroblasts and 10% in aged human primary keratinocytes (p [&le;] 0.0001 & 0.001), without inducing cell proliferation. A 50% decrease in DNA damage load was also observed (p [&le;] 0.0001). Qualitatively, the simple formulation mitigated UV-induced epidermal hyperplasia, restored collagen fiber organization, and reduced markers of senescence and inflammation. Targeting cellular senescence is an emerging traction point to address the root biological causes of skin ageing. Targeting the splicing dysregulation/senescence axis using combinations of natural plant extracts may provide a novel mode of action to reprogram senescent cells for repair and protection of skin structure and function.",
-    "published": "2026-10-18T00:00:00+00:00",
+    "summary": "We present a multiscale kinetic framework for predicting the induction, processing, and biological consequences of DNA double-strand breaks (DSBs) in AG1522 human fibroblasts exposed to combined proton and 15-nm GNP irradiation. The model connects proton dose and linear energy transfer (LET), perinuclear GNP localization, secondary-electron and reactive-species production, and Poisson--Gamma-distributed lesion induction. Initial DSBs are separated into simple and complex classes and coupled to an ATM--$γ$H2AX--53BP1 signalling cascade, cell-cycle-dependent allocation among canonical non-homologous end joining, homologous recombination, alternative end joining, and single-strand annealing, and class-specific repair fidelities. The model identifies the initial complex-lesion fraction and its slower resolution, rather than post-irradiation conversion of simple DSBs, as the principal determinants of persistent damage under high-LET, GNP-enhanced irradiation. The residual-DSB results provide strong internal out-of-sample validation of the kinetic component. However, the opposing biases in correct repair and misrepair reveal an inconsistency between the class-specific fidelities and the supplied integrated-fidelity endpoint. These repair-fate predictions should therefore be regarded as model-constrained estimates pending independent measurements of correct-end joining, mutation, chromosome aberrations, and clonogenic survival.",
+    "published": "2026-10-21T03:48:03+00:00",
     "updated": null,
-    "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.10.13.758751",
-    "doi": "10.64898/2026.10.13.758751",
-    "categories": [],
+    "source": "arXiv",
+    "link": "https://arxiv.org/abs/2610.29157v1",
+    "doi": null,
+    "categories": [
+      "q-bio.SC"
+    ],
     "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b",
-      "\\bdna\\s+damage(?:\\s+response)?\\b",
-      "\\bSenescence\\b"
+      "\\bdna\\s+damage(?:\\s+response)?\\b"
     ]
   },
   {
-    "id": "10.64898/2026.10.12.758495",
-    "title": "Sex shapes capillary flows and oxygen extraction in the middle-aged mouse brain",
+    "id": "10.64898/2026.10.16.759681",
+    "title": "The Alzheimer's disease risk gene ABCA7 regulates microglial lysosomal and lipid homeostasis and promotes phagocytosis to maintain neuronal health",
     "authors": [
-      "Gutierrez-Jimenez, E.",
-      "Wied, B.",
-      "Lindhardt, T. B.",
-      "Mikkelsen, S. H.",
-      "Knopper, R. W.",
-      "Skoven, C. S.",
-      "Christensen, O. B.",
-      "Dashkovskyi, V.",
-      "Mrotek, F.",
-      "Rasmussen, P. M.",
-      "Andresen, M. H.",
-      "Krmpot, A.",
-      "Khatib, M. E.",
-      "Vinogradov, S. A.",
-      "Sakadzic, S.",
-      "Jensen, M. F.",
-      "Pedroza-Pacheco, I.",
-      "Postnov, D. D.",
-      "Lin, L.",
-      "Just, J.",
-      "Hansen, B.",
-      "Ostergaard, L."
+      "Heuer, S. E.",
+      "Ahsan, F. M.",
+      "Terzioglu, G.",
+      "Misra, A.",
+      "Duong, D.",
+      "Katkar, C.",
+      "Giera, M. M.",
+      "van der Kant, R.",
+      "Seyfried, N.",
+      "Young-Pearse, T. L."
     ],
-    "summary": "Sex differences in brain aging are well documented, but their origin within the cerebrovascular hierarchy remains unclear. Here we show that cortical blood flow is higher in female than male mice at 15 months of age, at a point when an earlier sex difference in pulsatility and resistance indices has already converged, pial vessel diameter shows no difference between sexes, and estrogen levels are similar between sexes. Using an indicator-dilution and intravascular oxygen measurements using two-photon microscopy, we found that capillary transit-time heterogeneity (CTH) scales more steeply with mean transit time in females, consistent with a passively regulated capillary network, and that this is accompanied by reduced oxygen extraction fraction (OEF) without deficit in arterial oxygen delivery. Spatial transcriptomics reveals that sex differences are organized into distinct regional programs, most prominently in white matter, where a male-associated myelin and axonogenesis signature accompanies reduced white matter volume in females. These molecular and structural differences coincide with elevated hippocampal microglial reactivity and an altered spatial search strategy in females, without any detectable differences in circulating markers of stress, blood-brain barrier integrity, or immunity. Together, these findings indicate that sex differences in the aging brain are expressed at the level of capillary flow regulation and regional tissue programs rather than through bulk cerebral blood flow alone, and that elevated blood flow in females can mask, rather than reflect, adequate tissue oxygenation.",
-    "published": "2026-10-18T00:00:00+00:00",
+    "summary": "Background: Loss of function mutations in the lipid transporter ABCA7 have been linked to increased risk for late onset Alzheimer's disease (AD). Although rare and common variants in ABCA7 associated with AD alter the coding sequence and are predicted to impair protein function, the precise cell-type consequences of ABCA7 deficiency remain incompletely defined. Methods: We used CRISPR/Cas9 gene editing to generate induced pluripotent stem cells (iPSCs) that were deficient for ABCA7 (ABCA7-KO) and their wild-type (ABCA7-WT) isogenic counterparts and subsequently performed unbiased proteomics on differentiated astrocytes (iAs), neurons (iNs) and microglia (iMGs). ABCA7 deficiency in iMGs produced the largest proteomic changes, so we therefore conducted additional functional analyses to define its effects on microglial lysosomal activity, phagocytosis, and lipid metabolism. In addition, we leveraged CRISPR/Cas9 to correct the ABCA7 rs3752246 AD risk variant in patient-derived iPSCs and compared proteomic and functional phenotypes between corrected iMGs and isogenic mutant carriers. Finally, we examined the functional consequence of ABCA7-deficient microglia on neurons. Results: ABCA7-KO iMGs were deficient for proteins involved in lysosome function, measured by down-regulated lysosomal proteomic signatures, as well as reduced DQ-BSA activity and reduced LAMP1+ area. Additionally, ABCA7-KO iMGs displayed impaired phagocytic capacity and increased inflammatory markers, including MHC proteins CD1A and CD1E, and IL-18. Multi-omic integration of lipidomic and proteomic profiles nominated a dysregulated metabolic network characterized by altered phospholipid steady-state metabolism and increased lipid peroxidation in ABCA7-KO iMGs. This was complemented by an accumulation of polyunsaturated triacylglycerols and lipid droplets, suggesting that ABCA7 deficiency disrupts intracellular lipid dynamics. This was supported by the alleviation of lysosomal and lipid droplet phenotypes through the inhibiting the synthesis of triacylglycerols. Concordantly, proteomic and functional analyses revealed lysosomal dysfunction in rs3752246-mutant iMGs, suggesting a shared ABCA7-dependent mechanism underlying AD risk. Tri-cultures of iNs, iAs and iMGs revealed that ABCA7 deficiency in iMGs worsened AD-relevant neuronal measures such as tau phosphorylation and synapse number. Conclusions: This work supplies evidence for the important role of ABCA7 in microglia and provides unique insights into the molecular and functional consequences of reduced ABCA7 function in lysosomal and lipid regulation, paving a path forward to a more comprehensive understanding of AD molecular subtypes and personalized therapeutics.",
+    "published": "2026-10-19T00:00:00+00:00",
     "updated": null,
     "source": "bioRxiv",
-    "link": "https://www.biorxiv.org/content/10.64898/2026.10.12.758495",
-    "doi": "10.64898/2026.10.12.758495",
+    "link": "https://www.biorxiv.org/content/10.64898/2026.10.16.759681",
+    "doi": "10.64898/2026.10.16.759681",
+    "categories": [],
+    "keywords_matched": [
+      "\\bLipid\\ metabolism\\b"
+    ]
+  },
+  {
+    "id": "pmid:42902524",
+    "title": "Abscopal effect-induced acephalic spermatozoa and testicular dysfunction implicate Cep112 and PI3K/Akt-mTOR signaling.",
+    "authors": [
+      "Mao ZX",
+      "Lv LX",
+      "Chu JJ",
+      "Li MZ",
+      "Dong YY",
+      "Xue F",
+      "Li XL",
+      "Lin XJ",
+      "Guo WJ",
+      "Sun WJ",
+      "Xie CY",
+      "Cheng CY",
+      "Li LX"
+    ],
+    "summary": "",
+    "published": "2026-10-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42902524/",
+    "doi": "doi: 10.4103/aja202620",
+    "categories": [],
+    "keywords_matched": [
+      "\\bmTOR\\b"
+    ]
+  },
+  {
+    "id": "pmid:42902504",
+    "title": "Saponin extract from Astragalus membranaceus (Fisch.) Bunge regulates gut-brain axis through intestinal Escherichia coli to reduce cerebral oxidative stress to treat vascular dementia in rodents.",
+    "authors": [
+      "Yin W",
+      "He C",
+      "Gu S",
+      "Li L",
+      "Bian Y",
+      "Lu W",
+      "Xie M",
+      "Li Z",
+      "Yang Z",
+      "Wang Q"
+    ],
+    "summary": "",
+    "published": "2026-10-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42902504/",
+    "doi": "doi: 10.1111/bph.70645",
+    "categories": [],
+    "keywords_matched": [
+      "\\bOxidative\\ stress\\b"
+    ]
+  },
+  {
+    "id": "pmid:42902494",
+    "title": "TRPM4 promotes ErSO-mediated oncosis-like cell death in prostate cancer cells.",
+    "authors": [
+      "Hoshi-Kadonosawa Y",
+      "Taniyama D",
+      "Reinhold WC",
+      "Takebe N",
+      "Pommier Y"
+    ],
+    "summary": "",
+    "published": "2026-10-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42902494/",
+    "doi": "doi: 10.1158/2767-9764.CRC-26-0215",
+    "categories": [],
+    "keywords_matched": [
+      "\\bCell\\ death\\b"
+    ]
+  },
+  {
+    "id": "pmid:42902458",
+    "title": "Dual-Targeting Nanomicelles Co-Loading Sorafenib and Artesunate Combats Hepatocellular Carcinoma via the Synergistically Enhanced Ferroptosis Strategy.",
+    "authors": [
+      "Lu W",
+      "Yang J",
+      "Mi J",
+      "Luo F",
+      "Guo Y",
+      "Zhang Y",
+      "Zhang X",
+      "Xie Y"
+    ],
+    "summary": "",
+    "published": "2026-10-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42902458/",
+    "doi": "doi: 10.1002/adhm.71875",
+    "categories": [],
+    "keywords_matched": [
+      "\\bFerroptosis\\b"
+    ]
+  },
+  {
+    "id": "pmid:42902065",
+    "title": "Response to the correspondence regarding \"Association between anticholinergic and sedative medications and physical functioning: data from the Canadian Longitudinal Study on Aging (CLSA)\".",
+    "authors": [
+      "Cossette B",
+      "Pelen K",
+      "Lebel K",
+      "Baroud ML",
+      "Sirois C",
+      "Griffith LE",
+      "Moriarty F",
+      "Mayhew A",
+      "Boissy P",
+      "Turcotte JP",
+      "Hilmer SN"
+    ],
+    "summary": "",
+    "published": "2026-10-02T00:00:00+00:00",
+    "updated": null,
+    "source": "PubMed",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/42902065/",
+    "doi": null,
     "categories": [],
     "keywords_matched": [
       "\\b(?:aging|ageing)\\b",
@@ -1311,81 +1414,6 @@
     ]
   },
   {
-    "id": "pmid:42898010",
-    "title": "PRKN dephosphorylation by PTEN-L couples mitophagy inhibition to GSDME pyroptosis suppression.",
-    "authors": [
-      "Yan C",
-      "Liu X",
-      "Gong X",
-      "Wu X",
-      "Xu H",
-      "Wang L"
-    ],
-    "summary": "",
-    "published": "2026-10-02T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42898010/",
-    "doi": "doi: 10.1080/15548627.2026.2751925",
-    "categories": [],
-    "keywords_matched": [
-      "\\bPyroptosis\\b"
-    ]
-  },
-  {
-    "id": "pmid:42897973",
-    "title": "Intranasal administration of enalapril confers acute neuroprotection by mitigating mitochondrial dysfunction and apoptosis in a rat model of ischemic stroke.",
-    "authors": [
-      "Sadeghian N",
-      "Salimpour Azar S",
-      "Shadman J",
-      "Abedi A",
-      "Salimi A",
-      "Alipour MR",
-      "Panahpour H"
-    ],
-    "summary": "",
-    "published": "2026-10-02T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42897973/",
-    "doi": "doi: 10.1080/02699052.2026.2750459",
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b",
-      "\\bMitochondrial\\ dysfunction\\b"
-    ]
-  },
-  {
-    "id": "pmid:42897691",
-    "title": "FVRS: a cross-species multi-omics database for fruit and vegetable ripening and senescence.",
-    "authors": [
-      "Ma L",
-      "Wang Y",
-      "Ren Y",
-      "Wu C",
-      "Jiang Y",
-      "Tao J",
-      "He X",
-      "Feng X",
-      "Li T",
-      "Liu X",
-      "Jin J",
-      "Zuo J",
-      "Zheng Y"
-    ],
-    "summary": "",
-    "published": "2026-10-02T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42897691/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bSenescence\\b"
-    ]
-  },
-  {
     "id": "pmid:42898969",
     "title": "Simulated accelerated aging controlled by temperature and humidity for regulating the quality of Citri grandis fructus immaturus.",
     "authors": [
@@ -1407,211 +1435,6 @@
     "keywords_matched": [
       "\\b(?:aging|ageing)\\b",
       "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:42898046",
-    "title": "Digital image analysis-based quantification of p53 immunohistochemistry in gastric cancer: a systematic comparison of three-tier cutoff-derivation strategies in tissue microarrays.",
-    "authors": [
-      "Ahn J",
-      "Kim K",
-      "Yang HJ",
-      "Song B",
-      "Kim DH",
-      "Chung Y",
-      "Chae SW"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42898046/",
-    "doi": "doi: 10.4132/jptm.2026.08.13",
-    "categories": [],
-    "keywords_matched": [
-      "\\bp53\\b"
-    ]
-  },
-  {
-    "id": "pmid:42897888",
-    "title": "Aging-related morphological changes in the obturator internus and levator ani.",
-    "authors": [
-      "Muro S",
-      "Tsuchiya J",
-      "Ibara T",
-      "Nimura A",
-      "Akita K"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42897888/",
-    "doi": "doi: 10.1111/joa.70256",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:42897859",
-    "title": "Progressive Hippocampal Volume Reduction Beyond Normal Aging in Temporal Lobe Epilepsy: A Longitudinal MRI Study.",
-    "authors": [
-      "Sone D",
-      "Shigemoto Y",
-      "Kagaya R",
-      "Kimura Y",
-      "Matsuda H",
-      "Sato N"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42897859/",
-    "doi": "doi: 10.1002/epi4.70373",
-    "categories": [],
-    "keywords_matched": [
-      "\\b(?:aging|ageing)\\b",
-      "\\b(?:aging|ageing)\\b"
-    ]
-  },
-  {
-    "id": "pmid:42897845",
-    "title": "Telomere-to-telomere genome assembly of the elite peanut cultivar Yuhua 15 identifies AhYABBY as a key regulator of pod and seed size.",
-    "authors": [
-      "Sun Z",
-      "Qi F",
-      "Wang X",
-      "Liu H",
-      "Zhi C",
-      "Pavan S",
-      "Maliepaard C",
-      "Li A",
-      "Wu Y",
-      "Wang J",
-      "Liu H",
-      "Zhang Y",
-      "Zhou Z",
-      "Zhang M",
-      "Mo Z",
-      "Xu J",
-      "Qin L",
-      "Zhang Z",
-      "Hu Y",
-      "Wang M",
-      "Du B",
-      "Zhao H",
-      "Li X",
-      "Zhang M",
-      "Gao W",
-      "Dong W",
-      "Dai X",
-      "Han S",
-      "Visser RGF",
-      "Shi L",
-      "Zheng Z",
-      "Zhang X"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42897845/",
-    "doi": "doi: 10.1016/j.xplc.2026.102158",
-    "categories": [],
-    "keywords_matched": [
-      "\\bTelomere\\b"
-    ]
-  },
-  {
-    "id": "pmid:42897780",
-    "title": "Association Between Oxidative Stress Biomarkers and Periodontitis in Saliva and Gingival Crevicular Fluid: A Systematic Review and Meta-Analysis.",
-    "authors": [
-      "Fan ZX",
-      "Wang XY",
-      "Liu C",
-      "Yang J"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42897780/",
-    "doi": "doi: 10.1111/odi.70542",
-    "categories": [],
-    "keywords_matched": [
-      "\\bOxidative\\ stress\\b"
-    ]
-  },
-  {
-    "id": "pmid:42897763",
-    "title": "Differential Expression of P53, CDKN2A, NOTCH1, and CASP8 in Oral Epithelial Dysplasia: An In Vitro Study to Explore Potential Malignant Transformation.",
-    "authors": [
-      "Faruk MO",
-      "Karen-Ng LP",
-      "Tilakaratne WM",
-      "Kallarakkal TG"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42897763/",
-    "doi": "doi: 10.1111/odi.70550",
-    "categories": [],
-    "keywords_matched": [
-      "\\bp53\\b"
-    ]
-  },
-  {
-    "id": "pmid:42897408",
-    "title": "Association of baseline plasma oxidative stress biomarkers with incident non-AIDS-defining cancer risk in people with HIV: a case-cohort study.",
-    "authors": [
-      "Coca-LaCalle D",
-      "Pita-Martínez C",
-      "García-Lumbreras L",
-      "Rava M",
-      "Sánchez-Villegas J",
-      "Sánchez-Molina A",
-      "Muga Bustamante R",
-      "Alemán Valls MLR",
-      "Morano Amado L",
-      "Ayerbe CG",
-      "Jiménez-Sousa MÁ",
-      "Resino S",
-      "Martín-Escolano R",
-      "CoRIS cohort"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42897408/",
-    "doi": "doi: 10.1007/s11357-026-02613-0",
-    "categories": [],
-    "keywords_matched": [
-      "\\bOxidative\\ stress\\b"
-    ]
-  },
-  {
-    "id": "pmid:42897401",
-    "title": "Targeting ubiquitin-dependent mitochondrial autophagy and apoptosis in sarcopenia: the therapeutic potential of phytochemicals.",
-    "authors": [
-      "Zeng Y",
-      "Wang P"
-    ],
-    "summary": "",
-    "published": "2026-10-01T00:00:00+00:00",
-    "updated": null,
-    "source": "PubMed",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/42897401/",
-    "doi": null,
-    "categories": [],
-    "keywords_matched": [
-      "\\bApoptosis\\b",
-      "\\bAutophagy\\b"
     ]
   },
   {
